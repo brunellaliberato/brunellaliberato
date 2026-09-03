@@ -1,0 +1,3 @@
+file '/Users/brunellaliberato/repos/brunellaliberato/perfil-futebol/video/audio-src/pedacos/moldura-0.limpo.wav'
+file '/Users/brunellaliberato/repos/brunellaliberato/perfil-futebol/video/audio-src/pedacos/pausa-0.9.wav'
+file '/Users/brunellaliberato/repos/brunellaliberato/perfil-futebol/video/audio-src/pedacos/moldura-1.limpo.wav'

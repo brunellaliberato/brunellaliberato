@@ -1,0 +1,14 @@
+{
+  "horario": "19:00",
+  "aviso_minimo_horas": 3,
+  "dias": [
+    "dom",
+    "seg",
+    "ter",
+    "qua",
+    "qui",
+    "sex",
+    "sab"
+  ],
+  "ig_app_id": "1584949656025686"
+}

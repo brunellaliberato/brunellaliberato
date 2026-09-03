@@ -1,0 +1,8 @@
+.env
+node_modules/
+video/node_modules/
+publicador/midia/public/
+publicador/midia/.wrangler/
+publicador/ciclo.log
+fila/PAUSADO
+fila/.ciclo.lock

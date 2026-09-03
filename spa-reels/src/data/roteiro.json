@@ -1,0 +1,95 @@
+{
+  "destino": "Portugal",
+  "segmentos": [
+    {
+      "id": "gancho",
+      "fala": "Portugal inteiro, com Açores e Madeira, é menor que Pernambuco.",
+      "legendas": [
+        "**Portugal inteiro**, com Açores e Madeira,",
+        "é **menor que Pernambuco**."
+      ]
+    },
+    {
+      "id": "voo",
+      "fala": "E fica a cerca de dez horas de voo de São Paulo.",
+      "legendas": [
+        "E fica a cerca de **10 horas de voo**",
+        "de **São Paulo**."
+      ]
+    },
+    {
+      "id": "corte",
+      "fala": "Em mil oitocentos e oito, a corte portuguesa fugiu de Napoleão e se mudou para o Rio. Por treze anos, a capital do império ficou no Brasil.",
+      "legendas": [
+        "Em **1808**, a corte portuguesa fugiu de **Napoleão**",
+        "e se mudou para o **Rio**.",
+        "Por **13 anos**, a capital do império",
+        "ficou **no Brasil**."
+      ]
+    },
+    {
+      "id": "nata",
+      "fala": "Em Lisboa, no bairro de Belém, nasceu o pastel de nata, com uma receita dos monges do Mosteiro dos Jerónimos.",
+      "legendas": [
+        "Em **Lisboa**, no bairro de **Belém**,",
+        "nasceu o **pastel de nata**,",
+        "com uma receita dos monges",
+        "do **Mosteiro dos Jerónimos**."
+      ]
+    },
+    {
+      "id": "roca",
+      "fala": "Pertinho dali fica o Cabo da Roca, o ponto mais a oeste da Europa continental.",
+      "legendas": [
+        "Pertinho dali fica o **Cabo da Roca**,",
+        "o ponto **mais a oeste da Europa** continental."
+      ]
+    },
+    {
+      "id": "nazare",
+      "fala": "Em Nazaré estão algumas das maiores ondas do planeta. E quem bateu o recorde mundial ali foi um brasileiro: Rodrigo Koxa.",
+      "legendas": [
+        "Em **Nazaré** estão algumas das",
+        "**maiores ondas do planeta**.",
+        "E quem bateu o **recorde mundial** ali",
+        "foi um brasileiro: **Rodrigo Koxa**."
+      ]
+    },
+    {
+      "id": "coimbra",
+      "fala": "Em Coimbra fica uma das universidades mais antigas do mundo, fundada em mil duzentos e noventa.",
+      "legendas": [
+        "Em **Coimbra** fica uma das",
+        "**universidades mais antigas do mundo**,",
+        "fundada em **1290**."
+      ]
+    },
+    {
+      "id": "douro",
+      "fala": "E no vale do Douro, terra do vinho do Porto, está a região de vinho demarcada mais antiga do mundo.",
+      "legendas": [
+        "E no vale do **Douro**, terra do **vinho do Porto**,",
+        "está a **região de vinho demarcada**",
+        "**mais antiga do mundo**."
+      ]
+    },
+    {
+      "id": "fecho",
+      "fala": "Esse é Portugal: pequeno no mapa, gigante na história.",
+      "legendas": [
+        "Esse é **Portugal**:",
+        "**pequeno no mapa**, **gigante na história**."
+      ]
+    },
+    {
+      "id": "cta",
+      "fala": "Qual destino você quer ver no próximo? Comenta aí! E se quiser conhecer Portugal, chama a SPA no direct.",
+      "legendas": [
+        "**Qual destino** você quer ver no próximo?",
+        "Comenta aí!",
+        "E se quiser conhecer **Portugal**,",
+        "chama a **SPA** no direct."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "brand": "777PLAY",
+  "tagline": "O seu cassino online",
+  "brief": "Marca-mãe para uma operação de apostas na América Latina, lançada em várias versões (777play, 777win e as próximas). O 777 é fixo e nunca muda; só o nome ao lado varia.",
+  "adjectives": [
+    "rápida",
+    "confiante",
+    "vibrante",
+    "direta"
+  ],
+  "criteria": "Sucesso: o 777 é a mesma peça em todas as versões, funciona sozinho como ícone, se diferencia do vermelho/laranja/verde da categoria e funciona em uma cor.",
+  "nav": [
+    "Esportes",
+    "Ao vivo",
+    "Cassino",
+    "Promoções"
+  ],
+  "brand_color": "#5B2EFF",
+  "tile_color": "#0E0B1A",
+  "greyscale": false,
+  "final": true,
+  "deck_title": "identidade final",
+  "designer": "Brunella Liberato",
+  "mockups": [
+    "app-icon",
+    "website",
+    "social",
+    "favicon-tab",
+    "sticker",
+    "tshirt"
+  ],
+  "concepts": [
+    {
+      "name": "Selo 777 · Rolos",
+      "symbol": "../kit/selo.svg",
+      "lockup": "../kit/777play-horizontal.svg",
+      "stacked": "../kit/777play-empilhado.svg",
+      "symbol_on_tile": "../kit/selo.svg",
+      "symbol_on_dark": "../kit/selo.svg",
+      "lockup_on_dark": "../kit/777play-horizontal-fundo-escuro.svg",
+      "stacked_on_tile": "../kit/777play-empilhado-fundo-escuro.svg",
+      "stacked_on_dark": "../kit/777play-empilhado-fundo-escuro.svg",
+      "idea": "O selo vira o visor da caça-níquel: um 7 em cada rolo, o jackpot.",
+      "rationale": [
+        "O selo é a parte fixa: 777play, 777win e as próximas compartilham a mesma peça",
+        "Cassino na hora: três rolos com 777 é a imagem do jackpot",
+        "Nome em Sora ExtraBold (fonte livre), inclinada nos mesmos 15° do selo",
+        "A marca vive no escuro: fundo tinta com violeta e lima"
+      ]
+    }
+  ],
+  "recommendation": "Selo Rolos: três janelas escuras com o 777 em lima, nome em tinta (ou branco no escuro).",
+  "next_steps": [
+    "Busca de registro de marca nos países da operação",
+    "Aplicar no app e no site",
+    "Desenhar as letras de novos nomes quando surgirem"
+  ]
+}

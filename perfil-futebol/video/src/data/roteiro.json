@@ -1,0 +1,46 @@
+{
+  "serie": "A TAÇA QUE SUMIU",
+  "parte": "PARTE 1 DE 4",
+  "segmentos": [
+    {
+      "id": "gancho",
+      "fala": "Em mil novecentos e oitenta e três... / roubaram a Copa do Mundo! // De dentro da sede da CBF.",
+      "legenda": "Em **1983...** | roubaram a **Copa do Mundo.** | De dentro da | sede da **CBF.**"
+    },
+    {
+      "id": "tri",
+      "fala": "Em mil novecentos e setenta, o Brasil virou tricampeão no México. / E, pela regra da época, ganhou o direito de ficar com a taça Jules Rimet... / pra sempre!",
+      "legenda": "Em **1970**, o Brasil virou | **tricampeão** no México. | E, pela regra da época, | ganhou o direito | de ficar com a **Jules Rimet...** | **pra sempre.**"
+    },
+    {
+      "id": "predio",
+      "fala": "Ela ficava exposta na sede da CBF, na Rua da Alfândega, no Rio. / Numa caixa de vidro à prova de bala.",
+      "legenda": "Ela ficava exposta | na sede da **CBF,** | na Rua da Alfândega, no Rio. | Numa caixa de vidro | **à prova de bala.**"
+    },
+    {
+      "id": "detalhe",
+      "fala": "Só tinha um detalhe. // O vidro era blindado... / mas a moldura que segurava ele... / era de madeira.",
+      "legenda": "Só tinha **um detalhe.** | O vidro era **blindado...** | mas a moldura | que segurava ele... | era de **madeira.**"
+    },
+    {
+      "id": "noite",
+      "fala": "Na noite de dezenove de dezembro, / dois homens entraram no prédio. / Renderam o único vigia... / e foram direto pra sala de troféus.",
+      "legenda": "Na noite de | **19 de dezembro,** | **dois homens** entraram no prédio. | Renderam o **único vigia...** | e foram direto | pra **sala de troféus.**"
+    },
+    {
+      "id": "moldura",
+      "fala": "Eles não precisaram quebrar o vidro. // Arrancaram a moldura!",
+      "legenda": "Eles não precisaram | quebrar o vidro. | **Arrancaram a moldura.**"
+    },
+    {
+      "id": "cofre",
+      "fala": "E o mais absurdo: / no cofre, trancada e protegida, estava a réplica. // A original... / estava na parede!",
+      "legenda": "E o mais **absurdo:** | no cofre, trancada e protegida, | estava a **réplica.** | A **original...** | estava na **parede.**"
+    },
+    {
+      "id": "fim",
+      "fala": "E essa nem era a primeira vez... / que essa taça sumia.",
+      "legenda": "E essa nem era | a **primeira vez...** | que essa taça **sumia.**"
+    }
+  ]
+}

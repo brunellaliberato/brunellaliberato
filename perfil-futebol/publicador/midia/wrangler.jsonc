@@ -1,0 +1,15 @@
+// Worker de mídia do @portrasdolance: hospeda os vídeos que o Instagram vai buscar e as prévias,
+// e guarda os pedidos de cancelar/pausar feitos pelo celular (rotas /api/*).
+{
+  "name": "portrasdolance-midia",
+  "main": "worker.js",
+  "compatibility_date": "2026-10-01",
+  "workers_dev": true,
+  "triggers": { "crons": ["*/5 * * * *"] },
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*"]
+  },
+  "kv_namespaces": [{ "binding": "FILA", "id": "08199e91d4ee4d6184712ad181464e94" }]
+}

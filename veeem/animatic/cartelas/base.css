@@ -1,0 +1,6 @@
+html,body{margin:0;width:1920px;height:1080px;background:transparent;overflow:hidden;font-family:"Arial Rounded MT Bold","SF Pro Rounded",system-ui,sans-serif}
+.pill{position:absolute;display:inline-flex;align-items:center;gap:22px;padding:22px 40px;border-radius:999px;color:#fff;font-size:58px;box-shadow:0 12px 40px rgba(0,0,0,.25);white-space:nowrap}
+.tq{background:#1FB5B8}.coral{background:#F2552C}.navy{background:#0C1A3D}
+.num{display:inline-grid;place-items:center;width:76px;height:76px;border-radius:50%;background:#fff;color:#1FB5B8;font-size:48px}
+.wm{position:absolute;top:28px;right:32px;padding:10px 22px;border-radius:10px;background:rgba(12,26,61,.82);color:#fff;font-family:system-ui,sans-serif;font-weight:700;font-size:26px;letter-spacing:2px}
+.legal{position:absolute;left:0;right:0;bottom:0;padding:16px 40px;background:rgba(12,26,61,.85);color:#fff;font-family:system-ui,sans-serif;font-size:24px;text-align:center}

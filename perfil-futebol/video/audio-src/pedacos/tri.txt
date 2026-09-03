@@ -1,0 +1,5 @@
+file '/Users/brunellaliberato/repos/brunellaliberato/perfil-futebol/video/audio-src/pedacos/tri-0.limpo.wav'
+file '/Users/brunellaliberato/repos/brunellaliberato/perfil-futebol/video/audio-src/pedacos/pausa-0.45.wav'
+file '/Users/brunellaliberato/repos/brunellaliberato/perfil-futebol/video/audio-src/pedacos/tri-1.limpo.wav'
+file '/Users/brunellaliberato/repos/brunellaliberato/perfil-futebol/video/audio-src/pedacos/pausa-0.45.wav'
+file '/Users/brunellaliberato/repos/brunellaliberato/perfil-futebol/video/audio-src/pedacos/tri-2.limpo.wav'

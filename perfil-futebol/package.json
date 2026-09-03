@@ -1,0 +1,23 @@
+{
+  "name": "portrasdolance",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "wrangler": "^4.149.0"
+  },
+  "scripts": {
+    "status": "node publicador/publicar.mjs status",
+    "ciclo": "node publicador/publicar.mjs ciclo",
+    "pausar": "node publicador/publicar.mjs pausar",
+    "retomar": "node publicador/publicar.mjs retomar",
+    "token": "node publicador/publicar.mjs token",
+    "login": "node publicador/publicar.mjs login",
+    "cloudflare": "node publicador/publicar.mjs cloudflare",
+    "nuvem": "node publicador/publicar.mjs nuvem",
+    "aviso-teste": "node publicador/publicar.mjs aviso-teste",
+    "ensaio": "node publicador/publicar.mjs ensaio",
+    "agora": "node publicador/publicar.mjs agora",
+    "agendador:ligar": "cp publicador/agendador/com.portrasdolance.publicador.plist ~/Library/LaunchAgents/ && launchctl load ~/Library/LaunchAgents/com.portrasdolance.publicador.plist && echo 'Agendador ligado.'",
+    "agendador:desligar": "launchctl unload ~/Library/LaunchAgents/com.portrasdolance.publicador.plist; rm -f ~/Library/LaunchAgents/com.portrasdolance.publicador.plist; echo 'Agendador desligado.'"
+  }
+}

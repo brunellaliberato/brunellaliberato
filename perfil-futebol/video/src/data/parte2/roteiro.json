@@ -1,0 +1,41 @@
+{
+  "serie": "A TAÇA QUE SUMIU",
+  "parte": "PARTE 2 DE 4",
+  "segmentos": [
+    {
+      "id": "gancho",
+      "fala": "Antes de ser roubada no Brasil... / essa taça já tinha passado por uma guerra. // E por outro roubo!",
+      "legenda": "Antes de ser roubada | no **Brasil...** | essa taça já tinha passado | por uma **guerra.** | E por **outro roubo!**"
+    },
+    {
+      "id": "guerra",
+      "fala": "Na Segunda Guerra, a Itália era a campeã e guardava a taça. / O dirigente Ottorino Barassi tirou ela do banco, em Roma... / e escondeu numa caixa de sapato. // Embaixo da própria cama!",
+      "legenda": "Na **Segunda Guerra,** | a Itália era a campeã | e guardava a taça. | O dirigente **Ottorino Barassi** | tirou ela do banco, em **Roma...** | e escondeu numa | **caixa de sapato.** | Embaixo da **própria cama!**"
+    },
+    {
+      "id": "revista",
+      "fala": "Segundo os relatos, a casa dele chegou a ser revistada. // Ninguém achou.",
+      "legenda": "Segundo os relatos, | a casa dele chegou | a ser **revistada.** | **Ninguém achou.**"
+    },
+    {
+      "id": "londres",
+      "fala": "Aí veio mil novecentos e sessenta e seis. / A Copa ia ser na Inglaterra. / Meses antes do torneio, a taça estava numa exposição em Londres... // e foi roubada!",
+      "legenda": "Aí veio **1966.** | A Copa ia ser | na **Inglaterra.** | Meses antes do torneio, | a taça estava numa | exposição em **Londres...** | e foi **roubada!**"
+    },
+    {
+      "id": "pickles",
+      "fala": "Uma semana depois, / um cachorro chamado Pickles, passeando com o dono no sul de Londres, / farejou um pacote enrolado em jornal, embaixo de uma cerca viva. // Era a taça!",
+      "legenda": "**Uma semana** depois, | um cachorro chamado **Pickles,** | passeando com o dono | no sul de Londres, | farejou um pacote | enrolado em **jornal,** | embaixo de uma cerca viva. | **Era a taça!**"
+    },
+    {
+      "id": "heroi",
+      "fala": "O cachorro virou herói nacional!",
+      "legenda": "O cachorro virou | **herói nacional!**"
+    },
+    {
+      "id": "fim",
+      "fala": "Em mil novecentos e oitenta e três, não teve cachorro. / Teve um plano. // E ele começou de dentro do futebol.",
+      "legenda": "Em **1983,** | não teve cachorro. | Teve **um plano.** | E ele começou | **de dentro do futebol.**"
+    }
+  ]
+}

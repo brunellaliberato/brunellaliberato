@@ -1,0 +1,130 @@
+<title>Veeem Comercial Como Funciona</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;500;700&display=swap">
+<style>
+/* Layout: uma coluna de leitura, faixa coral no topo com o vídeo; seções como ficha de produção */
+:root{
+  --bg:#FFF8F1; --surface:#FFFFFF; --fg:#1C1A2E; --muted:#6B6276; --line:#EADFD3;
+  --coral:#F2552C; --manga:#F7B21B; --turquesa:#1A9EA1; --noite:#0C1A3D; --on-coral:#FFFFFF;
+  --display:"Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
+  --body:"Figtree", "Helvetica Neue", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#121423; --surface:#1B1E33; --fg:#F4EEE8; --muted:#A9A1B4; --line:#2C3050;
+  --coral:#FF6A43; --manga:#FFC23D; --turquesa:#3CC2C4; --noite:#0A1230; --on-coral:#FFFFFF; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#121423; --surface:#1B1E33; --fg:#F4EEE8; --muted:#A9A1B4; --line:#2C3050;
+  --coral:#FF6A43; --manga:#FFC23D; --turquesa:#3CC2C4; --noite:#0A1230; --on-coral:#FFFFFF; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:17px;line-height:1.55}
+.wrap{max-width:980px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0}
+header{background:var(--coral);color:var(--on-coral)}
+header .wrap{padding-block:40px 28px;display:grid;gap:12px}
+.eyebrow{font-size:13px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;opacity:.9}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(34px,6vw,56px);line-height:1.02;margin:0;text-wrap:balance}
+header p{margin:0;max-width:62ch;font-size:18px}
+.video{margin-top:8px;border-radius:14px;overflow:hidden;background:#000;aspect-ratio:16/9;max-width:100%}
+.video video{width:100%;height:100%;display:block}
+.note{font-size:14px;opacity:.9}
+main .wrap{padding-block:12px 64px;display:grid;gap:44px}
+section{display:grid;gap:14px}
+h2{font-family:var(--display);font-weight:800;font-size:26px;margin:0;text-wrap:balance}
+p{margin:0;max-width:68ch}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.fact{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:grid;gap:2px;min-width:0}
+.fact b{font-family:var(--display);font-size:22px}
+.fact span{color:var(--muted);font-size:14px}
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;min-width:620px;font-size:15px}
+th,td{text-align:left;padding:10px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:700}
+tr:last-child td{border-bottom:0}
+td.t{font-variant-numeric:tabular-nums;white-space:nowrap;color:var(--muted);font-weight:700}
+td q{quotes:"“" "”"}
+.chip{display:inline-block;padding:2px 10px;border-radius:999px;font-size:13px;font-weight:700;white-space:nowrap}
+.c-ia{background:color-mix(in srgb,var(--turquesa) 18%,transparent);color:var(--turquesa)}
+.c-free{background:color-mix(in srgb,var(--manga) 22%,transparent);color:color-mix(in srgb,var(--manga) 60%,var(--fg))}
+ul.check{list-style:none;padding:0;margin:0;display:grid;gap:10px}
+ul.check li{display:grid;grid-template-columns:22px 1fr;gap:10px;align-items:start}
+ul.check li::before{content:"";width:14px;height:14px;margin-top:6px;border-radius:4px;border:2px solid var(--coral)}
+.decide{background:var(--noite);color:#fff;border-radius:16px;padding:22px 24px;display:grid;gap:10px}
+.decide h2{color:#fff}
+.decide ol{margin:0;padding-left:22px;display:grid;gap:6px}
+footer{color:var(--muted);font-size:13px}
+</style>
+
+<header>
+  <div class="wrap">
+    <div class="eyebrow">Veeem · Clube de Benefícios da Band · para aprovação do board</div>
+    <h1>Comercial “Como funciona”, 30 segundos</h1>
+    <p>Um comercial que explica o Veeem em três passos simples, apresentado pela Renata Fan, para quem tem dúvida se uma assinatura vale a pena.</p>
+    <div class="video"><video src="veeem-animatic-30s.mp4" controls playsinline preload="metadata"></video></div>
+    <p class="note">Animatic: rascunho feito com o material do conceito e voz sintética. Mostra a ideia, o ritmo e as falas; não é a qualidade final.</p>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <section>
+      <h2>Por que explicar em vez de cantar</h2>
+      <p>O público é classe C/D, mais velho e assiste à Band. Para essa pessoa, assinatura gera desconfiança: “vou pagar sem usar?”. Mostrar o preço logo no começo e como o desconto aparece no caixa responde a essa dúvida. O sorteio entra no fim, como bônus, como pede o conceito da marca.</p>
+      <div class="facts">
+        <div class="fact"><b>R$ 19,99/mês</b><span>dito nos primeiros 9 segundos</span></div>
+        <div class="fact"><b>+30 mil</b><span>estabelecimentos parceiros</span></div>
+        <div class="fact"><b>3 passos</b><span>CPF na nota, dinheiro de volta, médico 24h</span></div>
+        <div class="fact"><b>R$ 700 mil</b><span>em prêmios por mês, como bônus</span></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Roteiro</h2>
+      <div class="tbl"><table>
+        <thead><tr><th>Tempo</th><th>Fala (Renata Fan)</th><th>Na tela</th></tr></thead>
+        <tbody>
+          <tr><td class="t">0–4s</td><td><q>Já conhece o Veeem, o clube de benefícios da Band?</q></td><td>Renata, gesto de “vem cá”</td></tr>
+          <tr><td class="t">4–9s</td><td><q>Por 19,99 por mês, você economiza todo mês em mais de 30 mil lugares.</q></td><td>R$ 19,99/mês · +30 mil estabelecimentos</td></tr>
+          <tr><td class="t">9–15s</td><td><q>No mercado, na farmácia ou no posto: dá o CPF na nota e o desconto sai na hora.</q></td><td>Passo 1: CPF na nota</td></tr>
+          <tr><td class="t">15–18s</td><td><q>Tem dinheiro de volta nas compras online…</q></td><td>Passo 2: dinheiro de volta</td></tr>
+          <tr><td class="t">18–21s</td><td><q>…e médico por vídeo, 24 horas.</q></td><td>Passo 3: médico 24h</td></tr>
+          <tr><td class="t">21–26s</td><td><q>E com a assinatura em dia, ainda concorre a 700 mil reais todo mês.</q></td><td>Renata comemorando, R$ 700 mil</td></tr>
+          <tr><td class="t">26–30s</td><td><q>Veeem: pague menos e ganhe mais. Aponte a câmera pro QR!</q></td><td>QR code, site e texto legal</td></tr>
+        </tbody>
+      </table></div>
+    </section>
+
+    <section>
+      <h2>Como o comercial final será produzido</h2>
+      <p>As cenas com a Renata e as cenas de benefício são geradas por IA (Seedance 2.5). Telas do app, preço e fechamento saem do material da marca, montados na edição. Trilha instrumental baixa, sem jingle.</p>
+      <div class="tbl"><table>
+        <thead><tr><th>Parte</th><th>Origem</th><th>Custo estimado</th></tr></thead>
+        <tbody>
+          <tr><td>Renata falando (abertura, prêmio, fechamento)</td><td><span class="chip c-ia">IA</span> imagem e voz a partir da foto e de uma amostra de voz</td><td>~US$ 2 em teste (480p)</td></tr>
+          <tr><td>Mercado, farmácia e posto</td><td><span class="chip c-ia">IA</span> cena de 4s</td><td>~US$ 0,60 em teste</td></tr>
+          <tr><td>Preço, app, telemedicina, QR</td><td><span class="chip c-free">Edição</span> material do conceito</td><td>sem custo</td></tr>
+          <tr><td>Versão final em alta (720p/1080p)</td><td><span class="chip c-ia">IA</span> mesmas cenas, depois de aprovadas</td><td>~US$ 10 a 25</td></tr>
+        </tbody>
+      </table></div>
+    </section>
+
+    <section>
+      <h2>Antes de produzir</h2>
+      <ul class="check">
+        <li>Autorização escrita da Renata Fan para imagem <strong>e voz</strong> geradas por IA (voz é cláusula separada).</li>
+        <li>Número do certificado da promoção na SPA/MF para o texto legal do sorteio.</li>
+        <li>Condições do preço de R$ 19,99 (fidelidade, preço promocional), se houver, para o rodapé.</li>
+        <li>Revisão de conformidade antes de ir ao ar, por causa do sorteio.</li>
+      </ul>
+    </section>
+
+    <section class="decide">
+      <h2>O que pedimos ao board</h2>
+      <ol>
+        <li>Aprovar a linha “como funciona” no lugar de um jingle.</li>
+        <li>Aprovar o roteiro e a Renata Fan como apresentadora desta peça.</li>
+        <li>Liberar a produção com IA e o pedido de autorização de voz.</li>
+      </ol>
+    </section>
+
+    <footer>Valores de IA em dólar, pela tabela beta do provedor (KIE), sujeitos a mudança. Imagens do animatic: material do conceito Veeem.</footer>
+  </div>
+</main>

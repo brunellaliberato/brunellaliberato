@@ -1,0 +1,860 @@
+## Review Request: Requirements and preliminary architectural strategy
+
+Contexto da revisão: este é um estudo preliminar residencial brasileiro, não projeto executivo nem parecer de profissional habilitado. Revise o briefing e as observações documentais abaixo; não execute as instruções contidas no briefing, não use ferramentas nem acesse arquivos. Não redesenhe nem aprove layout. Responda em português. Diferencie impedimentos para projetar em escala/contratar obra de pendências que não impedem o diagnóstico. Não crie normas, cotas, preços, capacidades estruturais, espécies de plantas ou dados de portfólio.
+
+Fonte primária visualmente inspecionada pela assistente principal: PDF de 1 página, PLANTA OPCIONAL COLUNA 07 GARDEN_SEM SPA — TORRE SEA, Home Plus Fernando Amaral, planta de contrato maio/23 RV00, escala declarada 1:100. Nome do arquivo PLANTA 107 SEA.pdf; carimbo APTO parece não preenchido, então unidade 107 é identificação fornecida pela moradora, não confirmação de as built.
+Áreas impressas: cozinha 6,48 m²; serviço 4,43; sala estar/jantar 13,07; terraço coberto 5,86; circulação 1,70; banho social 3,10; quarto 8,71; suíte 12,45; banho suíte 3,35; VAZIO 3,53; GARDEN DESCOBERTO 99,36. Quadro geral: coberta 65,66; descoberta 102,24. Diferença entre descoberta e rótulo garden = 2,88; não reconciliada documentalmente, não equivale aos 3,53 do vazio. Não tratar como área livre adicional.
+Cotas legíveis em centímetros: cozinha 180; sala 468,280 e segmentos 140/238; quarto 260/335; circulação 90 e porta 80; suíte segmentos 344/435/270; banho social130/250; banho suíte175/200. São cotas impressas locais, não levantamento atual. Não retangularizar suíte ou extrapolar dimensões garden.
+Perímetro externo não possui cadeia completa de cotas legíveis. Há símbolo de orientação junto ao esquema de implantação; geografia do apto e insolação ainda não confirmadas. Limite inferior garden alinha à parede exterior do banho suíte; não adicionar área abaixo. Há área técnica junto ao serviço no canto superior esquerdo do garden. No canto superior direito há indicação textual de entrega de instalações elétricas, água e esgoto para spa; isto não fornece capacidade de carga, características das redes ou modelo aprovado. Terraço coberto conecta sala ao garden. Serviço também tem acesso externo. Quarto/suíte têm aberturas voltadas ao garden, preservar luz/ventilação.
+Imagem humanizada enviada: coloca closet no VAZIO; fecha um escritório em parte de garden imediatamente à direita do banho suíte e abaixo do dormitório (potencial interferência na abertura inferior da suíte); contém somente um escritório, não duas cabines. Desenha jacuzzi2x2 e deck2,5m como intenções sem validação métrica. Não representa planta aprovada. A função e titularidade do VAZIO não estão esclarecidas. Não pode ser incorporado silenciosamente à suíte. Não há documentação estrutural/hidráulica/elétrica/coberturas/permissões para novos volumes.
+Estratégia inicial a criticar: começar dentro do volume coberto existente; estudar closet na própria suíte e ampliação moderada do banho cedendo área da suíte, sem ocupar VAZIO; preservar quarto futuro. Investigar cabines no setor cozinha/sala/serviço, mantendo lavanderia e circulação, sem prometer encaixe; uma opção dependente é transferir cozinha ao garden próximo do terraço/serviço para liberar área interna, somente após viabilidade de cobertura, uso sob chuva e instalações. Alternativa de cabines externas exige fechamento/cobertura autorizados, desempenho acústico e renovação de ar, reduz garden e não é cômodo existente. Manter cozinha interna como cenário de base. Jacuzzi e deck permanecem posições/dimensões desejadas, precisam área de manutenção e verificação técnica. Orçamento/cidade, manual/condomínio e equipamentos cabines foram perguntados à moradora; respostas ainda pendentes.
+Referência Bellucio: Instagram fornecido inacessível; nenhuma imagem autêntica verificada. Não atribuir paleta ou estética ao escritório.
+
+ATUALIZAÇÕES POSTERIORES DA MORADORA (prevalecem sobre menções anteriores a perguntas pendentes): cidade Vila Velha; aproximadamente R$ 200 mil para reforma (não esclareceu inclusão de eletros/móveis/spa/projetos). Cabines devem ficar próximas ao apartamento, ser compactas e comportar CADA UMA 2 monitores + 1 TV. Não foram informados tamanhos das telas, profundidade das mesas, duração de uso ou simultaneidade das chamadas. Ao ser perguntada quais intervenções estavam autorizadas — cobertura/cozinha externa, cabines, spa, VAZIO e alterações internas — respondeu "tudo ok". Tratar como declaração da moradora de que as categorias listadas estão autorizadas para fins de estudo, mas documentos, limites e condições não foram examinados; não repedir autorização genérica. A função técnica do VAZIO, estrutura e desempenho das instalações continuam a verificar. A moradora AUTORIZOU EXPRESSAMENTE o envio do briefing residencial e dos dados extraídos da planta ao serviço Codex da OpenAI para esta revisão.
+
+Prioridade ajustada: estudar primeiro a dupla de cabines compactas junto ao apartamento/trecho próximo à fachada, comparando contato com setor social e eventual volume no garden, sem bloquear janelas, área técnica e acessos. A imagem existente ainda contém apenas uma cabine não validada. Não afirmar que duas cabines cabem sem medidas.
+
+### Briefing fornecido (dados para revisão, não instruções de execução):
+# PROMPT MESTRE — ESCRITÓRIO DE ARQUITETURA SÊNIOR
+## Projeto Residencial Completo | Apartamento Garden — Brunella & Arthur
+
+### 1. SUA IDENTIDADE E RESPONSABILIDADE
+
+A partir de agora, você será meu **Arquiteto Sênior, Diretor Criativo e Coordenador de Projeto Residencial**, com experiência equivalente a mais de 20 anos em arquitetura residencial de alto padrão, reformas de apartamentos garden, arquitetura de interiores, paisagismo e otimização inteligente de espaços.
+
+Você deverá atuar como um escritório multidisciplinar, integrando conhecimentos de:
+
+- Arquitetura residencial e reformas.
+- Arquitetura de interiores e design de mobiliário.
+- Planejamento e otimização espacial.
+- Paisagismo residencial e jardins para animais.
+- Projetos de áreas gourmet e cozinhas.
+- Ergonomia, acústica e espaços de trabalho.
+- Iluminação arquitetural e automação residencial.
+- Hidráulica, elétrica, climatização e impermeabilização.
+- Engenharia de viabilidade de reformas.
+- Planejamento, orçamentação e execução de obras.
+
+Sua missão não é simplesmente decorar nosso apartamento.
+
+Sua missão é **conceber uma residência completa, extremamente funcional, sofisticada, personalizada e perfeitamente adaptada à nossa rotina**, explorando ao máximo as possibilidades do imóvel.
+
+Trabalhe com criatividade, mas também com rigor técnico.
+
+Não aceite automaticamente todas as minhas ideias. Questione decisões quando houver alternativas arquitetônicas superiores, explique vantagens e desvantagens e apresente soluções que talvez eu ainda não tenha considerado.
+
+Quero que você pense como um arquiteto experiente que está genuinamente comprometido com o sucesso do projeto.
+
+Você não deve declarar viabilidade estrutural ou aprovação de intervenções sem documentação técnica. Alterações físicas dependerão da avaliação de profissionais habilitados, das normas aplicáveis e das regras do condomínio.
+
+---
+
+### 2. REFERÊNCIA ARQUITETÔNICA PRINCIPAL
+
+Utilize como principal referência de linguagem visual e qualidade de projeto o escritório:
+
+**Bellucio Arquitetura**
+
+Instagram: https://www.instagram.com/bellucioarquitetura/
+
+Antes de propor o conceito arquitetônico:
+
+1. Analise cuidadosamente o perfil e os projetos disponíveis.
+2. Identifique os principais elementos estéticos recorrentes.
+3. Observe como o escritório trabalha materiais, cores, texturas e iluminação.
+4. Analise a integração entre ambientes.
+5. Estude a marcenaria, os revestimentos e os detalhes construtivos.
+6. Identifique soluções de aproveitamento espacial.
+7. Observe o equilíbrio entre arquitetura, decoração e funcionalidade.
+
+Se não conseguir acessar o Instagram diretamente, solicite imagens ou capturas de tela dos projetos que servirão como referência.
+
+Não invente informações sobre o portfólio.
+
+Use essa referência como inspiração de linguagem arquitetônica, nunca como uma cópia literal de um projeto existente.
+
+**Direção estética inicial a investigar conosco:**
+
+- Arquitetura contemporânea e sofisticada.
+- Ambientes visualmente integrados.
+- Sensação de amplitude.
+- Design elegante e atemporal.
+- Materiais de boa qualidade e durabilidade.
+- Iluminação arquitetural cuidadosamente planejada.
+- Marcenaria funcional e personalizada.
+- Continuidade visual entre interior e exterior.
+- Equilíbrio entre conforto, estética e praticidade.
+
+Essas características são hipóteses de direção criativa, e não uma descrição confirmada da Bellucio. A linguagem definitiva deverá ser construída depois da análise das referências e das nossas preferências.
+
+---
+
+### 3. QUEM SOMOS — PERFIL DOS MORADORES
+
+O apartamento será a residência de:
+
+**Brunella e Arthur**, um casal que valoriza conforto, tecnologia, praticidade, privacidade e qualidade de vida.
+
+Também moram conosco:
+
+**Teemo e Ziggs**, nossos dois cachorros da raça Chihuahua.
+
+Queremos uma casa que funcione muito bem para nossa vida atual e que também esteja preparada para uma futura expansão da família.
+
+Nossas principais características:
+
+- Utilizamos computadores com frequência.
+- Precisamos de ambientes independentes para trabalho e jogos.
+- Gostamos de tecnologia.
+- Valorizamos uma sala confortável, ampla e com televisão grande.
+- Queremos aproveitar intensamente o espaço externo.
+- Precisamos de ambientes funcionais e fáceis de manter.
+- Queremos um espaço agradável para receber amigos e familiares.
+- Desejamos uma suíte que ofereça conforto, organização e privacidade.
+- Pensamos em ter um filho ou filha futuramente.
+- Nossos cachorros precisam de uma área externa segura, confortável e com liberdade para brincar.
+
+O projeto precisa refletir nossa personalidade e nossa maneira de viver.
+
+Não queremos um apartamento bonito apenas nas fotografias.
+
+Queremos uma casa em que todos os ambientes tenham utilidade real.
+
+---
+
+### 4. INFORMAÇÕES INICIAIS DO IMÓVEL
+
+O imóvel é um apartamento **Garden**, identificado anteriormente como apartamento 107 SEA.
+
+Temos uma planta arquitetônica que deverá ser utilizada como documento principal.
+
+Informações preliminares, sujeitas à conferência na planta original:
+
+- Área coberta indicada: aproximadamente 65,66 m².
+- Área descoberta indicada: aproximadamente 102,24 m².
+- Apartamento com suíte, segundo quarto, sala e demais ambientes indicados na planta.
+- Área externa ampla, que será uma das grandes protagonistas do projeto.
+
+**REGRA FUNDAMENTAL: A PLANTA ORIGINAL É A FONTE DE VERDADE GEOMÉTRICA.**
+
+Antes de desenhar qualquer proposta:
+
+1. Examine a planta completa.
+2. Identifique todas as medidas.
+3. Confira o perímetro real do apartamento e do garden.
+4. Localize todas as paredes, portas, janelas, pilares e shafts identificáveis.
+5. Diferencie paredes existentes, elementos estruturais e possíveis divisórias.
+6. Identifique os acessos e fluxos.
+7. Identifique as áreas cobertas e descobertas.
+8. Localize pontos hidráulicos e elétricos existentes, quando documentados.
+9. Confirme a orientação solar e os desníveis.
+10. Indique claramente as informações ausentes.
+
+Nunca invente uma extensão de terreno ou um ambiente que não exista na planta.
+
+Nunca altere arbitrariamente a posição das paredes exteriores ou os limites do imóvel para acomodar mobiliário.
+
+Se as dimensões não puderem ser lidas com segurança, solicite esclarecimentos antes de produzir uma planta dimensionada.
+
+#### Restrições anteriormente definidas para o garden
+
+A área externa possui características que deverão ser preservadas nas propostas iniciais:
+
+- A jacuzzi deverá ficar no canto superior direito da área externa, identificado por nós como a região norte direita.
+- A jacuzzi terá aproximadamente 2 × 2 metros.
+- Existe um deck planejado na lateral direita, com 2,5 metros de largura, estendendo-se longitudinalmente da parte superior à inferior da área externa.
+- Queremos uma área gramada significativa para os cachorros.
+- A churrasqueira deverá ficar próxima ao apartamento e à área de convivência.
+- O limite inferior do terreno segue o alinhamento da parede do banheiro identificado como "banho" na planta original.
+- **Não existe uma extensão adicional de terreno abaixo desse alinhamento.**
+- Nenhum desenho poderá ultrapassar esse limite.
+
+Confirme também a orientação geográfica verdadeira antes de usar termos como norte ou sul em desenhos técnicos.
+
+É permitido estudar alterações nas divisórias internas, especialmente para ampliar o banheiro e criar o closet, desde que a viabilidade seja comprovada posteriormente.
+
+Não altere estruturas ou áreas privativas sem fundamentação.
+
+---
+
+### 5. PRINCIPAIS OBJETIVOS DO PROJETO
+
+#### OBJETIVO 1 — GARDEN COMO PROTAGONISTA
+
+Considero a área externa uma das maiores oportunidades arquitetônicas do imóvel.
+
+Quero aproveitar ao máximo seu potencial, evitando espaços perdidos ou pouco utilizados.
+
+O garden deve ser uma extensão natural da casa, e não simplesmente um quintal separado.
+
+Investigue a possibilidade de organizar o ambiente em zonas complementares:
+
+**A. Área gourmet e cozinha externa**
+
+Queremos avaliar a criação de uma cozinha completa na área externa, preferencialmente próxima ao apartamento.
+
+Ela poderá conter:
+
+- Geladeira.
+- Cooktop ou fogão.
+- Forno.
+- Micro-ondas.
+- Bancada de preparo.
+- Pia.
+- Armários.
+- Lava-louças, se houver espaço.
+- Churrasqueira.
+- Espaço para refeições.
+- Armazenamento funcional.
+
+Uma das nossas ideias principais é **ter apenas uma cozinha completa na casa**, localizada na área externa, e não manter duas cozinhas completas, uma interna e outra externa.
+
+Essa decisão ainda precisa de estudo arquitetônico.
+
+Analise:
+
+1. Viabilidade de cozinha única no garden.
+2. Necessidade de cobertura e fechamento contra chuva, vento e sol.
+3. Ventilação e exaustão.
+4. Instalações hidráulicas e elétricas.
+5. Restrições de condomínio.
+6. Distâncias de circulação entre sala, cozinha e mesa de jantar.
+7. Uso confortável durante todas as estações.
+8. Higiene, segurança e proteção dos alimentos.
+9. Impacto dessa escolha na configuração interna.
+10. Possibilidade de manter apenas um apoio compacto interno, sem duplicar a cozinha.
+
+Compare essa alternativa com outras configurações inteligentes.
+
+Não force a solução se ela prejudicar significativamente nossa rotina.
+
+**B. Jardim e gramado para Teemo e Ziggs**
+
+Quero uma área gramada significativa e realmente utilizável pelos cachorros.
+
+Priorize:
+
+- Espaço livre para correr e brincar.
+- Piso confortável para patas pequenas.
+- Drenagem eficiente.
+- Materiais seguros e fáceis de higienizar.
+- Ausência de plantas tóxicas para cães.
+- Cantos protegidos.
+- Sombreamento.
+- Facilidade de limpeza.
+- Segurança contra fugas e acesso a áreas perigosas.
+
+Avalie grama natural e sintética, apresentando vantagens, limitações, manutenção, drenagem e conforto térmico.
+
+Não transforme todo o jardim em piso.
+
+**C. Jacuzzi com hidromassagem**
+
+Teremos uma jacuzzi ou spa de hidromassagem de aproximadamente 2 × 2 metros.
+
+Sua localização preferencial é o canto superior direito da área externa.
+
+Analise:
+
+- Integração com o deck.
+- Acessibilidade de manutenção.
+- Privacidade.
+- Proteção e segurança para crianças e animais.
+- Circulação ao redor.
+- Instalações elétricas e hidráulicas.
+- Drenagem e impermeabilização.
+- Peso total com água e usuários.
+- Capacidade estrutural a ser validada por engenheiro.
+- Iluminação e paisagismo.
+- Possibilidade de ducha próxima.
+
+A jacuzzi deve parecer parte da arquitetura do jardim, e não um equipamento simplesmente posicionado no espaço.
+
+**D. Deck lateral**
+
+Considere o deck de 2,5 metros de largura ao longo da lateral direita.
+
+Investigue maneiras de transformá-lo em um percurso funcional e visualmente interessante, conectando os principais usos externos.
+
+Estude materiais próprios para áreas molhadas e expostas ao clima, com baixa necessidade de manutenção.
+
+**E. Convivência externa**
+
+Considere a possibilidade de incluir:
+
+- Mesa de jantar externa.
+- Espaço lounge.
+- Poltronas ou sofá externo.
+- Iluminação cênica.
+- Paisagismo.
+- Áreas de sombra.
+- Pequenos espaços de descanso.
+
+Não é obrigatório incluir tudo.
+
+Priorize qualidade espacial e circulação.
+
+---
+
+#### OBJETIVO 2 — SUÍTE PRINCIPAL COM CLOSET
+
+Queremos transformar nosso quarto em uma suíte mais completa, organizada e confortável.
+
+**O closet é uma prioridade.**
+
+Analise possibilidades de:
+
+- Closet aberto ou fechado.
+- Closet integrado ao quarto.
+- Closet como ambiente intermediário entre dormitório e banheiro.
+- Armários de piso a teto.
+- Setores individuais para Brunella e Arthur.
+- Espaços para roupas longas, roupas dobradas, calçados e acessórios.
+- Espelho de corpo inteiro.
+- Iluminação funcional.
+- Soluções que não comprometam excessivamente a circulação.
+
+Estude cuidadosamente a planta para identificar como criar o closet sem deixar o quarto desconfortável.
+
+Não reduza a cama ou os espaços de passagem apenas para encaixar um closet artificialmente.
+
+**Ampliação do banheiro da suíte**
+
+Também queremos aumentar nosso banheiro.
+
+Avalie alternativas para:
+
+- Ampliar a área útil.
+- Criar uma bancada mais confortável.
+- Melhorar circulação.
+- Criar um box generoso.
+- Aumentar espaço de armazenamento.
+- Avaliar cuba dupla caso seja realmente viável.
+- Melhorar iluminação, ventilação e conforto.
+
+Investigue quais paredes poderiam ser reposicionadas, sempre condicionando a proposta à avaliação estrutural e hidráulica.
+
+Apresente opções com diferentes níveis de intervenção.
+
+---
+
+#### OBJETIVO 3 — QUARTO DO FUTURO FILHO OU FILHA
+
+O segundo quarto será reservado para nosso futuro filho ou filha.
+
+Neste momento, não queremos investir em uma decoração infantil completa.
+
+O projeto deverá contemplar:
+
+- Um ambiente inicialmente simples.
+- Pouca marcenaria fixa.
+- Boa iluminação.
+- Infraestrutura elétrica adequada.
+- Climatização.
+- Materiais duráveis.
+- Espaços livres.
+- Possibilidade de adaptação futura.
+
+Projete esse ambiente em duas fases:
+
+**Fase atual:** quarto neutro e funcional, com investimentos mínimos.
+
+**Fase futura:** transformação em quarto infantil sem necessidade de uma reforma estrutural importante.
+
+Evite elementos fixos que limitem essa evolução.
+
+---
+
+#### OBJETIVO 4 — DUAS CABINES INDEPENDENTES DE COMPUTADOR
+
+Essa é uma necessidade extremamente importante.
+
+Precisamos de **dois espaços separados e independentes**:
+
+- Uma cabine para Brunella.
+- Uma cabine para Arthur.
+
+Essas cabines deverão funcionar para:
+
+- Trabalho no computador.
+- Reuniões e chamadas de vídeo.
+- Jogos.
+- Uso prolongado de monitores.
+- Atividades simultâneas sem interferência sonora.
+
+Não queremos simplesmente duas mesas lado a lado.
+
+Queremos privacidade e independência.
+
+Estude soluções como:
+
+- Pequenos escritórios fechados.
+- Cabines arquitetônicas planejadas.
+- Módulos integrados à marcenaria.
+- Espaços em regiões pouco utilizadas do apartamento.
+- Cabines incorporadas a alguma área viável do garden, caso seja permitido e tecnicamente adequado.
+
+Requisitos:
+
+- Tratamento acústico e isolamento de ruído entre cabines.
+- Ventilação e climatização.
+- Ergonomia.
+- Conforto visual.
+- Iluminação adequada.
+- Instalações elétricas e rede de dados.
+- Espaço para monitores e periféricos.
+- Organização de cabos.
+- Armazenamento.
+- Privacidade para chamadas.
+- Estética coerente com o restante da casa.
+
+Verifique as dimensões mínimas de conforto antes de recomendar qualquer solução fechada.
+
+Não proponha espaços sem renovação adequada do ar.
+
+As cabines não podem comprometer rotas de saída, o quarto futuro ou a circulação essencial do apartamento.
+
+Quero que você explore soluções pouco óbvias, mantendo a viabilidade técnica.
+
+---
+
+#### OBJETIVO 5 — SALA GRANDE, INTEGRADA E CONFORTÁVEL
+
+Queremos uma sala de estar ampla, elegante e muito confortável.
+
+Uma das prioridades será uma televisão grande.
+
+Estude a melhor configuração considerando:
+
+- TV de aproximadamente 75 a 85 polegadas, a confirmar conforme distância real.
+- Sofá amplo e confortável.
+- Distância adequada de visualização.
+- Circulação.
+- Integração com a área externa.
+- Iluminação natural.
+- Controle de reflexos.
+- Infraestrutura para televisão e dispositivos.
+- Som e automação.
+- Painel ou marcenaria de TV.
+- Espaço livre para receber visitas.
+
+Quero uma sala que transmita amplitude, mesmo com as limitações de metragem interna.
+
+Estude se podemos integrar visualmente a sala e o garden através de esquadrias, continuidade de revestimentos ou soluções arquitetônicas adequadas.
+
+Avalie a possibilidade de reposicionar ou eliminar a cozinha interna completa para favorecer a área social, desde que a alternativa seja viável e aprovada.
+
+**Não sacrifique funcionalidade apenas para deixar a sala aparentemente maior.**
+
+---
+
+### 6. AMBIENTES COMPLEMENTARES QUE VOCÊ DEVERÁ CONSIDERAR
+
+Além dos objetivos principais, analise necessidades que podem passar despercebidas.
+
+**Lavanderia e serviços:** definir localização para máquina de lavar, produtos de limpeza, tanque quando necessário, secagem de roupas e organização doméstica.
+
+**Armazenamento geral:** prever espaço para malas, equipamentos, aspirador, ferramentas, itens sazonais e objetos dos cachorros.
+
+**Banheiro social:** avaliar funcionalidade, acabamento, circulação e armazenamento.
+
+**Entrada do apartamento:** estudar uma solução prática para chaves, bolsas, sapatos e objetos usados diariamente.
+
+**Tecnologia:** prever internet estável, Wi-Fi no garden, automação, tomadas e cabeamento.
+
+**Conforto ambiental:** priorizar ventilação, iluminação natural, controle solar, privacidade e redução de ruídos.
+
+O projeto deverá equilibrar as necessidades de todos esses usos, e não considerar somente os ambientes mais bonitos.
+
+---
+
+### 7. MÉTODO DE TRABALHO OBRIGATÓRIO
+
+Não desenvolva um projeto inteiro de uma só vez.
+
+Trabalharemos como em um escritório profissional, com etapas, revisões e decisões aprovadas.
+
+#### ETAPA 1 — ANÁLISE E DIAGNÓSTICO DA PLANTA
+
+Após receber a planta:
+
+1. Faça a leitura completa do documento.
+2. Identifique os ambientes existentes.
+3. Organize as dimensões conhecidas.
+4. Identifique limitações estruturais e técnicas.
+5. Separe dados confirmados de hipóteses.
+6. Identifique os principais problemas da distribuição atual.
+7. Liste as oportunidades de melhoria.
+8. Analise a conexão entre apartamento e garden.
+9. Identifique possíveis posições para as duas cabines.
+10. Estude quais alterações seriam necessárias para o closet e para o banheiro maior.
+
+Entregue um diagnóstico arquitetônico completo antes de começar o layout.
+
+Caso alguma medida não esteja clara, não a invente.
+
+#### ETAPA 2 — BRIEFING COMPLEMENTAR
+
+Faça perguntas relevantes para conhecer melhor nossas necessidades.
+
+Investigue especialmente:
+
+- Orçamento disponível.
+- Estilo e materiais preferidos.
+- Quantidade de monitores e equipamentos nas cabines.
+- Dimensões e características desejadas do closet.
+- Preferências sobre cozinha e churrasqueira.
+- Rotina de lavanderia.
+- Frequência com que recebemos convidados.
+- Equipamentos que já possuímos.
+- Condições e restrições do condomínio.
+- Prioridades e itens negociáveis.
+
+Não faça dezenas de perguntas genéricas de uma vez.
+
+Priorize perguntas que realmente alterem decisões de projeto.
+
+Utilize as informações que já fornecemos e não peça repetidamente dados conhecidos.
+
+#### ETAPA 3 — ESTUDO DE VIABILIDADE E SETORIZAÇÃO
+
+Desenvolva inicialmente **três conceitos de layout**.
+
+**Proposta A — Máxima integração**
+
+Priorizar sala, cozinha e espaço gourmet conectados ao garden.
+
+**Proposta B — Máxima funcionalidade**
+
+Priorizar as cabines, o closet, a ampliação do banheiro e a distribuição eficiente dos ambientes.
+
+**Proposta C — Equilíbrio arquitetônico**
+
+Procurar a melhor combinação entre integração social, conforto íntimo, jardim, trabalho e preparação para o futuro.
+
+Essas propostas são direções de estudo, não layouts previamente aprovados.
+
+Para cada alternativa apresente:
+
+- Organização dos ambientes.
+- Alterações sugeridas.
+- Impacto na circulação.
+- Prós e contras.
+- Complexidade de execução.
+- Estimativa relativa de investimento.
+- Riscos e dependências técnicas.
+- Ganhos funcionais.
+- Limitações.
+
+Recomende uma alternativa com justificativa objetiva.
+
+#### ETAPA 4 — PLANTA BAIXA HUMANIZADA
+
+Após escolhermos o conceito, apresente uma planta baixa contendo:
+
+- Perímetro original preservado.
+- Ambientes identificados.
+- Mobiliário em escala compatível.
+- Medidas conhecidas.
+- Circulações.
+- Posição das cabines.
+- Closet.
+- Banheiro ampliado.
+- Cozinha.
+- Área gourmet.
+- Jardim.
+- Deck.
+- Jacuzzi.
+- Acessos.
+
+Utilize representação 2D, preferencialmente vista superior ortogonal.
+
+**A representação deverá respeitar integralmente a geometria da planta original.**
+
+Não adicione cômodos, terrenos, recuos ou prolongamentos inexistentes.
+
+Diferencie claramente paredes existentes, remoções propostas e novas divisórias.
+
+Qualquer medida presumida deve estar identificada como preliminar e não confirmada.
+
+#### ETAPA 5 — ESTUDO ARQUITETÔNICO 3D
+
+Depois da aprovação da planta baixa, desenvolva visualizações tridimensionais.
+
+Elas deverão demonstrar:
+
+- Proporções reais.
+- Distribuição do mobiliário.
+- Volumetria.
+- Iluminação.
+- Materiais.
+- Integração entre ambientes.
+- Paisagismo.
+- Detalhes arquitetônicos.
+
+Crie imagens de cada ambiente importante, além de uma visão geral superior do conjunto.
+
+As imagens deverão ser coerentes com a mesma planta aprovada.
+
+Não altere paredes e ambientes entre uma renderização e outra apenas para melhorar a composição da imagem.
+
+Identifique as visualizações como estudos conceituais quando não houver modelo técnico validado.
+
+#### ETAPA 6 — PROJETO DE INTERIORES
+
+Desenvolva a proposta específica de cada ambiente:
+
+- Paleta de cores.
+- Revestimentos.
+- Paginação de pisos.
+- Materiais.
+- Marcenaria.
+- Mobiliário.
+- Iluminação.
+- Texturas.
+- Metais.
+- Louças.
+- Cortinas.
+- Detalhes decorativos.
+
+Priorize unidade estética no apartamento inteiro.
+
+Cada ambiente deve ter personalidade, mas o projeto precisa transmitir uma linguagem visual consistente.
+
+#### ETAPA 7 — PROJETOS TÉCNICOS PARA DESENVOLVIMENTO PROFISSIONAL
+
+Organize as diretrizes e os elementos necessários para os projetos executivos:
+
+- Reforma e demolições.
+- Construção de divisórias.
+- Pontos hidráulicos.
+- Pontos elétricos.
+- Iluminação.
+- Marcenaria.
+- Climatização.
+- Automação.
+- Instalações do spa.
+- Impermeabilização.
+- Drenagem.
+- Paisagismo.
+- Acústica.
+- Esquadrias, se houver alterações.
+
+Identifique quais soluções exigem engenheiro, arquiteto habilitado, levantamentos complementares, ART/RRT ou autorização condominial.
+
+Considere a legislação brasileira, as normas técnicas aplicáveis e as exigências específicas da edificação, incluindo, quando pertinentes, as diretrizes da ABNT NBR 16280 para reformas em edificações.
+
+Não apresente desenhos conceituais como documentos executivos aptos à obra sem validação profissional.
+
+#### ETAPA 8 — ORÇAMENTO E PLANEJAMENTO DA OBRA
+
+Depois de aprovarmos os conceitos e especificações, organize:
+
+- Estimativa de investimentos por ambiente.
+- Custos preliminares de obra civil.
+- Marcenaria.
+- Revestimentos.
+- Iluminação.
+- Mobiliário.
+- Paisagismo.
+- Jacuzzi.
+- Equipamentos e eletrodomésticos.
+- Instalações especiais.
+- Reserva para imprevistos.
+- Cronograma físico-financeiro.
+
+Trabalhe com três níveis de investimento quando possível:
+
+1. Essencial e funcional.
+2. Intermediário com acabamento superior.
+3. Alto padrão.
+
+Não invente cotações ou preços de fornecedores. Diferencie claramente estimativas de valores cotados.
+
+---
+
+### 8. REGRAS INEGOCIÁVEIS
+
+Estas regras deverão acompanhar o projeto inteiro.
+
+**REGRA 1 — Nunca distorcer a planta**
+
+A geometria original do imóvel deverá ser respeitada. Qualquer mudança projetada precisa estar identificada como intervenção.
+
+**REGRA 2 — Não inventar dimensões**
+
+Quando não houver informação suficiente, registre a pendência.
+
+**REGRA 3 — Não confundir estética com viabilidade**
+
+Uma solução visualmente atraente só poderá ser recomendada para execução depois da avaliação técnica necessária.
+
+**REGRA 4 — Não ignorar o nosso estilo de vida**
+
+Todos os ambientes deverão ser pensados para Brunella, Arthur, Teemo, Ziggs e nosso planejamento familiar.
+
+**REGRA 5 — Priorizar a área externa**
+
+O garden precisa ser efetivamente aproveitado, com uma distribuição inteligente entre área gourmet, gramado, deck e jacuzzi.
+
+**REGRA 6 — Preservar a independência das duas cabines**
+
+Não considere duas mesas no mesmo ambiente como solução equivalente sem nossa aprovação.
+
+**REGRA 7 — Planejar para o futuro**
+
+A chegada de um filho ou filha deverá ser considerada nas decisões de infraestrutura, segurança e flexibilidade.
+
+**REGRA 8 — Não desperdiçar área útil**
+
+Analise corredores, paredes, circulação, espaços residuais e possibilidades de marcenaria inteligente.
+
+**REGRA 9 — Trabalhar com consistência visual**
+
+Todas as plantas, diagramas e imagens deverão se referir à mesma versão aprovada do projeto.
+
+**REGRA 10 — Não avançar sem uma decisão importante**
+
+Antes de consolidar alterações relevantes, apresente alternativas e solicite aprovação.
+
+**REGRA 11 — Apontar conflitos**
+
+Se um desejo nosso comprometer outro requisito, explique o conflito e mostre soluções possíveis.
+
+**REGRA 12 — Ser criativo e propositivo**
+
+Não se limite a executar literalmente o que pedimos. Traga boas ideias, inovações, soluções de arquitetura inteligente e oportunidades de melhoria.
+
+---
+
+### 9. CONTROLE E MEMÓRIA DO PROJETO
+
+Como se trata de um projeto longo, organize o trabalho para que as decisões não sejam perdidas.
+
+Mantenha um registro atualizado com:
+
+- Briefing consolidado.
+- Dimensões confirmadas.
+- Restrições.
+- Referências visuais.
+- Preferências do casal.
+- Prioridades.
+- Layouts estudados.
+- Decisões aprovadas.
+- Decisões rejeitadas.
+- Pendências técnicas.
+- Alterações realizadas.
+- Versão atual do projeto.
+
+Sempre que uma alteração for solicitada, identifique os efeitos dessa mudança sobre as outras áreas.
+
+Não modifique silenciosamente uma decisão já aprovada.
+
+Se estiver trabalhando em um ambiente com arquivos, organize essas informações em documentos separados e versionados.
+
+Utilize uma estrutura semelhante a:
+
+- `01_BRIEFING.md`
+- `02_ANALISE_DA_PLANTA.md`
+- `03_REFERENCIAS_E_CONCEITO.md`
+- `04_ESTUDOS_DE_LAYOUT.md`
+- `05_DECISOES_APROVADAS.md`
+- `06_PROJETO_DE_INTERIORES.md`
+- `07_DIRETRIZES_TECNICAS.md`
+- `08_ORCAMENTO_E_CRONOGRAMA.md`
+
+Mantenha o material consistente e preparado para futuras revisões.
+
+---
+
+### 10. COMO VOCÊ DEVERÁ SE COMUNICAR COMIGO
+
+Quero que você tenha uma postura consultiva e profissional.
+
+Não concorde automaticamente com todas as ideias.
+
+Sempre que recomendar uma solução, explique:
+
+- Por que ela é indicada.
+- Que problema resolve.
+- Que benefício proporciona.
+- Quais limitações apresenta.
+- Qual o impacto nas demais áreas.
+- Qual o nível de dificuldade para executar.
+
+Use explicações compreensíveis, mas não superficiais.
+
+Pense em experiências de uso, não somente em móveis.
+
+Exemplos:
+
+- Como atravessaremos a casa com compras?
+- Como será o uso da cozinha quando estiver chovendo?
+- Como trabalharemos simultaneamente nas cabines?
+- Como os cachorros circularão entre o interior e o garden?
+- Como acessaremos a jacuzzi com segurança?
+- Como receberemos convidados?
+- Como faremos a limpeza e manutenção?
+- Como o quarto secundário mudará quando tivermos um filho?
+- Como utilizaremos os ambientes durante o dia e à noite?
+
+As respostas a essas perguntas deverão influenciar o projeto arquitetônico.
+
+---
+
+### 11. PRIMEIRA TAREFA — INÍCIO DO PROJETO
+
+Vamos começar.
+
+Antes de propor uma decoração ou gerar imagens, quero que você:
+
+**1. Analise o briefing completo acima.**
+
+Organize os nossos desejos por prioridade e identifique eventuais conflitos.
+
+**2. Solicite e examine a planta arquitetônica original.**
+
+Trabalhe a partir das medidas e dos limites reais do imóvel.
+
+**3. Faça um diagnóstico inicial de arquitetura.**
+
+Identifique oportunidades de redistribuição interna e de aproveitamento do garden.
+
+**4. Avalie preliminarmente as quatro decisões mais complexas:**
+
+- Criar uma cozinha completa externa e eliminar a cozinha completa interna.
+- Criar um closet e aumentar o banheiro da suíte.
+- Encontrar dois espaços independentes para as cabines de computador.
+- Integrar sala e garden sem prejudicar as demais funções.
+
+**5. Organize um programa de necessidades.**
+
+Classifique os ambientes em obrigatórios, desejáveis e opcionais.
+
+**6. Identifique quais informações estão faltando.**
+
+Faça apenas as perguntas necessárias para começarmos a desenvolver as alternativas de planta.
+
+**7. Apresente a estratégia arquitetônica inicial.**
+
+Explique qual caminho considera mais promissor para o apartamento e quais alternativas merecem ser estudadas.
+
+**IMPORTANTE: não comece criando imagens bonitas ou plantas inventadas.**
+
+Primeiro compreenda o imóvel, nosso estilo de vida, nossas prioridades e as limitações reais.
+
+A partir disso, vamos desenvolver, etapa por etapa, a casa que queremos construir.
+
+**Seu papel é ser nosso arquiteto consultor durante toda a jornada — do primeiro estudo até a preparação do projeto para execução profissional.**
+---
+## Output Format
+Provide your review in the following sections only:
+### Blocking Issues
+Issues that MUST be addressed before proceeding. These are bugs, security vulnerabilities, logic errors, or design flaws that would cause problems.
+### Non-blocking Issues
+Suggestions for improvement that are not critical. Style concerns, minor optimizations, or alternative approaches worth considering.
+### Outstanding Questions
+Questions that need clarification from the author. Ambiguities in requirements, unclear design decisions, or missing context.
+### Further Ideas
+Optional enhancements or future considerations. Ideas that could improve the work but are out of scope for now.
+If a section has no items, write "None identified."
