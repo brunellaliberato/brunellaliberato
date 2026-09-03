@@ -1,0 +1,59 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>777PLAY — Design System</title>
+<style>
+@font-face{font-family:"Sora";src:url("kit/fonte/Sora[wght].ttf");font-weight:100 800}
+:root{--v:#5B2EFF;--t:#0E0B1A;--l:#C6FF3D;--g:#B9B4CC;--line:#3A2C6E;--card:#140F2B}
+*{box-sizing:border-box;margin:0}
+body{width:1400px;height:900px;background:radial-gradient(900px 500px at 0% 0%,#3B1B8F 0%,var(--t) 60%),var(--t);color:#fff;font:14px/1.4 "Sora",Arial,sans-serif;padding:0;overflow:hidden}
+.top{display:flex;align-items:center;gap:36px;height:120px;margin-bottom:22px}
+.top img{height:112px}.top .ds{border-left:1px solid var(--line);padding-left:36px;font-size:30px;font-weight:600;line-height:1.1}
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:22px}
+.card{background:rgba(20,15,43,.92);border:1px solid var(--line);border-radius:22px;padding:18px 26px}
+.card h2{font-size:14px;letter-spacing:.12em;text-transform:uppercase;font-weight:600;color:#fff;margin-bottom:14px}
+.logos{grid-column:span 7;height:330px}.logos .r{display:flex;align-items:center;justify-content:center;gap:40px;margin-top:8px}
+.logos .r img{height:92px}.logos .sep{width:1px;height:90px;background:var(--line)}
+.logos .c{display:flex;justify-content:center;margin-top:10px}.logos .c img{height:96px}
+.icons{grid-column:span 5;height:330px}.icons .big{display:flex;gap:30px;justify-content:center}.icons .big img{width:170px;border-radius:40px}
+.icons .sm{display:flex;gap:26px;justify-content:center;align-items:end;margin-top:14px}.icons .sm div{text-align:center;color:#fff;font-size:12px}.icons .sm img{display:block;margin:0 auto 6px;border-radius:22%}
+.alt{grid-column:span 5;height:200px}.alt .r{display:flex;align-items:center;gap:40px;justify-content:center}.alt .w{background:#fff;border-radius:22px;padding:28px 40px}.alt img{height:64px}
+.pal{grid-column:span 4;height:200px}.pal .r{display:flex;gap:16px}.pal .sw{flex:1}.pal .b{height:90px;border-radius:18px;border:1px solid var(--line)}.pal small{display:block;margin-top:8px;font-size:14px}.pal small b{display:block;font-weight:500}
+.type{grid-column:span 3;height:200px}.type .r{display:flex;align-items:center;gap:26px;margin-top:10px}.type .aa{font-size:84px;font-weight:800;line-height:1}.type .n{border-left:1px solid var(--line);padding-left:26px;font-size:22px}.type .n b{display:block;font-weight:800}.type .n span{color:var(--g)}
+.ico{grid-column:span 6;height:150px}.ico .r{display:flex;gap:30px;justify-content:space-between;padding:6px 10px}.ico svg{width:48px;height:48px;fill:none;stroke:var(--l);stroke-width:2.6;stroke-linejoin:round;stroke-linecap:round}
+.ui{grid-column:span 6;height:150px}.ui .r{display:flex;gap:22px;align-items:center}
+.btn{height:54px;border-radius:14px;padding:0 26px;display:flex;align-items:center;gap:12px;font-size:20px;font-weight:700}
+.p{background:var(--l);color:var(--t)}.o{border:1.5px solid #fff;color:#fff}.vb{background:var(--v);color:#fff}
+.srch{flex:1;height:54px;border:1.5px solid var(--line);border-radius:14px;display:flex;align-items:center;gap:12px;padding:0 20px;color:var(--g);font-size:18px}
+</style></head><body><div style="transform:scale(.8);transform-origin:0 0;width:1680px;padding:34px 40px">
+<div class="top"><img src="kit/777play.svg"><div class="ds">Design<br>System</div></div>
+<div class="grid">
+  <div class="card logos"><h2>Logotipos principais</h2>
+    <div class="r"><img src="kit/777play.svg"><div class="sep"></div><img src="kit/777win.svg"></div>
+    <div class="c"><img src="kit/777.svg"></div></div>
+  <div class="card icons"><h2>Ícones do app</h2>
+    <div class="big"><img src="kit/icones/app-icon-777play.svg"><img src="kit/icones/app-icon-777win.svg"><img src="kit/icones/app-icon-777.svg"></div>
+    <div class="sm"><div><img src="kit/icones/app-icon-777play.svg" width="72">1024 px</div><div><img src="kit/icones/app-icon-777play.svg" width="56">512 px</div><div><img src="kit/icones/app-icon-777play.svg" width="44">256 px</div><div><img src="kit/icones/app-icon-777play.svg" width="36">128 px</div><div><img src="kit/icones/app-icon-777play.svg" width="28">64 px</div><div><img src="kit/icones/app-icon-777play.svg" width="20">32 px</div></div></div>
+  <div class="card alt"><h2>Versões alternativas</h2>
+    <div class="r"><div class="w"><img src="kit/777play-fundo-claro.svg"></div><img src="kit/777play-branco.svg"></div></div>
+  <div class="card pal"><h2>Paleta de cores</h2>
+    <div class="r">
+      <div class="sw"><div class="b" style="background:var(--v)"></div><small><b>Violeta 777</b>#5B2EFF</small></div>
+      <div class="sw"><div class="b" style="background:var(--t)"></div><small><b>Tinta</b>#0E0B1A</small></div>
+      <div class="sw"><div class="b" style="background:var(--l)"></div><small><b>Lima</b>#C6FF3D</small></div>
+      <div class="sw"><div class="b" style="background:#fff"></div><small><b>Branco</b>#FFFFFF</small></div></div></div>
+  <div class="card type"><h2>Tipografia</h2>
+    <div class="r"><div class="aa">Aa</div><div class="n"><b>Sora ExtraBold</b><span>Sora SemiBold</span></div></div></div>
+  <div class="card ico"><h2>Iconografia (exemplos)</h2>
+    <div class="r">
+      <svg viewBox="0 0 48 48"><path d="M24 6C18 14 8 20 8 29a8 8 0 0 0 14-5c0 6-2 9-6 12h16c-4-3-6-6-6-12a8 8 0 0 0 14 5c0-9-10-15-16-23z" fill="var(--l)" stroke="none"/></svg>
+      <svg viewBox="0 0 48 48"><path d="M24 42S6 30 6 17a9 9 0 0 1 18-3 9 9 0 0 1 18 3c0 13-18 25-18 25z"/></svg>
+      <svg viewBox="0 0 48 48"><path d="M24 5l15 19-15 19L9 24z"/></svg>
+      <svg viewBox="0 0 48 48"><path d="M24 5a7 7 0 0 1 6 11 7 7 0 1 1-3 11c1 5 3 8 7 11H14c4-3 6-6 7-11a7 7 0 1 1-3-11 7 7 0 0 1 6-11z"/></svg>
+      <svg viewBox="0 0 48 48"><rect x="6" y="10" width="30" height="26" rx="4"/><rect x="12" y="16" width="6" height="14"/><rect x="21" y="16" width="6" height="14"/><rect x="30" y="16" width="0" height="14"/><path d="M36 20h4v-8M40 12a3 3 0 1 0 0-.1"/></svg>
+      <svg viewBox="0 0 48 48"><path d="M8 18l16-8 16 8-16 8z"/><path d="M8 18v14l16 8 16-8V18M24 26v14"/><circle cx="24" cy="18" r="1.5" fill="var(--l)"/><circle cx="14" cy="27" r="1.5" fill="var(--l)"/><circle cx="34" cy="27" r="1.5" fill="var(--l)"/></svg>
+      <svg viewBox="0 0 48 48"><ellipse cx="24" cy="30" rx="17" ry="8"/><path d="M7 30v-8c0 4 8 8 17 8s17-4 17-8v8"/><ellipse cx="24" cy="22" rx="17" ry="8"/><path d="M24 14v16"/></svg>
+      <svg viewBox="0 0 48 48"><path d="M8 36h32M8 36L5 14l11 8 8-14 8 14 11-8-3 22z"/></svg>
+      <svg viewBox="0 0 48 48"><path d="M14 8h20v10a10 10 0 0 1-20 0zM14 12H6v4a8 8 0 0 0 8 6M34 12h8v4a8 8 0 0 1-8 6M24 28v8M16 40h16"/></svg>
+      <svg viewBox="0 0 48 48"><rect x="6" y="16" width="36" height="10"/><rect x="9" y="26" width="30" height="16"/><path d="M24 16v26M24 16c-6 0-10-3-10-6s4-4 6-2 4 8 4 8zM24 16c6 0 10-3 10-6s-4-4-6-2-4 8-4 8z"/></svg>
+    </div></div>
+  <div class="card ui"><h2>Componentes de interface</h2>
+    <div class="r"><div class="btn p">Jogar Agora <span style="font-size:22px">›</span></div><div class="btn o">Entrar</div><div class="srch"><span style="font-size:20px">⌕</span> Buscar jogos…</div><div class="btn vb">🎁 Bônus</div></div></div>
+</div></div></body></html>

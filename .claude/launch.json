@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "band-placar",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--prefix", "/Users/brunellaliberato/repos/band-placar"],
+      "port": 3000
+    },
+    {
+      "name": "caixa-de-ia",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["/Users/brunellaliberato/repos/caixa-de-ia/servidor.mjs"],
+      "port": 4321
+    }
+  ]
+}

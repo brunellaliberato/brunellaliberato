@@ -1,0 +1,31 @@
+COMERCIAL "COMO FUNCIONA O VEEEM" — 30s (v2)
+Apresentadora: Renata Fan. Público: classe C/D, mais velho, espectador da Band.
+Tom: conversa, confiança, nunca banco. Fala calma (~76 palavras em 30s).
+Voz: a própria Renata Fan, gravada de verdade (não usar voz de IA).
+Trilha: instrumental baixinha por baixo da voz (samba-pop/MPB ou pop orquestral), sem jingle.
+
+TEMPO   | IMAGEM                                                   | FALA (Renata)
+0–4s    | Renata olhando para a câmera, sorrindo, gesto "vem cá"   | "Já conhece o Veeem, o clube de benefícios da Band?"
+4–9s    | Logo Veeem + celular com o app                           | "Por 19,99 por mês, você economiza todo mês em mais de 30 mil lugares."
+9–15s   | Caixa de mercado, farmácia e posto, CPF na nota          | "No mercado, na farmácia ou no posto: dá o CPF na nota e o desconto sai na hora."
+15–18s  | Celular: dinheiro voltando para a carteira               | "Tem dinheiro de volta nas compras online..."
+18–21s  | Pessoa no sofá falando com médico por vídeo              | "...e médico por vídeo, 24 horas."
+21–26s  | Renata comemorando, moedas e "R$ 700 MIL"                | "E com a assinatura em dia, ainda concorre a 700 mil reais todo mês."
+26–30s  | Renata apontando o logo, QR code, veeem.com.br           | "Veeem: pague menos e ganhe mais. Aponte a câmera pro QR!"
+
+TEXTO NA TELA (edição no CapCut)
+- 4–9s:   "R$ 19,99/mês"  +  "+30 mil estabelecimentos"
+- 9–15s:  "1. CPF na nota = desconto na hora"   (selo turquesa)
+- 15–18s: "2. Dinheiro de volta"                (selo turquesa)
+- 18–21s: "3. Médico 24h por vídeo"             (selo turquesa)
+- 21–26s: "R$ 700 MIL em prêmios todo mês"      (amarelo manga)
+- 26–30s: QR + veeem.com.br + "Pague Menos e Ganhe Mais."
+- Rodapé 26–30s: "Promoção autorizada SPA/MF nº [NÚMERO]. Consulte o regulamento em veeem.com.br. Imagens ilustrativas."
+  (se houver condição no preço, ex. fidelidade, incluir no rodapé)
+
+ORIGEM DAS CENAS (para gastar pouco)
+- 0–4s, 21–26s, 26–30s: Renata — ideal gravar de verdade junto com o áudio; alternativa: Seedance (4s cada) sem fala, com a voz por cima
+- 9–15s: Seedance cena-mercado (4s) + zoom no CapCut
+- 15–18s: Seedance cena-cashback (4s)
+- 18–21s: tela de telemedicina do PDF animada no CapCut (grátis)
+- 4–9s: KV/tela do app do PDF animada no CapCut (grátis)

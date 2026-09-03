@@ -1,0 +1,10 @@
+{
+  "name": "perfil-futebol-video",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts Parte1 out/bruto.mp4 --codec h264 --crf 18 && ffmpeg -y -i out/bruto.mp4 -c:v copy -af loudnorm=I=-14:TP=-1.5:LRA=11 -ar 48000 -c:a aac -b:a 192k -movflags +faststart out/jules-rimet-parte1.mp4",
+    "render:2": "remotion render src/index.ts Parte2 out/bruto-parte2.mp4 --codec h264 --crf 18 && ffmpeg -y -i out/bruto-parte2.mp4 -c:v copy -af loudnorm=I=-14:TP=-1.5:LRA=11 -ar 48000 -c:a aac -b:a 192k -movflags +faststart out/jules-rimet-parte2.mp4"
+  }
+}

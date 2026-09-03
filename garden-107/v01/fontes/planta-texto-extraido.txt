@@ -1,0 +1,45 @@
+As cotas são medidas pelas faces internas da parede e podem
+sofrer variações, conforme o tipo de vedação a ser utilizado.
+Essa planta poderá sofrer variação decorrentes do atendimento
+das posturas municipais, concessionárias e do local.
+A área total indicada na planta é privativa, ou seja, tomada pelas
+linhas externas da fachada e das divisas com áreas comuns
+conforme descrito na NBR 12.721 12.721 da da AABNT.
+COZINHA SERVIÇO
+BANHO
+3.10m
+CIRC.
+VAZIO
+SALA ESTAR/JANTAR TERRAÇO COBERTO
+SUITE
+BANHO
+PLANTA BAIXA
+ESC: 1/100
+AREA TÉCNICА
+QUARTO COBERTO
+ENTREGUE COM
+ELÉTRICAS, ÁGUA E
+07
+HOME PLUS ÉPURA
+PROJETOS INSPIRADOS EM VOCE
+PROJ
+PLANTAS DE CONTRATOО
+OBRA
+HOME PLUS FERNANDO AMARAL
+CONTEOD0:
+PLANTA OPCIONAL
+COLUNA 07 GARDEN_SEM SPA
+TORRE SEA
+AREA COBERTA
+DAT
+AREA DESCOBERT
+102,24m²65,66m²
+ESCALA
+MAIO/23
+RESP
+PRODUTО
+INDICADA
+RV00
+-
+APTO
+ASS PROPRIETARIO

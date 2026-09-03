@@ -1,0 +1,17 @@
+LOCUÇÃO — Comercial de lançamento Veeem (30s)
+Voz: a embaixadora (ou locutor animado), calorosa, ritmo rápido, tom de novidade.
+Números do "Conceito 2" (mais recente). CONFIRMAR antes de publicar: o primeiro PDF dizia 20 mil estabelecimentos.
+
+0–4s   (som de revelação)         "Chegou o Veeem!"
+4–8s   (embaixadora)              "O clube da Band pra você pagar menos e ganhar mais."
+8–12s  (mercado, farmácia, posto) "Até 30% de desconto em mais de 30 mil lugares."
+12–16s (cashback)                 "Até 15% de cashback que volta pra você."
+16–20s (telemedicina)             "Médico por vídeo, 24 horas."
+20–25s (prêmio)                   "E ainda concorre a 700 mil reais em prêmios todo mês."
+25–30s (fechamento)               "Aponta a câmera pro QR e veeem!"
+
+TEXTO NA TELA (colocar na edição, não na IA)
+- 0–4s:   "NOVIDADE" (selo coral)
+- 8–16s:  "Até 30% de desconto" / "Até 15% de cashback" (selos turquesa)
+- 25–30s: QR code + veeem.com.br + "Pague Menos e Ganhe Mais."
+- 25–30s (rodapé, legível): "Promoção autorizada SPA/MF nº [NÚMERO]. Consulte o regulamento em veeem.com.br. Imagens ilustrativas."
