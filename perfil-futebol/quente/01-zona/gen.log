@@ -1,4 +1,0 @@
-Fetching 13 files:   0%|          | 0/13 [00:00<?, ?it/s]Fetching 13 files: 100%|██████████| 13/13 [00:00<00:00, 2445.22it/s]
-Loading weights:   0%|          | 0/313 [00:00<?, ?it/s]Loading weights: 100%|██████████| 313/313 [00:00<00:00, 4148.55it/s]
-Loading weights:   0%|          | 0/527 [00:00<?, ?it/s]Loading weights:  57%|█████▋    | 301/527 [00:00<00:00, 3005.97it/s]Loading weights: 100%|██████████| 527/527 [00:00<00:00, 4021.80it/s]
-load 1.5

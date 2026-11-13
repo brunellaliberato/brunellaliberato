@@ -6,3 +6,6 @@ publicador/midia/.wrangler/
 publicador/ciclo.log
 fila/PAUSADO
 fila/.ciclo.lock
+video/out/bruto*.mp4
+quente/*/narracao-bruta.wav
+quente/*/gen.log

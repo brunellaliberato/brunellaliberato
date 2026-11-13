@@ -1,10 +1,18 @@
 import React from "react";
 import { interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
-import { loadFont as loadAnton } from "@remotion/google-fonts/Anton";
-import { loadFont as loadInter } from "@remotion/google-fonts/Inter";
+import { continueRender, delayRender, staticFile } from "remotion";
 
-export const { fontFamily: ANTON } = loadAnton("normal", { weights: ["400"], subsets: ["latin", "latin-ext"] });
-export const { fontFamily: INTER } = loadInter("normal", { weights: ["600", "700", "800", "900"], subsets: ["latin", "latin-ext"] });
+// Fontes servidas da pasta public/fonts (não depende do Google Fonts na hora do render).
+// Inter é fonte variável: um arquivo cobre os pesos 600 a 900.
+export const ANTON = "AntonLocal";
+export const INTER = "InterLocal";
+if (typeof document !== "undefined") {
+  const espera = delayRender("fontes");
+  Promise.all([
+    new FontFace(ANTON, `url(${staticFile("fonts/anton-latin.woff2")}) format("woff2")`, { weight: "400" }).load(),
+    new FontFace(INTER, `url(${staticFile("fonts/inter-latin.woff2")}) format("woff2")`, { weight: "100 900" }).load(),
+  ]).then((fs) => { fs.forEach((f) => document.fonts.add(f)); continueRender(espera); });
+}
 
 export const OURO = "#F5C518";
 export const OURO_ESCURO = "#B8860B";

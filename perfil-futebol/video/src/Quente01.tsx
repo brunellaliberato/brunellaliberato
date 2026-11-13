@@ -150,11 +150,11 @@ const Tabela: React.FC<{ brilhoSG?: number; foco: "zona" | "acima"; top?: number
   );
 };
 
-const Barra: React.FC<{ t: Time; pct: number; at: number; top: number }> = ({ t, pct, at, top }) => {
+const Barra: React.FC<{ t: Time; pct: number; at: number; top: number; aparece: number }> = ({ t, pct, at, top, aparece }) => {
   const f = useCurrentFrame();
   const p = lerp(f, at, at + 28);
   return (
-    <div style={{ position: "absolute", top, left: 80, right: 80, opacity: lerp(f, at - 4, at + 4) }}>
+    <div style={{ position: "absolute", top, left: 80, right: 80, opacity: lerp(f, aparece, aparece + 8) }}>
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", fontFamily: INTER, fontWeight: 900, fontSize: 48, color: "white", marginBottom: 14 }}>
         <span style={{ textTransform: "uppercase", letterSpacing: 2 }}>{t.nome}</span>
         <span style={{ fontFamily: ANTON, fontWeight: 400, fontSize: 110, color: VERMELHO, lineHeight: 1 }}>{Math.round(pct * p)}%</span>
@@ -256,8 +256,8 @@ const Risco: React.FC<{ len: number }> = ({ len }) => {
       ) : (
         <>
           <Titulo top={300} size={100} linhas={[{ t: "chance de" }, { t: "cair", caixa: true, at: contas + 4 }]} />
-          <Barra t={GRE} pct={55} at={g} top={640} />
-          <Barra t={COR} pct={44} at={c} top={900} />
+          <Barra t={GRE} pct={55} at={g} top={640} aparece={contas} />
+          <Barra t={COR} pct={44} at={c} top={900} aparece={contas + 4} />
           <div style={{ position: "absolute", top: 1170, left: 80, right: 80, fontFamily: INTER, fontWeight: 700, fontSize: 30, color: "rgba(255,255,255,0.6)",
             opacity: lerp(f, contas, contas + 10) }}>
             Simulação do site ValorFinal, atualizada em 10/11, após a 34ª rodada.
