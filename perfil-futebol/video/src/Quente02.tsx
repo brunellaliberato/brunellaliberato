@@ -118,7 +118,7 @@ const Tas: React.FC<{ len: number }> = ({ len }) => {
   return (
     <Cena len={len} zoom={0.03}>
       <Fundo />
-      <Titulo top={290} size={120} linhas={[{ t: "TAS" }, { t: "tribunal do esporte", caixa: true, at: momento("tas", "tribunal", 0.3) }]} />
+      <Titulo top={290} size={96} linhas={[{ t: "TAS" }, { t: "tribunal do esporte", caixa: true, at: momento("tas", "tribunal", 0.3) }]} />
       <div style={{ position: "absolute", top: 650, left: 0, right: 0, display: "flex", justifyContent: "center" }}>
         <svg width="340" height="260" viewBox="0 0 170 130" style={{ transform: `rotate(${-35 + 35 * martelo}deg)`, transformOrigin: "75% 80%" }}>
           <rect x="20" y="20" width="70" height="34" rx="6" fill="#8B5A2B" stroke={OURO} strokeWidth="3" transform="rotate(-20 55 37)" />
@@ -133,7 +133,7 @@ const Tas: React.FC<{ len: number }> = ({ len }) => {
 };
 
 const Maracana: React.FC<{ len: number }> = ({ len }) => {
-  const pen = momento("maracana", "penaltis", 0.8);
+  const pen = momento("maracana", "eliminou", 0.6);
   return (
     <Cena len={len} zoom={0.04}>
       <Fundo luz="rgba(229,57,53,0.14)" />
@@ -160,7 +160,7 @@ const Pedido: React.FC<{ len: number }> = ({ len }) => {
         <div style={{ position: "absolute", top: 380, left: 70, right: 70, opacity: lerp(f, recado, recado + 8) }}>
           <div style={{ fontFamily: INTER, fontWeight: 800, fontSize: 36, color: OURO, letterSpacing: 4, marginBottom: 20 }}>O RECADO DO TAS</div>
           <div style={{ fontFamily: ANTON, fontSize: 112, lineHeight: 1.05, color: "white", textTransform: "uppercase" }}>
-            “O risco é <span style={{ color: OURO }}>todo do</span> Estudiantes”
+            O risco é <span style={{ color: OURO }}>todo do</span> Estudiantes
           </div>
           <div style={{ fontFamily: INTER, fontWeight: 700, fontSize: 30, color: "rgba(255,255,255,0.6)", marginTop: 26 }}>
             A liberação foi provisória e não protegeu o clube de uma punição.
@@ -179,8 +179,8 @@ const Fim: React.FC<{ len: number }> = ({ len }) => {
       <Fundo luz="rgba(245,197,24,0.14)" />
       {f < ese ? (
         <>
-          <Titulo top={290} size={110} linhas={[{ t: "Final" }, { t: "28/11", caixa: true, at: momento("fim", "vinte", 0.4) }]} />
-          <Duelo a={PAL} b={EST} at={momento("fim", "palmeiras", 0.3)} top={650} size={250} />
+          <Titulo top={290} size={110} linhas={[{ t: "Final" }, { t: "28/11", caixa: true, at: 8 }]} />
+          <Duelo a={PAL} b={EST} at={momento("fim", "contra", 0.3)} top={650} size={250} />
         </>
       ) : (
         <>

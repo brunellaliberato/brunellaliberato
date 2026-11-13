@@ -98,11 +98,16 @@ export const Carimbo: React.FC<{ at: number; texto: string; top: number; cor?: s
   );
 };
 
+const Sinal: React.FC<{ at: number; size: number; sinal: string }> = ({ at, size, sinal }) => {
+  const s = useSpring(at + 2, 220, 14);
+  return <div style={{ fontFamily: ANTON, fontSize: size * 0.48, color: OURO, opacity: s, transform: `scale(${s})` }}>{sinal}</div>;
+};
+
 /** Dois escudos lado a lado com um sinal no meio (=, ×, ?) */
 export const Duelo: React.FC<{ a: Time; b: Time; at?: number; sinal?: string; size?: number; top?: number }> = ({ a, b, at = 0, sinal = "×", size = 280, top = 440 }) => (
   <div style={{ position: "absolute", top, left: 0, right: 0, display: "flex", justifyContent: "center", alignItems: "center", gap: 40 }}>
     <Escudo t={a} size={size} at={at} />
-    <div style={{ fontFamily: ANTON, fontSize: size * 0.48, color: OURO }}>{sinal}</div>
+    <Sinal at={at} size={size} sinal={sinal} />
     <Escudo t={b} size={size} at={at + 3} />
   </div>
 );
