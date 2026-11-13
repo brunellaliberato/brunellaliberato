@@ -1,0 +1,17 @@
+{
+  "selo": "PAUTA QUENTE · BRASILEIRÃO",
+  "segmentos": [
+    { "id": "gancho", "fala": "Corinthians e Grêmio estão empatados... na zona de rebaixamento!",
+      "legenda": "**Corinthians** e **Grêmio** | estão empatados... | na **zona de rebaixamento!**" },
+    { "id": "tabela", "fala": "Trinta e sete pontos cada. O Corinthians fica à frente só no saldo de gols.",
+      "legenda": "**37 pontos** cada. | O Corinthians fica à frente | só no **saldo de gols.**" },
+    { "id": "acima", "fala": "E logo acima, Inter e Vitória, com trinta e oito. Um ponto de distância.",
+      "legenda": "E logo acima, | **Inter** e **Vitória,** com 38. | **Um ponto** de distância." },
+    { "id": "historia", "fala": "Mas tem uma história por trás disso. Em dois mil e sete, o Corinthians caiu pela única vez na sua história. Na última rodada... empatando com o Grêmio!",
+      "legenda": "Mas tem uma história | **por trás disso.** | Em **2007,** o Corinthians caiu | pela **única vez** na sua história. | Na última rodada... | empatando com o **Grêmio!**" },
+    { "id": "risco", "fala": "Agora, os dois dividem a mesma zona. Pelas contas do site Valor Final, o Grêmio tem cinquenta e cinco por cento de chance de cair. O Corinthians, quarenta e quatro.",
+      "legenda": "Agora, os dois dividem | a **mesma zona.** | Pelas contas do site ValorFinal, | o Grêmio tem **55%** | de chance de cair. | O Corinthians, **44%.**" },
+    { "id": "fim", "fala": "Faltam quatro rodadas. Pra você, quem escapa? Comenta aí!",
+      "legenda": "Faltam **4 rodadas.** | Pra você, | **quem escapa?** | Comenta aí!" }
+  ]
+}
