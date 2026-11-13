@@ -1,0 +1,18 @@
+{
+  "segmentos": [
+    { "id": "gancho", "fala": "A final da Libertadores ainda pode mudar... por causa de um zagueiro de trinta e seis anos!",
+      "legenda": "A final da **Libertadores** | ainda pode mudar... | por causa de um zagueiro | de **36 anos!**" },
+    { "id": "datas", "fala": "Marcos Rojo assinou com o Estudiantes em nove de outubro. Só que a janela de transferências na Argentina tinha fechado em dois de setembro.",
+      "legenda": "**Marcos Rojo** assinou | com o Estudiantes | em **9 de outubro.** | Só que a janela | de transferências na Argentina | tinha fechado em **2 de setembro.**" },
+    { "id": "negada", "fala": "A Conmebol barrou a inscrição. E ele ficou fora do jogo de ida, que terminou zero a zero.",
+      "legenda": "A Conmebol **barrou** | a inscrição. | E ele ficou fora | do jogo de ida, | que terminou **0 a 0.**" },
+    { "id": "tas", "fala": "Aí o Estudiantes foi ao TAS, o tribunal do esporte. E conseguiu uma liberação provisória... na véspera da volta.",
+      "legenda": "Aí o Estudiantes | foi ao **TAS,** | o tribunal do esporte. | E conseguiu uma | **liberação provisória...** | na **véspera** da volta." },
+    { "id": "maracana", "fala": "No Maracanã, com Rojo em campo, o Estudiantes eliminou o Flamengo nos pênaltis.",
+      "legenda": "No **Maracanã,** | com Rojo em campo, | o Estudiantes **eliminou** | o Flamengo **nos pênaltis.**" },
+    { "id": "pedido", "fala": "O Flamengo pediu vitória por três a zero. A Conmebol negou. Mas o TAS deixou um recado: o risco de escalar o Rojo é todo do Estudiantes.",
+      "legenda": "O Flamengo pediu | vitória por **3 a 0.** | A Conmebol **negou.** | Mas o TAS deixou | um **recado:** | o risco de escalar o Rojo | é **todo do Estudiantes.**" },
+    { "id": "fim", "fala": "A decisão final dificilmente sai antes da final contra o Palmeiras, no dia vinte e oito. E se o TAS der razão ao Flamengo? Comenta aí!",
+      "legenda": "A decisão dificilmente sai | antes da **final** | contra o **Palmeiras,** | no dia **28.** | E se o TAS der razão | ao **Flamengo?** | Comenta aí!" }
+  ]
+}
