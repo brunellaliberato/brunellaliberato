@@ -8,7 +8,7 @@ Site estático (HTML + CSS) para verificação de domínio no Meta Business.
 
 ## Antes de publicar
 
-Substitua os campos `__RAZAO_SOCIAL__`, `__CNPJ__` e `__ENDERECO__` pelos dados reais da empresa em todos os arquivos.
+Dados da empresa conforme o Cartão CNPJ (43.959.802/0001-36).
 
 ## Publicar no Cloudflare Pages
 
