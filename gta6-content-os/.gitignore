@@ -12,3 +12,4 @@ studio/public/*/
 __pycache__/
 entregas/*.mp4
 clip-engine/.venv*/
+tools/

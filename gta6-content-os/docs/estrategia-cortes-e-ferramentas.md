@@ -18,6 +18,22 @@ Decisão da Brunella: o foco principal do YouTube passa a ser **cortes de vídeo
 - Programas de cortes costumam ter regras próprias (cadastro, pagamento por view, proibição de certos temas). O manifesto segue essas regras, e o Gate 4 confere.
 - Monetização de canal de cortes no YouTube: depende da política de "conteúdo reutilizado" do YouTube — o corte precisa ter edição/contexto próprio (gancho, legenda, recorte), não reupload cru. Detalhes e fonte oficial na pesquisa.
 
+## Formato obrigatório: CORTE NARRADO (monetização)
+
+Política oficial do YouTube (https://support.google.com/youtube/answer/1311392, conferida em 17/11/2026):
+- "Esta política é válida mesmo se você tiver a permissão do criador original."
+- **Não monetiza:** "Clipes de momentos do seu programa favorito reunidos por edição, com poucos ou nenhum comentário"; "Vídeos curtos compilados de outras redes sociais".
+- **Permitido:** "Filmagem editada de outros criadores de conteúdo em que você adiciona uma narrativa e comentários."
+
+Então todo corte do canal leva **narração da Thalita**: contexto antes ("o Paulinho tava fugindo da polícia quando…"), o momento, e um comentário/desfecho depois. Autorização do criador continua obrigatória — ela resolve o direito autoral; a narração resolve a monetização. São duas exigências diferentes.
+
+Fontes de material (resultado da pesquisa em `docs/pesquisa-streamers-cortes.md`):
+1. **Autorização direta e por escrito** do criador (plataforma, monetização, prazo, crédito) — único caminho para canal permanente.
+2. **Campanhas de cortes (Viewx etc.)** — temporárias, por prazo e hashtag; tratar cada vídeo como autorizado só dentro da campanha.
+3. **Gameplay/lives próprios** a partir de 19/11 — sem dependência de ninguém.
+4. Vídeos marcados como **CC BY** no YouTube.
+Nenhum streamer BR de GTA encontrado com autorização pública aberta para qualquer canal.
+
 ## Fluxo de cortes (como vai rodar)
 
 ```
@@ -54,8 +70,9 @@ Sinais de momento (verificado na auditoria): **"Mais repetidos" não existe na A
 - Marketing Skills (copy-editing) → útil para revisar descrições/legendas; opcional.
 - **RemoCN** (componentes Remotion, MIT) → fonte de animações prontas quando formos refinar motion.
 
-### 3. "rea-video" (JuneYaooo/rea-video, Apache-2.0)
-**Recomendo instalar** para engenharia reversa dos cortes de referência: desmonta um vídeo cena por cena (cortes, legendas com tempo, música/BPM, efeitos) e gera `report.html`. Uso: estudar 3–5 cortes de GTA que passaram muito da média do canal e extrair o padrão de edição — a estrutura, nunca o conteúdo.
+### 3. "rea-video" (JuneYaooo/rea-video, Apache-2.0) — INSTALADO em 17/11 (`scripts/install-rea-video.sh`, commit 07dd587)
+Testado no nosso Short piloto. **Acerta:** cortes de cena (6/6 exatos), camada de legendas e textos (tempo, cor, contorno, animação; exporta .srt/.ass/timeline.json), camadas fixas, separação voz/música. **Erra:** origem da imagem (screenshot virou "filmagem/IA" mesmo após revisão do Claude — a ferramenta não deixa a revisão derrubar a medição), BPM (86 medido vs 96 real), parte do OCR. Transcrição embutida não entende pt-BR (não instalada; usamos Whisper). Relatório só em inglês/chinês. ~4 min para 47 s de vídeo. Uso: estudar edição de cortes de referência, ignorar o veredito "como foi feito".
+Antes: para engenharia reversa dos cortes de referência: desmonta um vídeo cena por cena (cortes, legendas com tempo, música/BPM, efeitos) e gera `report.html`. Uso: estudar 3–5 cortes de GTA que passaram muito da média do canal e extrair o padrão de edição — a estrutura, nunca o conteúdo.
 
 ### 4. "Clipes de GTA 6 em poucos minutos" (OpenShorts)
 Já auditado (`docs/auditoria-ferramentas-clipping.md`). O guia usa a chave do Gemini (tem uso grátis, mas é serviço externo); nosso motor faz o equivalente local sem chave. Ideias que entram no nosso fluxo: **perseguições, batidas, falhas engraçadas e bugs** como alvos de corte; e os **programas de cortes que pagam por visualização** como fonte de receita.
