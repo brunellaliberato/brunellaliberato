@@ -80,10 +80,20 @@ def main() -> None:
     ap.add_argument("--rate", default="+6%")
     a = ap.parse_args()
     text = open(a.text_file, encoding="utf-8").read().strip()
-    if a.provider == "azure":
-        azure(text, a.out, a.rate)
-    else:
-        asyncio.run(edge(text, a.out, a.rate))
+    # falhas de rede intermitentes: até 4 tentativas com espera crescente
+    import time
+    for attempt in range(4):
+        try:
+            if a.provider == "azure":
+                azure(text, a.out, a.rate)
+            else:
+                asyncio.run(edge(text, a.out, a.rate))
+            return
+        except Exception as e:  # noqa: BLE001
+            if attempt == 3:
+                raise
+            print(f"tentativa {attempt + 1} falhou ({type(e).__name__}: {str(e)[:120]}); tentando de novo", file=sys.stderr)
+            time.sleep(2 * (attempt + 1))
 
 
 if __name__ == "__main__":
