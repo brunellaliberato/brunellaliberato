@@ -11,3 +11,4 @@ studio/public/*/
 !studio/public/fonts/
 __pycache__/
 entregas/*.mp4
+clip-engine/.venv*/

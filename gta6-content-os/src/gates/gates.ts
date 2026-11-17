@@ -208,6 +208,8 @@ export interface PublishContext {
   official?: OfficialMaterialUse[];
   /** canal monetizado? (GTA_OS_CHANNEL_MONETIZED=true) */
   channelMonetized?: boolean;
+  /** licença da voz usada no render ('producao' | 'previa') */
+  voiceLicense?: string;
   spoilerRisk: NewsItem['spoilerRisk'];
   hasSpoilerWarning: boolean;
   humanApproved: boolean;
@@ -236,6 +238,9 @@ export function gatePublish(ctx: PublishContext): GateResult {
     : [];
   const checks: Check[] = [
     ...officialChecks,
+    ...(ctx.voiceLicense === 'previa'
+      ? [{ name: 'voz licenciada para publicação', ok: false, detail: 'render feito com voz de PRÉVIA (Edge) — configure AZURE_SPEECH_KEY e renderize de novo' }]
+      : []),
     { name: 'gates 1-3 aprovados', ok: ctx.previousGatesPassed, detail: ctx.previousGatesPassed ? 'ok' : 'há gate anterior reprovado' },
     { name: 'direitos de todos os ativos', ok: bad.length === 0, detail: bad.length ? `ativos com direito ${[...new Set(bad)].join(', ')}` : 'ok' },
     {

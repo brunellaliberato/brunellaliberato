@@ -31,6 +31,7 @@ function publishGate(id: string, version: number, previous: boolean, titleOk: bo
       .filter((u) => u.manifest.rights === 'MATERIAL_OFICIAL_DIVULGACAO')
       .map((u) => ({ authorized: !!u.manifest.authorization, creditShown: u.creditShown, nonCommercialOnly: !!u.manifest.conditions?.nonCommercialOnly, commercialLicense: u.manifest.commercialLicense })),
     channelMonetized: process.env.GTA_OS_CHANNEL_MONETIZED === 'true',
+    voiceLicense: repo.get<{ voice?: { license?: string } }>('render', `${id}-v${version}`)?.voice?.license,
     spoilerRisk: 'nenhum',
     hasSpoilerWarning: false,
     humanApproved: repo.isApproved('render', `${id}-v${version}`),
@@ -121,7 +122,7 @@ const commands: Record<string, () => Promise<void>> = {
     const g2 = gateCreative(script, r.beatDurations);
     const g3 = gateAV(r.file, 'short');
     [g2, g3].forEach(printGate);
-    repo.put('render', { id: `${id}-v${script.version}`, scriptId: id, file: r.file, durationSec: r.durationSec, voice: sb.voice, gates: { CRIATIVIDADE: g2.passed, AUDIOVISUAL: g3.passed }, at: today.toISOString() });
+    repo.put('render', { id: `${id}-v${script.version}`, scriptId: id, file: r.file, durationSec: r.durationSec, voice: r.voice, gates: { CRIATIVIDADE: g2.passed, AUDIOVISUAL: g3.passed }, at: today.toISOString() });
     repo.put('gate', { id: `${id}:AUDIOVISUAL`, ...g3 });
     mkdirSync(paths.entregas, { recursive: true });
     const deliver = join(paths.entregas, `${id}-v${script.version}.mp4`);

@@ -67,12 +67,30 @@ export function applyLexicon(text: string, lex: Record<string, string>): string 
 
 export interface Voice {
   id: string;
+  /** 'producao' = licença permite publicar; 'previa' = só revisão interna (Gate 4 bloqueia) */
+  license: 'producao' | 'previa';
   synth(text: string, outWav: string): void;
+}
+
+function tts(provider: 'azure' | 'edge', text: string, outWav: string) {
+  const tmp = `${outWav}.txt`;
+  writeFileSync(tmp, text);
+  const r = spawnSync(paths.python, [join(paths.clipEngine, 'tts.py'), '--provider', provider, '--text-file', tmp, '--out', outWav], { encoding: 'utf8' });
+  if (r.status !== 0 || !existsSync(outWav)) throw new Error(`tts ${provider} falhou: ${r.stderr || r.stdout}`);
+}
+
+/** Voz oficial do canal (escolhida em 17/11): Thalita. Azure (plano grátis) quando houver chave; senão, prévia via Edge. */
+export function thalitaVoice(): Voice {
+  const azure = !!(process.env.AZURE_SPEECH_KEY && process.env.AZURE_SPEECH_REGION);
+  return azure
+    ? { id: 'thalita-azure', license: 'producao', synth: (t, o) => tts('azure', t, o) }
+    : { id: 'thalita-edge-previa', license: 'previa', synth: (t, o) => tts('edge', t, o) };
 }
 
 /** Voz guia local e gratuita. Narração humana entra pelo mesmo contrato (arquivo por beat). */
 export const piperVoice: Voice = {
   id: 'piper-pt_BR-faber-medium',
+  license: 'producao',
   synth(text, outWav) {
     const r = spawnSync(paths.python, ['-m', 'piper', '-m', join(paths.clipEngine, 'models/piper/pt_BR-faber-medium.onnx'), '-f', outWav, '--length-scale', '0.92', '--sentence-silence', '0.12'], {
       input: text,
@@ -136,11 +154,12 @@ export interface RenderResult {
   beatDurations: number[];
   props: ShortProps;
   reusedVoiceBeats: number;
+  voice: { id: string; license: Voice['license'] };
 }
 
 export async function produceShort(script: Script, sb: Storyboard, opts: { voice?: Voice; renderDate?: Date } = {}): Promise<RenderResult> {
   if (sb.beats.length !== script.beats.length) throw new Error(`storyboard tem ${sb.beats.length} beats, roteiro tem ${script.beats.length}`);
-  const voice = opts.voice ?? piperVoice;
+  const voice = opts.voice ?? thalitaVoice();
   const lex = JSON.parse(readFileSync(join(paths.memory, 'lexico-pronuncia.json'), 'utf8'));
   const workDir = join(paths.output, script.id);
   const pubDir = join(paths.studio, 'public', script.id);
@@ -151,7 +170,8 @@ export async function produceShort(script: Script, sb: Storyboard, opts: { voice
   const wavs: string[] = [];
   let reused = 0;
   for (const b of script.beats) {
-    const spoken = applyLexicon(b.narration, lex);
+    // léxico foi calibrado para a Piper; vozes neurais (Thalita) leem os termos corretamente sozinhas
+    const spoken = voice.id.startsWith('piper') ? applyLexicon(b.narration, lex) : b.narration;
     const wav = join(workDir, 'voice', `${sha(voice.id + spoken)}.wav`);
     if (existsSync(wav)) reused++;
     else voice.synth(spoken, wav);
@@ -237,5 +257,5 @@ export async function produceShort(script: Script, sb: Storyboard, opts: { voice
   const finalFile = join(workDir, `${script.id}-v${script.version}.mp4`);
   execFileSync('ffmpeg', ['-y', '-v', 'error', '-i', raw, '-c:v', 'copy', '-af', 'loudnorm=I=-14:TP=-1.5:LRA=11', '-ar', '48000', '-c:a', 'aac', '-b:a', '192k', '-movflags', '+faststart', finalFile]);
   copyFileSync(join(workDir, 'props.json'), join(workDir, `props-v${script.version}.json`));
-  return { id: script.id, file: finalFile, durationSec: total / FPS, beatDurations: durs, props, reusedVoiceBeats: reused };
+  return { id: script.id, file: finalFile, durationSec: total / FPS, beatDurations: durs, props, reusedVoiceBeats: reused, voice: { id: voice.id, license: voice.license } };
 }
