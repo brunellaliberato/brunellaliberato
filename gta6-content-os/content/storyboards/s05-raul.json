@@ -1,0 +1,83 @@
+{
+  "scriptId": "s05-raul",
+  "voice": "thalita",
+  "emphasis": [
+    "Raul",
+    "banco"
+  ],
+  "beats": [
+    {
+      "layout": {
+        "kind": "story",
+        "text": "LADRÃO DE BANCO"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Raul Bautista/Raul_Bautista_04.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "55% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA",
+      "seal": "CONFIRMADO"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "CHARME E ESPERTEZA"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Raul Bautista/Raul_Bautista_03.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "45% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "CAÇANDO TALENTO"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Raul Bautista/Raul_Bautista_01.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "40% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "CADA VEZ MAIS ARRISCADO"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Raul Bautista/Raul_Bautista_02.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "40% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "DOBRAR OU SAIR"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Raul Bautista/Raul_Bautista_04.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "68% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "VOCÊ ENTRARIA?"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Raul Bautista/Raul_Bautista_03.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    }
+  ]
+}

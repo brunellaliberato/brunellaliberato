@@ -1,0 +1,96 @@
+{
+  "scriptId": "s05-brian",
+  "voice": "thalita",
+  "emphasis": [
+    "Brian",
+    "Jason",
+    "Lori"
+  ],
+  "beats": [
+    {
+      "layout": {
+        "kind": "story",
+        "text": "TUBARÃO-BRANCO"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Brian Heder/Brian_Heder_02.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "55% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA",
+      "seal": "CONFIRMADO"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "ERA DE OURO DO CONTRABANDO"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Brian Heder/Brian_Heder_01.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "40% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "LEONIDA LEVITANDO"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Brian Heder/Brian_Heder_01.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "60% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "TERCEIRA ESPOSA"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Brian Heder/Brian_Heder_03.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "55% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "O TRABALHO SUJO? OS OUTROS"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Brian Heder/Brian_Heder_04.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "O JASON MORA DE GRAÇA"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Jason Duval/Jason_Duval_06.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "55% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "VOCÊ MORARIA?"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Brian Heder/Brian_Heder_02.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    }
+  ]
+}

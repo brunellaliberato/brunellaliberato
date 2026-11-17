@@ -1,0 +1,84 @@
+{
+  "scriptId": "s05-realdimez",
+  "voice": "thalita",
+  "emphasis": [
+    "Real",
+    "Dimez",
+    "hit"
+  ],
+  "beats": [
+    {
+      "layout": {
+        "kind": "story",
+        "text": "BAE-LUXE E ROXY"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Real Dimez/Real_Dimez_04.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "45% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA",
+      "seal": "CONFIRMADO"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "EXTORQUIAM TRAFICANTES"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Real Dimez/Real_Dimez_03.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "62% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "RAP + REDES"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Real Dimez/Real_Dimez_02.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "UM HIT"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Real Dimez/Real_Dimez_01.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "45% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "CINCO ANOS DEPOIS"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/DreQuan Priest/DreQuan_Priest_01.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "45% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "VOCÊ OUVIRIA?"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Real Dimez/Real_Dimez_04.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "62% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    }
+  ]
+}

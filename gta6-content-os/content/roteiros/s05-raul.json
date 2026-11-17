@@ -1,0 +1,133 @@
+{
+  "id": "s05-raul",
+  "pautaId": "serie-personagens",
+  "format": "short",
+  "style": "storytelling",
+  "title": "Raul Bautista: o ladrão de banco de GTA 6",
+  "audience": "Fã de GTA que quer conhecer os personagens antes de jogar.",
+  "goal": "Série 'Quem é quem em Leonida': um personagem por Short, só com o perfil oficial.",
+  "promise": "Quem é Raul, segundo a própria Rockstar.",
+  "hook": "O Raul Bautista, de GTA 6, é um ladrão de banco experiente..",
+  "fullText": "",
+  "beats": [
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "O Raul Bautista, de GTA 6, é um ladrão de banco experiente.",
+      "onScreen": "LADRÃO DE BANCO",
+      "visual": "Raul_Bautista_04.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso no texto",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Confiança, charme e esperteza.",
+      "onScreen": "CHARME E ESPERTEZA",
+      "visual": "Raul_Bautista_03.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso no texto",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "E vive caçando gente disposta a correr os riscos que dão as maiores recompensas.",
+      "onScreen": "CAÇANDO TALENTO",
+      "visual": "Raul_Bautista_01.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso no texto",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "O problema: a imprudência dele aumenta a aposta a cada golpe.",
+      "onScreen": "CADA VEZ MAIS ARRISCADO",
+      "visual": "Raul_Bautista_02.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso no texto",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Mais cedo ou mais tarde, o grupo dele vai ter que dobrar a aposta. Ou sair da mesa.",
+      "onScreen": "DOBRAR OU SAIR",
+      "visual": "Raul_Bautista_04.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso no texto",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Você entraria num golpe com o Raul? Comenta aí.",
+      "onScreen": "VOCÊ ENTRARIA?",
+      "visual": "Raul_Bautista_03.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso no texto",
+      "audio": "Só voz."
+    }
+  ],
+  "cta": "Pergunta no fim para comentário.",
+  "claims": [
+    {
+      "text": "LADRÃO DE BANCO",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Raul’s a seasoned bank robber"
+    },
+    {
+      "text": "CHARME E ESPERTEZA",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Confidence, charm, and cunning"
+    },
+    {
+      "text": "CAÇANDO TALENTO",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "always on the hunt for talent ready to take the risks that bring the biggest rewards"
+    },
+    {
+      "text": "CADA VEZ MAIS ARRISCADO",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Raul's recklessness raises the stakes with every score"
+    },
+    {
+      "text": "DOBRAR OU SAIR",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Sooner or later, his crew will have to double down or pull their chips from the table"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "rockstar_site",
+      "name": "Rockstar Games — Only in Leonida (perfis oficiais)",
+      "url": "https://www.rockstargames.com/VI/only-in-leonida"
+    }
+  ],
+  "version": 1,
+  "approval": "PENDENTE"
+}

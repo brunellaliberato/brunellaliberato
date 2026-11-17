@@ -1,0 +1,94 @@
+{
+  "scriptId": "s05-jason",
+  "voice": "thalita",
+  "emphasis": [
+    "Jason"
+  ],
+  "beats": [
+    {
+      "layout": {
+        "kind": "story",
+        "text": "ELE SÓ QUER PAZ"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Jason Duval/Jason_Duval_02.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "45% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA",
+      "seal": "CONFIRMADO"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "CRIADO NO CRIME"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Jason Duval/Jason_Duval_06.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "55% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "EX-EXÉRCITO"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Jason Duval/Jason_Duval_17.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "40% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "NAS KEYS"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Jason Duval/Jason_Duval_03.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "35% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "MORA DE GRAÇA"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Brian Heder/Brian_Heder_01.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "40% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "MELHOR OU PIOR?"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Jason and Lucia/Jason_and_Lucia_01.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "40% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "SALVAR OU AFUNDAR?"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Jason Duval/Jason_Duval_19.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "55% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    }
+  ]
+}

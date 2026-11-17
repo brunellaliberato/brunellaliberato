@@ -1,0 +1,95 @@
+{
+  "scriptId": "s05-boobie",
+  "voice": "thalita",
+  "emphasis": [
+    "Boobie",
+    "drogas"
+  ],
+  "beats": [
+    {
+      "layout": {
+        "kind": "story",
+        "text": "LENDA DE VICE CITY"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Boobie Ike/Boobie_Ike_03.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "55% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA",
+      "seal": "CONFIRMADO"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "UM IMPÉRIO"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Boobie Ike/Boobie_Ike_01.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "35% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "BOATE + ESTÚDIO"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Boobie Ike/Boobie_Ike_04.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "QUEM PAGA TUDO?"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Boobie Ike/Boobie_Ike_02.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "40% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "ATÉ FALAR DE NEGÓCIO"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Boobie Ike/Boobie_Ike_01.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "25% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "SÓ FALTA UM HIT"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/DreQuan Priest/DreQuan_Priest_04.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "45% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "TRABALHARIA PRA ELE?"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Boobie Ike/Boobie_Ike_03.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "62% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    }
+  ]
+}

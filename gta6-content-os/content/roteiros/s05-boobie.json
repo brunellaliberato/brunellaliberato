@@ -1,0 +1,152 @@
+{
+  "id": "s05-boobie",
+  "pautaId": "serie-personagens",
+  "format": "short",
+  "style": "storytelling",
+  "title": "Boobie Ike: o dono da boate de GTA 6",
+  "audience": "Fã de GTA que quer conhecer os personagens antes de jogar.",
+  "goal": "Série 'Quem é quem em Leonida': um personagem por Short, só com o perfil oficial.",
+  "promise": "Quem é Boobie, segundo a própria Rockstar.",
+  "hook": "O Boobie Ike, de GTA 6, é uma lenda de Vice City.",
+  "fullText": "",
+  "beats": [
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "O Boobie Ike, de GTA 6, é uma lenda de Vice City. E age como uma.",
+      "onScreen": "LENDA DE VICE CITY",
+      "visual": "Boobie_Ike_03.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso no texto",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Ele é um dos poucos que transformou a vida nas ruas num império legalizado.",
+      "onScreen": "UM IMPÉRIO",
+      "visual": "Boobie_Ike_01.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso no texto",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Imobiliária, uma boate de strip e um estúdio de gravação.",
+      "onScreen": "BOATE + ESTÚDIO",
+      "visual": "Boobie_Ike_04.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso no texto",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "E ele mesmo explica: a boate paga o estúdio. E o dinheiro das drogas paga tudo.",
+      "onScreen": "QUEM PAGA TUDO?",
+      "visual": "Boobie_Ike_02.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso no texto",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "O Boobie é só sorrisos. Até a hora de falar de negócio.",
+      "onScreen": "ATÉ FALAR DE NEGÓCIO",
+      "visual": "Boobie_Ike_01.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso no texto",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Mas o que ele mais quer é a gravadora que montou com o Dre'Quan, a Only Raw Records. Agora só falta um hit.",
+      "onScreen": "SÓ FALTA UM HIT",
+      "visual": "DreQuan_Priest_04.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso no texto",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Você trabalharia pro Boobie? Comenta aí.",
+      "onScreen": "TRABALHARIA PRA ELE?",
+      "visual": "Boobie_Ike_03.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso no texto",
+      "audio": "Só voz."
+    }
+  ],
+  "cta": "Pergunta no fim para comentário.",
+  "claims": [
+    {
+      "text": "LENDA DE VICE CITY",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Boobie is a local Vice City legend — and acts like it"
+    },
+    {
+      "text": "UM IMPÉRIO",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "One of the few to transform his time in the streets into a legitimate empire"
+    },
+    {
+      "text": "BOATE + ESTÚDIO",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "spanning real estate, a strip club, and a recording studio"
+    },
+    {
+      "text": "QUEM PAGA TUDO?",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "THE CLUB MONEY PAY FOR THE STUDIO, AND THE DRUG MONEY PAY FOR IT ALL"
+    },
+    {
+      "text": "ATÉ FALAR DE NEGÓCIO",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Boobie's all smiles until it's time to talk business"
+    },
+    {
+      "text": "SÓ FALTA UM HIT",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "it's his partnership with the young aspiring music mogul Dre'Quan for Only Raw Records that he's most invested in — now they just need a hit"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "rockstar_site",
+      "name": "Rockstar Games — Only in Leonida (perfis oficiais)",
+      "url": "https://www.rockstargames.com/VI/only-in-leonida"
+    }
+  ],
+  "version": 1,
+  "approval": "PENDENTE"
+}

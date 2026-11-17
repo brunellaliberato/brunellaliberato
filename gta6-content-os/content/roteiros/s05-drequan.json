@@ -1,0 +1,133 @@
+{
+  "id": "s05-drequan",
+  "pautaId": "serie-personagens",
+  "format": "short",
+  "style": "storytelling",
+  "title": "Dre'Quan: o malandro que quer ser dono do hit em GTA 6",
+  "audience": "Fã de GTA que quer conhecer os personagens antes de jogar.",
+  "goal": "Série 'Quem é quem em Leonida': um personagem por Short, só com o perfil oficial.",
+  "promise": "Quem é Dre'Quan, segundo a própria Rockstar.",
+  "hook": "O Dre'Quan, de GTA 6, sempre foi mais malandro do que bandido..",
+  "fullText": "",
+  "beats": [
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "O Dre'Quan, de GTA 6, sempre foi mais malandro do que bandido.",
+      "onScreen": "MALANDRO, NÃO BANDIDO",
+      "visual": "DreQuan_Priest_03.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso no texto",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Mesmo vendendo droga na rua pra pagar as contas, o objetivo era um só: entrar na música.",
+      "onScreen": "O SONHO: MÚSICA",
+      "visual": "DreQuan_Priest_02.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso no texto",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "A teoria dele: as dançarinas são as melhores caçadoras de talento. Se a música é hit, os DJs tocam.",
+      "onScreen": "DANÇARINAS = OLHEIRAS",
+      "visual": "DreQuan_Priest_01.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso no texto",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Agora ele contratou a Real Dimez.",
+      "onScreen": "CONTRATOU A REAL DIMEZ",
+      "visual": "Real_Dimez_04.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso no texto",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "E os dias dele marcando show na boate do Boobie podem estar contados. O alvo agora é a cena de Vice City.",
+      "onScreen": "DE OLHO EM VICE CITY",
+      "visual": "DreQuan_Priest_04.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso no texto",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "O Dre'Quan vai deixar o Boobie pra trás? Comenta aí.",
+      "onScreen": "E O BOOBIE?",
+      "visual": "DreQuan_Priest_03.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso no texto",
+      "audio": "Só voz."
+    }
+  ],
+  "cta": "Pergunta no fim para comentário.",
+  "claims": [
+    {
+      "text": "MALANDRO, NÃO BANDIDO",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Dre'Quan was always more of a hustler than a gangster"
+    },
+    {
+      "text": "O SONHO: MÚSICA",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Even when he was dealing on the streets to make ends meet, breaking into music was the goal"
+    },
+    {
+      "text": "DANÇARINAS = OLHEIRAS",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "DANCERS ARE LIKE MY A&RS. IF THE RECORD'S A HIT, DJS GONNA BE SPINNIN' IT"
+    },
+    {
+      "text": "CONTRATOU A REAL DIMEZ",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Now that he's signed the Real Dimez"
+    },
+    {
+      "text": "DE OLHO EM VICE CITY",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Dre'Quan's days of booking acts into Boobie's strip club might be numbered as he sets his sights on the Vice City scene"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "rockstar_site",
+      "name": "Rockstar Games — Only in Leonida (perfis oficiais)",
+      "url": "https://www.rockstargames.com/VI/only-in-leonida"
+    }
+  ],
+  "version": 1,
+  "approval": "PENDENTE"
+}

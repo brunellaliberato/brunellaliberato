@@ -1,0 +1,83 @@
+{
+  "scriptId": "s05-drequan",
+  "voice": "thalita",
+  "emphasis": [
+    "Dre'Quan",
+    "Boobie"
+  ],
+  "beats": [
+    {
+      "layout": {
+        "kind": "story",
+        "text": "MALANDRO, NÃO BANDIDO"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/DreQuan Priest/DreQuan_Priest_03.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA",
+      "seal": "CONFIRMADO"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "O SONHO: MÚSICA"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/DreQuan Priest/DreQuan_Priest_02.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "62% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "DANÇARINAS = OLHEIRAS"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/DreQuan Priest/DreQuan_Priest_01.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "CONTRATOU A REAL DIMEZ"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Real Dimez/Real_Dimez_04.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "45% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "DE OLHO EM VICE CITY"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/DreQuan Priest/DreQuan_Priest_04.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "38% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "E O BOOBIE?"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/DreQuan Priest/DreQuan_Priest_03.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "55% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    }
+  ]
+}

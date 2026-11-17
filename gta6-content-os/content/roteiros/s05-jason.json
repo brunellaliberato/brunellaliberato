@@ -1,0 +1,152 @@
+{
+  "id": "s05-jason",
+  "pautaId": "serie-personagens",
+  "format": "short",
+  "style": "storytelling",
+  "title": "O Jason de GTA 6 só quer paz",
+  "audience": "Fã de GTA que quer conhecer os personagens antes de jogar.",
+  "goal": "Série 'Quem é quem em Leonida': um personagem por Short, só com o perfil oficial.",
+  "promise": "Quem é Jason, segundo a própria Rockstar.",
+  "hook": "O Jason, de GTA 6, só quer uma vida tranquila.",
+  "fullText": "",
+  "beats": [
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "O Jason, de GTA 6, só quer uma vida tranquila. Só que tudo fica cada vez mais difícil.",
+      "onScreen": "ELE SÓ QUER PAZ",
+      "visual": "Jason_Duval_02.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso no texto",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Ele cresceu cercado de golpistas e bandidos.",
+      "onScreen": "CRIADO NO CRIME",
+      "visual": "Jason_Duval_06.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso no texto",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Pra largar uma adolescência cheia de problema, ele entrou pro Exército.",
+      "onScreen": "EX-EXÉRCITO",
+      "visual": "Jason_Duval_17.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso no texto",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "E foi parar nas Keys, fazendo o que sabe fazer: trabalhando pra traficantes da região.",
+      "onScreen": "NAS KEYS",
+      "visual": "Jason_Duval_03.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso no texto",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Ele mora de graça num imóvel do Brian, um contrabandista veterano. Em troca, ajuda nas cobranças.",
+      "onScreen": "MORA DE GRAÇA",
+      "visual": "Brian_Heder_01.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso no texto",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Aí ele conhece a Lucia. E isso pode ser a melhor ou a pior coisa da vida dele.",
+      "onScreen": "MELHOR OU PIOR?",
+      "visual": "Jason_and_Lucia_01.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso no texto",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "A Lucia vai salvar ou afundar o Jason? Comenta aí.",
+      "onScreen": "SALVAR OU AFUNDAR?",
+      "visual": "Jason_Duval_19.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso no texto",
+      "audio": "Só voz."
+    }
+  ],
+  "cta": "Pergunta no fim para comentário.",
+  "claims": [
+    {
+      "text": "ELE SÓ QUER PAZ",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Jason wants an easy life, but things just keep getting harder"
+    },
+    {
+      "text": "CRIADO NO CRIME",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Jason grew up around grifters and crooks"
+    },
+    {
+      "text": "EX-EXÉRCITO",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "After a stint in the Army trying to shake off his troubled teens"
+    },
+    {
+      "text": "NAS KEYS",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "he found himself in the Keys doing what he knows best, working for local drug runners"
+    },
+    {
+      "text": "MORA DE GRAÇA",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Brian’s letting Jason live rent-free at one of his properties — so long as he helps with local shakedowns"
+    },
+    {
+      "text": "MELHOR OU PIOR?",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Meeting Lucia could be the best or worst thing to ever happen to him"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "rockstar_site",
+      "name": "Rockstar Games — Only in Leonida (perfis oficiais)",
+      "url": "https://www.rockstargames.com/VI/only-in-leonida"
+    }
+  ],
+  "version": 1,
+  "approval": "PENDENTE"
+}

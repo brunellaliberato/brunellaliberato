@@ -1,0 +1,133 @@
+{
+  "id": "s05-realdimez",
+  "pautaId": "serie-personagens",
+  "format": "short",
+  "style": "storytelling",
+  "title": "Real Dimez: a dupla viral de GTA 6",
+  "audience": "Fã de GTA que quer conhecer os personagens antes de jogar.",
+  "goal": "Série 'Quem é quem em Leonida': um personagem por Short, só com o perfil oficial.",
+  "promise": "Quem é Real Dimez, segundo a própria Rockstar.",
+  "hook": "A Real Dimez, de GTA 6, são duas amigas desde a escola: a Bae-Luxe e a Roxy..",
+  "fullText": "",
+  "beats": [
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "A Real Dimez, de GTA 6, são duas amigas desde a escola: a Bae-Luxe e a Roxy.",
+      "onScreen": "BAE-LUXE E ROXY",
+      "visual": "Real_Dimez_04.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso no texto",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Elas transformaram o tempo que passavam extorquindo traficantes em dinheiro vivo.",
+      "onScreen": "EXTORQUIAM TRAFICANTES",
+      "visual": "Real_Dimez_03.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso no texto",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Como? Com rap apimentado e presença sem parar nas redes sociais.",
+      "onScreen": "RAP + REDES",
+      "visual": "Real_Dimez_02.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso no texto",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Um hit com o rapper DWNPLY levou as duas lá pro alto.",
+      "onScreen": "UM HIT",
+      "visual": "Real_Dimez_01.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso no texto",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Cinco anos e muita confusão depois, elas assinaram com a Only Raw Records. Torcendo pro raio cair duas vezes.",
+      "onScreen": "CINCO ANOS DEPOIS",
+      "visual": "DreQuan_Priest_01.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso no texto",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Você ouviria Real Dimez? Comenta aí.",
+      "onScreen": "VOCÊ OUVIRIA?",
+      "visual": "Real_Dimez_04.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso no texto",
+      "audio": "Só voz."
+    }
+  ],
+  "cta": "Pergunta no fim para comentário.",
+  "claims": [
+    {
+      "text": "BAE-LUXE E ROXY",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Bae-Luxe and Roxy aka Real Dimez have been friends since high school"
+    },
+    {
+      "text": "EXTORQUIAM TRAFICANTES",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "girls with the savvy to turn their time shaking down local dealers into cold, hard cash"
+    },
+    {
+      "text": "RAP + REDES",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "via spicy rap tracks and a relentless social media presence"
+    },
+    {
+      "text": "UM HIT",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "An early hit single with local rapper DWNPLY took Real Dimez to new heights"
+    },
+    {
+      "text": "CINCO ANOS DEPOIS",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Now, after five years and a whole lot of trouble, they’re signed to Only Raw Records, hoping lightning can strike twice"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "rockstar_site",
+      "name": "Rockstar Games — Only in Leonida (perfis oficiais)",
+      "url": "https://www.rockstargames.com/VI/only-in-leonida"
+    }
+  ],
+  "version": 1,
+  "approval": "PENDENTE"
+}

@@ -1,0 +1,152 @@
+{
+  "id": "s05-brian",
+  "pautaId": "serie-personagens",
+  "format": "short",
+  "style": "storytelling",
+  "title": "Brian Heder: o tubarão das Keys em GTA 6",
+  "audience": "Fã de GTA que quer conhecer os personagens antes de jogar.",
+  "goal": "Série 'Quem é quem em Leonida': um personagem por Short, só com o perfil oficial.",
+  "promise": "Quem é Brian, segundo a própria Rockstar.",
+  "hook": "O Brian Heder, de GTA 6, parece um tiozão de praia.",
+  "fullText": "",
+  "beats": [
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "O Brian Heder, de GTA 6, parece um tiozão de praia. Mas se move como um tubarão-branco.",
+      "onScreen": "TUBARÃO-BRANCO",
+      "visual": "Brian_Heder_02.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso no texto",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Ele é um traficante clássico da era de ouro do contrabando nas Keys.",
+      "onScreen": "ERA DE OURO DO CONTRABANDO",
+      "visual": "Brian_Heder_01.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso no texto",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Nas palavras dele: levou tanta erva naquele avião que dava pra fazer Leonida levitar.",
+      "onScreen": "LEONIDA LEVITANDO",
+      "visual": "Brian_Heder_01.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso no texto",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "E ainda move mercadoria pelo estaleiro dele, junto com a terceira esposa, a Lori.",
+      "onScreen": "TERCEIRA ESPOSA",
+      "visual": "Brian_Heder_03.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso no texto",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Hoje, ele deixa os outros fazerem o trabalho sujo.",
+      "onScreen": "O TRABALHO SUJO? OS OUTROS",
+      "visual": "Brian_Heder_04.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso no texto",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Inclusive o Jason. Ele mora de graça num imóvel do Brian, desde que ajude nas cobranças e passe lá pra tomar a sangria da Lori.",
+      "onScreen": "O JASON MORA DE GRAÇA",
+      "visual": "Jason_Duval_06.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso no texto",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Você moraria de graça na casa do Brian? Comenta aí.",
+      "onScreen": "VOCÊ MORARIA?",
+      "visual": "Brian_Heder_02.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso no texto",
+      "audio": "Só voz."
+    }
+  ],
+  "cta": "Pergunta no fim para comentário.",
+  "claims": [
+    {
+      "text": "TUBARÃO-BRANCO",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Looks like a Leonida beach bum — moves like a great white shark"
+    },
+    {
+      "text": "ERA DE OURO DO CONTRABANDO",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Brian's a classic drug runner from the golden age of smuggling in the Keys"
+    },
+    {
+      "text": "LEONIDA LEVITANDO",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "I HAULED SO MUCH GRASS IN THAT PLANE, I COULD MAKE THE STATE OF LEONIDA LEVITATE"
+    },
+    {
+      "text": "TERCEIRA ESPOSA",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Still moving product through his boat yard with his third wife, Lori"
+    },
+    {
+      "text": "O TRABALHO SUJO? OS OUTROS",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Brian's been around long enough to let others do his dirty work"
+    },
+    {
+      "text": "O JASON MORA DE GRAÇA",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Brian’s letting Jason live rent-free at one of his properties — so long as he helps with local shakedowns, and stops by for Lori’s sangria once in a while"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "rockstar_site",
+      "name": "Rockstar Games — Only in Leonida (perfis oficiais)",
+      "url": "https://www.rockstargames.com/VI/only-in-leonida"
+    }
+  ],
+  "version": 1,
+  "approval": "PENDENTE"
+}
