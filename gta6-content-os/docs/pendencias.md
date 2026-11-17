@@ -9,11 +9,17 @@
 - [ ] A política da Rockstar só tolera uso **não comercial**. Antes de ativar a monetização do canal: pedir licença à Take-Two (copyright@take2games.com) ou trocar o material oficial por gameplay próprio nos vídeos monetizados. O Gate 4 bloqueia automaticamente quando `GTA_OS_CHANNEL_MONETIZED=true`.
 - [ ] Reconferir o texto da política direto na página de suporte (estava fora do ar, 503, em 17/11; a regra veio do texto citado pela busca).
 
+## Respostas da Brunella (17/11)
+- Remotion: empresa de 1 pessoa → **licença gratuita**, sem pendência.
+- Canal do YouTube: **não existe**, será criado; não monetizado (material oficial da Rockstar liberado por enquanto).
+- Skill paga de clipping: **não existe** — item encerrado.
+- Nome "Seis Estrelas": **reprovado** — escolher novo nome (opções propostas em 17/11).
+- Voz: Thalita escolhida; perguntou sobre Fish Audio — plano grátis e pesos abertos (S1-mini, CC-BY-NC-SA) são **não comerciais**; uso comercial exige plano pago. Recomendação mantida: Azure F0 (grátis, comercial).
+- Material para clipar: Brunella vai enviar vídeos. Cada vídeo precisa de manifesto em rights/ (de quem é, autorização, prova).
+
 ## Decisões suas
-- [ ] Licença Remotion: a empresa tem mais de 3 funcionários? Se sim, precisa de Company License para uso comercial.
 - [ ] Provedor de LLM por função (roteiro / scoring de clip): Claude API, Ollama local ou nenhum. Hoje: nenhum (pontos marcados como indisponíveis).
 - [ ] Item G (skill comercial de clipping com chat spikes/Most replayed) e item H (app desktop com Ollama/LM Studio): preciso do nome/link. Fato já verificado: "Most replayed" **não** existe na YouTube Data API; chat só é legível ao vivo (sem replay oficial) — logo, chat precisa ser gravado durante a live.
-- [ ] Canal: já existe? Qual o handle?
 
 ## Técnico — próximas fases
 - **Fase 1 (resto):** template de vídeo longo 16:9 no Remotion; SEO completo do longo (5 títulos, 3 capas, capítulos); YouTube Data API key para o Módulo B (evidência de interesse + concorrência no índice).
