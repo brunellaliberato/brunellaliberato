@@ -256,7 +256,8 @@ export async function produceShort(script: Script, sb: Storyboard, opts: { voice
     fps: FPS,
     durationInFrames: total,
     voiceSrc: `${script.id}/voice.wav`,
-    bedSrc: `${script.id}/bed.wav`,
+    // trilha procedural reprovada (17/11): sem música de fundo por padrão; música entra na publicação
+    bedSrc: process.env.GTA_OS_BED === '1' ? `${script.id}/bed.wav` : null,
     beats,
     channel: process.env.GTA_OS_CHANNEL_NAME ?? '', // nome do canal ainda não definido
     renderDateISO: (opts.renderDate ?? new Date()).toISOString(),
