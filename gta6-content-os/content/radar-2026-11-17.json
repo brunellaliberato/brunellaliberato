@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-17T00:29:23.458Z",
+  "ranAt": "2026-11-17T12:07:28.089Z",
   "launchCheck": {
     "expected": "November 19, 2026",
     "found": "November 19, 2026",
@@ -24,6 +24,11 @@
       "name": "Rockstar Newswire",
       "ok": true,
       "count": 5
+    },
+    {
+      "name": "Only in Leonida (personagens)",
+      "ok": true,
+      "count": 1
     }
   ],
   "items": [
@@ -39,9 +44,9 @@
         "url": "https://www.rockstargames.com/VI"
       },
       "alsoReportedBy": [],
-      "publishedAt": "2026-11-17T00:29:23.458Z",
+      "publishedAt": "2026-11-17T12:07:28.089Z",
       "eventDate": "2026-11-17",
-      "lastVerifiedAt": "2026-11-17T00:29:23.458Z",
+      "lastVerifiedAt": "2026-11-17T12:07:28.089Z",
       "status": "CONFIRMADO",
       "confidence": 1,
       "relevance": 10,
@@ -64,12 +69,12 @@
       "source": {
         "kind": "rockstar_newswire",
         "name": "Rockstar Newswire",
-        "url": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10"
+        "url": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10?utm_source=blast&utm_medium=o_email&utm_campaign=e10316_global_localized_gtavi-preload_static_learn-more&utm_content=main-img"
       },
       "alsoReportedBy": [],
       "publishedAt": "2026-11-03",
       "eventDate": "2026-11-03",
-      "lastVerifiedAt": "2026-11-17T00:29:23.458Z",
+      "lastVerifiedAt": "2026-11-17T12:07:28.089Z",
       "status": "CONFIRMADO",
       "confidence": 1,
       "relevance": 10,
@@ -108,7 +113,7 @@
       ],
       "publishedAt": "2026-11-10",
       "eventDate": "2026-11-10",
-      "lastVerifiedAt": "2026-11-17T00:29:23.458Z",
+      "lastVerifiedAt": "2026-11-17T12:07:28.089Z",
       "status": "CONFIRMADO",
       "confidence": 1,
       "relevance": 10,
@@ -142,7 +147,7 @@
       ],
       "publishedAt": "2026-11-09",
       "eventDate": "2026-11-09",
-      "lastVerifiedAt": "2026-11-17T00:29:23.458Z",
+      "lastVerifiedAt": "2026-11-17T12:07:28.089Z",
       "status": "CONFIRMADO",
       "confidence": 1,
       "relevance": 9.3,
@@ -154,6 +159,34 @@
       "approval": "PENDENTE",
       "tags": [
         "rockstar_newswire"
+      ]
+    },
+    {
+      "id": "pagina-only-in-leonida",
+      "eventKey": "pagina-only-in-leonida",
+      "title": "Only in Leonida: perfis oficiais dos personagens",
+      "summary": "Perfis oficiais de Jason, Lucia, Boobie Ike, Dre'Quan Priest, Real Dimez, Raul Bautista e Brian Heder.",
+      "evidence": "JASON DUVAL\nJason wants an easy life, but things just keep getting harder.\n\nJason grew up around grifters and crooks. After a stint in the Army trying to shake off his troubled teens, he found himself in the Keys doing what he knows best, working for local drug runners. It might be time to try something new.\n\nIF ANYTHING HAPPENS, I'M RIGHT BEHIND YOU.\nAnother day in paradise, right?\n\nMeeting Lucia could be the best or worst thing to ever happen to him. Jason knows how he'd like it to turn out but right now, it's hard to tell.\n\nLUCIA CAMINOS\nLucia’s father taught her to fight as soon as she could walk.\n\nLife has been coming at her swinging ever since. Fighting for her family landed her in the Leonida Penitentiary. Sheer luck got her out. Lucia’s learned her lesson — only smart moves from here.\n\nMore than anything, Lucia wants the good life her mom has dreamed of since their days in Liberty City — but instead of half-baked fantasies, Lucia is prepared to take matters into her own hands.\n\nTHE ONLY THING THAT MATTERS IS WHO YOU KNOW AND WHAT YOU GOT.\n\nFresh out of prison and ready to change the odds in her favor, Lucia’s committed to her plan — no matter what it takes.\n\nA life with Jason could be her way out.\nOnly in Leonida\n\nHome to the neon-soaked streets of Vice City and beyond.\n\nTour a few of the must-see destinations across the sunshine state.\n\nExplore Vice City\nBOOBIE IKE\nIt's all about heart — the Jack of Hearts.\n\nBoobie is a local Vice City legend — and acts like it. One of the few to transform his time in the streets into a legitimate empire spanning real estate, a strip club, and a recording studio — Boobie's all smiles until it's time to talk business.\n\nRewatch Video\nTHE CLUB MONEY PAY FOR THE STUDIO, AND THE DRUG MONEY PAY FOR IT ALL.\nTop quality cuts.\n\nBoobie might seem like he's just out for himself, but it's his partnership with the young aspiring music mogul Dre'Quan for Only Raw Records that he's most invested in — now they just need a hit.\n\nExplore Leonida Keys\nDRE'QUAN PRIEST\nOnly Raw... Records\n\nDre'Quan was always more of a hustler than a gangster. Even when he was dealing on the streets to make ends meet, breaking into music was the goal.\n\nRewatch Video\nDANCERS ARE LIKE MY A&RS. IF THE RECORD'S A HIT, DJS GONNA BE SPINNIN' IT.\nYou're with the label now.\n\nNow that he's signed the Real Dimez, Dre'Quan's days of booking acts into Boobie's strip club might be numbered as he sets his sights on the Vice City scene.\n\nExplore Grassrivers\nREAL DIMEZ\nViral videos. Viral hooks.\n\nBae-Luxe and Roxy aka Real Dimez have been friends since high school — girls with the savvy to turn their time shaking down local dealers into cold, hard cash via spicy rap tracks and a relentless social media presence.\n\nRewatch Video\nALL MY DIMES IN THIS CLUB. MEET MY TWIN, MAKE IT A DUB.\nOne hit away from fame.\n\nAn early hit single with local rapper DWNPLY took Real Dimez to new heights. Now, after five years and a whole lot of trouble, they’re signed to Only Raw Records, hoping lightning can strike twice.\n\nExplore Port Gellhorn\nRAUL BAUTISTA\nExperience counts.\n\nConfidence, charm, and cunning — Raul’s a seasoned bank robber always on the hunt for talent ready to take the risks that bring the biggest rewards.\n\nLIFE IS FULL OF SURPRISES, MY FRIEND. I THINK WE'D ALL BE WISE TO REMEMBER THAT.\nA professional adapts.\n\nRaul's recklessness raises the stakes with every score. Sooner or later, his crew will have to double down or pull their chips from the table.\n\nRewatch Video\nExplore Ambrosia\nBRIAN HEDER\nNothing better than a Mudslide at sunset.\n\nBrian's a classic drug runner from the golden age of smuggling in the Keys. Still moving product through his boat yard with his third wife, Lori, Brian's been around long enough to let others do his dirty work.\n\nRewatch Video\nI HAULED SO MUCH GRASS IN THAT PLANE, I COULD MAKE THE STATE OF LEONIDA LEVITATE.\nLooks like a Leonida beach bum — moves like a great white shark.\n\nBrian’s letting Jason live rent-free at one of his properties — so long as he helps with local shakedowns, and stops by for Lori’s sangria once in a while.\n\nExplore Mount Kalaga\nCOMING\nNOVEMBER 19\n2026\n",
+      "source": {
+        "kind": "rockstar_site",
+        "name": "rockstargames.com/VI/only-in-leonida",
+        "url": "https://www.rockstargames.com/VI/only-in-leonida"
+      },
+      "alsoReportedBy": [],
+      "publishedAt": "2026-11-17T12:07:56.626Z",
+      "eventDate": "2026-11-17",
+      "lastVerifiedAt": "2026-11-17T12:07:28.089Z",
+      "status": "CONFIRMADO",
+      "confidence": 1,
+      "relevance": 8.5,
+      "editorialPotential": 6.1,
+      "shortPotential": true,
+      "longPotential": true,
+      "urgent": true,
+      "spoilerRisk": "nenhum",
+      "approval": "PENDENTE",
+      "tags": [
+        "rockstar_site"
       ]
     },
     {
@@ -170,11 +203,11 @@
       "alsoReportedBy": [],
       "publishedAt": "2026-10-29",
       "eventDate": "2026-10-29",
-      "lastVerifiedAt": "2026-11-17T00:29:23.458Z",
+      "lastVerifiedAt": "2026-11-17T12:07:28.089Z",
       "status": "CONFIRMADO",
       "confidence": 1,
-      "relevance": 8.5,
-      "editorialPotential": 6.1,
+      "relevance": 8.4,
+      "editorialPotential": 6,
       "shortPotential": true,
       "longPotential": false,
       "urgent": false,
@@ -204,7 +237,7 @@
       ],
       "publishedAt": "2026-10-15T13:00:26+00:00",
       "eventDate": "2026-10-15",
-      "lastVerifiedAt": "2026-11-17T00:29:23.458Z",
+      "lastVerifiedAt": "2026-11-17T12:07:28.089Z",
       "status": "CONFIRMADO",
       "confidence": 1,
       "relevance": 7.2,
@@ -238,7 +271,7 @@
       ],
       "publishedAt": "2026-08-06T12:09:13+00:00",
       "eventDate": "2026-08-06",
-      "lastVerifiedAt": "2026-11-17T00:29:23.458Z",
+      "lastVerifiedAt": "2026-11-17T12:07:28.089Z",
       "status": "DESATUALIZADO",
       "confidence": 1,
       "relevance": 6.8,
@@ -298,7 +331,7 @@
       ],
       "publishedAt": "2026-08-28T01:00:48+00:00",
       "eventDate": "2026-08-28",
-      "lastVerifiedAt": "2026-11-17T00:29:23.458Z",
+      "lastVerifiedAt": "2026-11-17T12:07:28.089Z",
       "status": "CONFIRMADO",
       "confidence": 1,
       "relevance": 6.8,
@@ -326,7 +359,7 @@
       "alsoReportedBy": [],
       "publishedAt": "2026-11-09T20:59:12+00:00",
       "eventDate": "2026-11-09",
-      "lastVerifiedAt": "2026-11-17T00:29:23.458Z",
+      "lastVerifiedAt": "2026-11-17T12:07:28.089Z",
       "status": "CONFIRMADO",
       "confidence": 1,
       "relevance": 6.7,
@@ -355,7 +388,7 @@
       "alsoReportedBy": [],
       "publishedAt": "2026-11-05",
       "eventDate": "2026-11-05",
-      "lastVerifiedAt": "2026-11-17T00:29:23.458Z",
+      "lastVerifiedAt": "2026-11-17T12:07:28.089Z",
       "status": "CONFIRMADO",
       "confidence": 1,
       "relevance": 6.1,
@@ -371,6 +404,7 @@
     }
   ],
   "alerts": [
-    "URGENTE (verificado): Página oficial de Grand Theft Auto VI (estado atual)"
+    "URGENTE (verificado): Página oficial de Grand Theft Auto VI (estado atual)",
+    "URGENTE (verificado): Only in Leonida: perfis oficiais dos personagens"
   ]
 }

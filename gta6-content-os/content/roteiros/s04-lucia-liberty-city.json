@@ -1,0 +1,38 @@
+{
+  "id": "s04-lucia-liberty-city",
+  "pautaId": "personagens-lucia",
+  "format": "short",
+  "style": "storytelling",
+  "title": "A Lucia de GTA 6 não é de Vice City",
+  "audience": "Fã de GTA que viu os trailers e quer conhecer a protagonista antes de jogar.",
+  "goal": "Abrir a série de personagens com uma história que prende, 100% baseada no perfil oficial.",
+  "promise": "Quem é a Lucia de verdade, segundo a própria Rockstar, em 40 segundos.",
+  "hook": "A Lucia, de GTA 6, não é de Vice City.",
+  "fullText": "",
+  "beats": [
+    { "t": [0, 0], "narration": "A Lucia, de GTA 6, não é de Vice City.", "onScreen": "ELA NÃO É DE VICE CITY", "visual": "Lucia em close, arma na mão, pôr do sol.", "edit": "Sem intro.", "animation": "texto entra com pulso", "audio": "Voz seca." },
+    { "t": [0, 0], "narration": "A Rockstar conta que a mãe dela sonha com uma vida boa desde a época em que elas moravam em Liberty City. Sim, a cidade do GTA 4.", "onScreen": "LIBERTY CITY", "visual": "Lucia na piscina, a 'vida boa'.", "edit": "Corte seco.", "animation": "selo CONFIRMADO", "audio": "—" },
+    { "t": [0, 0], "narration": "O pai ensinou a Lucia a lutar assim que ela aprendeu a andar.", "onScreen": "LUTA DESDE CRIANÇA", "visual": "Lucia socando.", "edit": "Corte seco.", "animation": "—", "audio": "—" },
+    { "t": [0, 0], "narration": "E foi brigando pela família que ela foi parar na Penitenciária de Leonida.", "onScreen": "PRESA", "visual": "Lucia de uniforme laranja, algemada.", "edit": "Corte seco.", "animation": "—", "audio": "—" },
+    { "t": [0, 0], "narration": "Saiu de lá por pura sorte. E aprendeu a lição: daqui pra frente, só jogada inteligente.", "onScreen": "SÓ JOGADA INTELIGENTE", "visual": "Lucia treinando.", "edit": "Corte seco.", "animation": "—", "audio": "—" },
+    { "t": [0, 0], "narration": "Só que, em vez de ficar sonhando, ela vai resolver com as próprias mãos. Custe o que custar.", "onScreen": "CUSTE O QUE CUSTAR", "visual": "Lucia com arma no carro, sirenes.", "edit": "Corte seco.", "animation": "—", "audio": "—" },
+    { "t": [0, 0], "narration": "E a saída dela dessa vida pode ser o Jason.", "onScreen": "E O JASON?", "visual": "Lucia e Jason armados.", "edit": "Corte seco.", "animation": "—", "audio": "—" },
+    { "t": [0, 0], "narration": "Você confiaria no Jason? Comenta aí.", "onScreen": "VOCÊ CONFIARIA?", "visual": "Lucia encarando, polícia atrás.", "edit": "Segura 1 s para loop.", "animation": "—", "audio": "Corta seco." }
+  ],
+  "cta": "Comentar se confiaria no Jason.",
+  "claims": [
+    { "text": "A mãe sonha com vida boa desde Liberty City.", "newsIds": ["pagina-only-in-leonida"], "quote": "Lucia wants the good life her mom has dreamed of since their days in Liberty City" },
+    { "text": "O pai ensinou a lutar desde que aprendeu a andar.", "newsIds": ["pagina-only-in-leonida"], "quote": "Lucia’s father taught her to fight as soon as she could walk" },
+    { "text": "Brigando pela família, foi parar na Penitenciária de Leonida.", "newsIds": ["pagina-only-in-leonida"], "quote": "Fighting for her family landed her in the Leonida Penitentiary" },
+    { "text": "Saiu por sorte; só jogadas inteligentes daqui pra frente.", "newsIds": ["pagina-only-in-leonida"], "quote": "Sheer luck got her out. Lucia’s learned her lesson — only smart moves from here" },
+    { "text": "Em vez de fantasiar, resolve com as próprias mãos.", "newsIds": ["pagina-only-in-leonida"], "quote": "instead of half-baked fantasies, Lucia is prepared to take matters into her own hands" },
+    { "text": "Custe o que custar.", "newsIds": ["pagina-only-in-leonida"], "quote": "Lucia’s committed to her plan — no matter what it takes" },
+    { "text": "A vida com Jason pode ser a saída.", "newsIds": ["pagina-only-in-leonida"], "quote": "A life with Jason could be her way out" }
+  ],
+  "sources": [
+    { "kind": "rockstar_site", "name": "Rockstar Games — Only in Leonida (perfil oficial da Lucia)", "url": "https://www.rockstargames.com/VI/only-in-leonida" }
+  ],
+  "version": 1,
+  "approval": "PENDENTE",
+  "notes": "Liberty City = cidade do GTA IV: contexto de série (conhecimento público), não afirmação sobre GTA VI."
+}

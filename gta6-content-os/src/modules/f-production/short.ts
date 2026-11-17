@@ -136,6 +136,36 @@ export function captionChunks(text: string, startFrame: number, frames: number, 
   });
 }
 
+/** Legendas com o tempo REAL de cada palavra (quando a voz informa), em blocos de até 3 palavras. */
+export function captionChunksTimed(words: { w: string; s: number; e: number }[], startFrame: number, fps: number, emphasis: string[]): CaptionChunk[] {
+  const FN = /^(a|o|as|os|e|é|de|do|da|dos|das|no|na|nos|nas|em|um|uma|que|pra|pro|com|se|tá|seu|sua|ao|à|por|mais|só|me|te)$/i;
+  const KEEP = /^(GTA|PS5|Xbox|Liberty|Vice|Leonida)$/i;
+  const groups: (typeof words)[] = [];
+  let cur: typeof words = [];
+  words.forEach((w, i) => {
+    cur.push(w);
+    const next = words[i + 1];
+    const gap = next ? next.s - w.e : 1;
+    const len = cur.map((x) => x.w).join(' ').length;
+    const full = cur.length >= 3 || len >= 16;
+    const glued = next && (KEEP.test(w.w) && /^(6|VI|City|Pro|Series|One|Keys)$/i.test(next.w));
+    if (!next || gap > 0.25 || (full && !glued && !(FN.test(w.w) && cur.length < 5))) {
+      groups.push(cur);
+      cur = [];
+    }
+  });
+  return groups.map((g, i) => {
+    const text = g.map((x) => x.w).join(' ').replace(/[,.:;]$/, '');
+    const end = i + 1 < groups.length ? Math.min(groups[i + 1][0].s, g[g.length - 1].e + 0.3) : g[g.length - 1].e + 0.2;
+    return {
+      text: text.toUpperCase(),
+      from: startFrame + Math.round(g[0].s * fps),
+      to: startFrame + Math.round(end * fps),
+      emphasis: emphasis.some((e) => new RegExp(`(^|\\s)${e}`, 'i').test(text)),
+    };
+  });
+}
+
 /** Trilha de fundo 100% procedural (direito próprio): pulso grave 96 BPM + pad. */
 export function proceduralBed(seconds: number, out: string) {
   if (existsSync(out) && duration(out) >= seconds) return;
@@ -203,7 +233,9 @@ export async function produceShort(script: Script, sb: Storyboard, opts: { voice
       layout: sb.beats[i].layout,
       seal: sb.beats[i].seal,
       sourceLabel: sb.beats[i].sourceLabel,
-      captions: captionChunks(b.narration, cursor, speech, sb.emphasis),
+      captions: existsSync(`${wavs[i]}.words.json`)
+        ? captionChunksTimed(JSON.parse(readFileSync(`${wavs[i]}.words.json`, 'utf8')), cursor, FPS, sb.emphasis)
+        : captionChunks(b.narration, cursor, speech, sb.emphasis),
     };
     b.t = [+(cursor / FPS).toFixed(2), +((cursor + len) / FPS).toFixed(2)];
     cursor += len;
@@ -226,7 +258,7 @@ export async function produceShort(script: Script, sb: Storyboard, opts: { voice
     voiceSrc: `${script.id}/voice.wav`,
     bedSrc: `${script.id}/bed.wav`,
     beats,
-    channel: 'SEIS ESTRELAS',
+    channel: process.env.GTA_OS_CHANNEL_NAME ?? '', // nome do canal ainda não definido
     renderDateISO: (opts.renderDate ?? new Date()).toISOString(),
   };
   writeFileSync(join(workDir, 'props.json'), JSON.stringify(props, null, 2));

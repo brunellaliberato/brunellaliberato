@@ -136,7 +136,7 @@ const TopBar: React.FC<{ beats: TimelineBeat[]; channel: string }> = ({ beats, c
         })}
       </div>
       <div style={{ display: 'flex', alignItems: 'center', gap: 18 }}>
-        <div style={{ fontFamily: fonts.display, fontSize: 40, ...sticker(7, 5) }}>★6 {channel}</div>
+        {channel && <div style={{ fontFamily: fonts.display, fontSize: 40, ...sticker(7, 5) }}>★ {channel}</div>}
         <div style={{ fontFamily: fonts.neon, fontSize: 48, color: color.hotPink, ...neonStroke(5) }}>notícia checada</div>
       </div>
     </div>
@@ -337,6 +337,18 @@ const Title: React.FC<{ l: Extract<Layout, { kind: 'title' }> }> = ({ l }) => {
   );
 };
 
+/** História: a imagem é a protagonista; uma frase curta em adesivo no topo. */
+const Story: React.FC<{ l: Extract<Layout, { kind: 'story' }> }> = ({ l }) => {
+  const f = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const pulse = interpolate(f, [0, 0.12 * fps, 0.4 * fps], [1, 1.05, 1], { extrapolateRight: 'clamp' });
+  return (
+    <div style={{ position: 'absolute', top: 0, left: 0, right: 0, transform: `scale(${pulse}) rotate(-2deg)`, transformOrigin: 'left center' }}>
+      <div style={{ fontFamily: fonts.display, fontSize: 104, lineHeight: 1.0, ...sticker(13, 14) }}>{l.text}</div>
+    </div>
+  );
+};
+
 /* ---------- legendas sincronizadas (adesivo) ---------- */
 const Captions: React.FC<{ chunks: CaptionChunk[] }> = ({ chunks }) => {
   const f = useCurrentFrame();
@@ -364,6 +376,7 @@ const BeatView: React.FC<{ beat: TimelineBeat; renderDateISO: string }> = ({ bea
         {l.kind === 'date' && <DateCard l={l} renderDateISO={renderDateISO} />}
         {l.kind === 'poll' && <Poll l={l} />}
         {l.kind === 'title' && <Title l={l} />}
+        {l.kind === 'story' && <Story l={l} />}
         {beat.seal && <SealStamp seal={beat.seal} />}
       </div>
       {beat.sourceLabel && (

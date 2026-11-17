@@ -6,7 +6,8 @@ export type Layout =
   | { kind: 'tags'; title: string; tags: string[]; counter?: string }
   | { kind: 'date'; date: string; label: string; countdownFrom?: string }
   | { kind: 'poll'; left: string; right: string; question?: string }
-  | { kind: 'title'; text: string; sub?: string };
+  | { kind: 'title'; text: string; sub?: string }
+  | { kind: 'story'; text: string };
 
 export interface CaptionChunk {
   text: string;

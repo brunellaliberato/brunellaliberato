@@ -144,3 +144,30 @@ export function parseArticle(text: string): { title: string; date: string | null
   const date = `${year}-${String(MONTHS.indexOf(mon) + 1).padStart(2, '0')}-${day.padStart(2, '0')}`;
   return { title, date, body };
 }
+
+/** Página oficial "Only in Leonida": perfis oficiais dos personagens (renderizada como navegador comum). */
+export async function rockstarOnlyInLeonida(): Promise<RawItem> {
+  const { chromium } = await import('playwright');
+  const browser = await chromium.launch();
+  try {
+    const page = await browser.newPage({ userAgent: UA });
+    const url = 'https://www.rockstargames.com/VI/only-in-leonida';
+    await page.goto(url, { waitUntil: 'networkidle', timeout: 90_000 });
+    for (let k = 0; k < 25; k++) {
+      await page.mouse.wheel(0, 2500);
+      await page.waitForTimeout(300);
+    }
+    const text: string = await page.evaluate(() => document.body.innerText);
+    const body = text.slice(text.indexOf('JASON DUVAL'), text.indexOf('GET ROCKSTAR PROPAGANDA'));
+    return {
+      title: 'Only in Leonida: perfis oficiais dos personagens',
+      summary: 'Perfis oficiais de Jason, Lucia, Boobie Ike, Dre\'Quan Priest, Real Dimez, Raul Bautista e Brian Heder.',
+      evidence: body,
+      url,
+      publishedAt: new Date().toISOString(),
+      source: { kind: 'rockstar_site', name: 'rockstargames.com/VI/only-in-leonida', url },
+    };
+  } finally {
+    await browser.close();
+  }
+}

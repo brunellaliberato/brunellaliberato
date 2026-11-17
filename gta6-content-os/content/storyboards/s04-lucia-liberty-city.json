@@ -1,0 +1,109 @@
+{
+  "scriptId": "s04-lucia-liberty-city",
+  "voice": "thalita",
+  "emphasis": [
+    "Liberty",
+    "Penitenciária",
+    "sorte",
+    "Jason"
+  ],
+  "beats": [
+    {
+      "layout": {
+        "kind": "story",
+        "text": "ELA NÃO É DE VICE CITY"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Lucia Caminos/Lucia_Caminos_13.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "35% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "LIBERTY CITY"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Lucia Caminos/Lucia_Caminos_02.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "45% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA",
+      "seal": "CONFIRMADO"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "LUTA DESDE CRIANÇA"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Lucia Caminos/Lucia_Caminos_01.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "68% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "PRESA"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Lucia Caminos/Lucia_Caminos_05.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "45% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "SÓ JOGADA INTELIGENTE"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Lucia Caminos/Lucia_Caminos_09.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "CUSTE O QUE CUSTAR"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Lucia Caminos/Lucia_Caminos_07.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "40% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "E O JASON?"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Lucia Caminos/Lucia_Caminos_12.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "45% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "VOCÊ CONFIARIA?"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Lucia Caminos/Lucia_Caminos_14.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "30% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    }
+  ]
+}
