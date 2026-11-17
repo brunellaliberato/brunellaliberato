@@ -1,0 +1,42 @@
+{
+  "name": "gta6-content-os",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Máquina editorial e de produção para canal brasileiro sobre GTA VI",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "radar": "tsx src/cli.ts radar",
+    "pautas": "tsx src/cli.ts pautas",
+    "calendario": "tsx src/cli.ts calendario",
+    "factcheck": "tsx src/cli.ts factcheck",
+    "render:short": "tsx src/cli.ts render-short",
+    "gates": "tsx src/cli.ts gates",
+    "clip": "tsx src/cli.ts clip",
+    "approve": "tsx src/cli.ts approve",
+    "publish": "tsx src/cli.ts publish",
+    "pipeline": "tsx src/cli.ts pipeline",
+    "review": "tsx src/cli.ts review",
+    "studio": "remotion studio studio/src/index.ts",
+    "test": "node --test --import tsx tests/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@remotion/bundler": "^4.0.544",
+    "@remotion/cli": "^4.0.544",
+    "@remotion/google-fonts": "^4.0.544",
+    "@remotion/renderer": "^4.0.544",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.544",
+    "zod": "^3.25.76"
+  }
+}

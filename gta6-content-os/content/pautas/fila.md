@@ -1,0 +1,11 @@
+# Fila de pautas — 2026-11-17
+
+| # | Prioridade | Índice | Pauta | Formato | Estilo | Notas |
+|---|---|---|---|---|---|---|
+| 1 | 10.93 | 9.13 | **GTA 6 em 3 números oficiais: 212 GB, 30 FPS e o PS5 Pro** — Números concretos dos comunicados de pré-download. Útil (espaço em disco) + debate (30 FPS). | ambos | lista | evidenciaInteresse: indisponível (sem fonte de dados autorizada configurada) — peso redistribuído; concorrencia: indisponível (sem fonte de dados autorizada configurada) — peso redistribuído |
+| 2 | 7.89 | 7.89 | **Tem Xbox One? A Rockstar explicou como jogar GTA 6** — Pergunta real de quem não tem console novo; resposta oficial (Xbox Cloud Gaming) + ressalvas honestas. | short | explicativo | evidenciaInteresse: indisponível (sem fonte de dados autorizada configurada) — peso redistribuído; concorrencia: indisponível (sem fonte de dados autorizada configurada) — peso redistribuído |
+| 3 | 7.88 | 7.58 | **Dia 19: checklist pra jogar GTA 6 no minuto 1 (e o pôster grátis)** — Guia prático: pré-download, espaço, versão em caixa, pôster/mapa de Leonida grátis no dia 19. Inclui o que a Rockstar NÃO informou. | ambos | explicativo | evidenciaInteresse: indisponível (sem fonte de dados autorizada configurada) — peso redistribuído; concorrencia: indisponível (sem fonte de dados autorizada configurada) — peso redistribuído |
+| 4 | 6.88 | 6.88 | **GTA 6 vai ter festival de lançamento em Miami** — Evento real fora do jogo, 2 dias depois do lançamento, com line-up pesado e o Justice (que fez a trilha). | short | noticia_urgente | evidenciaInteresse: indisponível (sem fonte de dados autorizada configurada) — peso redistribuído; concorrencia: indisponível (sem fonte de dados autorizada configurada) — peso redistribuído |
+| 5 | 5.56 | 5.56 | **Quem fez a trilha do GTA 6 — e por que ela muda enquanto você joga** — Trilha adaptativa do Justice (30 faixas, 11/12). Ângulo de bastidor, foge da notícia fria. | short | curiosidade | evidenciaInteresse: indisponível (sem fonte de dados autorizada configurada) — peso redistribuído; concorrencia: indisponível (sem fonte de dados autorizada configurada) — peso redistribuído |
+
+> Índice = priorização, não previsão. "evidenciaInteresse" e "concorrencia" ficam nulos até a YouTube Data API ser configurada.

@@ -1,0 +1,151 @@
+{
+  "id": "s01-tres-numeros",
+  "pautaId": "p01-numeros-oficiais",
+  "format": "short",
+  "style": "lista",
+  "title": "GTA 6 em 3 números (todos oficiais)",
+  "audience": "Quem vai jogar no lançamento em PS5/Xbox e quer saber o que esperar tecnicamente, sem rumor.",
+  "goal": "Entregar 3 informações úteis e verificadas em menos de 45s e provocar debate sobre os 30 FPS.",
+  "promise": "Três números que a própria Rockstar publicou — e o que cada um muda pra você.",
+  "hook": "212 gigas. É isso que o GTA 6 pode pedir do seu console.",
+  "fullText": "",
+  "beats": [
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "212 gigas. É isso que o GTA 6 pode pedir do seu console.",
+      "onScreen": "212 GB",
+      "visual": "Número gigante em Anton conta de 0 a 212; barra de armazenamento enchendo até ficar vermelha.",
+      "edit": "Sem intro. Primeira palavra no frame 0.",
+      "animation": "count-up 0,5s + selo CONFIRMADO carimba aos 1,2s",
+      "audio": "Voz seca, sem música nos primeiros 0,5s; entra beat grave."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "E não é chute. Tá no comunicado da Rockstar sobre o pré-download: até 212 gigas, dependendo do aparelho. Se o SSD tá no limite, a faxina começa hoje.",
+      "onScreen": "\"up to 212 GB depending on your device\"",
+      "visual": "Cartão de citação com a frase original em inglês e a fonte em mono no rodapé.",
+      "edit": "Corte seco para o cartão.",
+      "animation": "texto da citação revela palavra a palavra; destaque amarelo em '212 GB'",
+      "audio": "Beat baixo (-18 LUFS relativos à voz)."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Número dois: 30. A Rockstar diz que o jogo mira 30 quadros por segundo. E que tá levando PS5 e Xbox Series ao limite pra manter Leonida cheia daquele jeito.",
+      "onScreen": "30 FPS",
+      "visual": "'2/3' no canto; '30 FPS' grande; contador de quadros piscando 30 vezes em 1s.",
+      "edit": "Transição por 'wipe' horizontal curto.",
+      "animation": "count-up + tique de quadros",
+      "audio": "Sem SFX extra."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "E o três é exclusividade. No PS5 Pro tem o PSSR, que deixa a imagem mais nítida. E sombras com ray tracing que só existem no Pro.",
+      "onScreen": "PS5 PRO",
+      "visual": "'3/3'; 'PS5 PRO' + duas tags: 'PSSR' e 'sombras com ray tracing — só no Pro'.",
+      "edit": "Corte seco.",
+      "animation": "tags entram em sequência (stagger 0,15s)",
+      "audio": "Leve whoosh nas tags."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "O lançamento continua 19 de novembro, e o pré-download já tá liberado pra quem comprou na versão digital.",
+      "onScreen": "19/11",
+      "visual": "Data grande + contador 'faltam X dias' calculado no render.",
+      "edit": "Corte seco.",
+      "animation": "selo CONFIRMADO",
+      "audio": "Beat sobe 2 dB."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Agora me fala: o que pesa mais pra você, os 212 gigas ou os 30 quadros?",
+      "onScreen": "212 GB  ou  30 FPS?",
+      "visual": "Tela dividida em dois lados, como enquete.",
+      "edit": "Segura 1s no final para loop.",
+      "animation": "os dois lados pulsam alternados",
+      "audio": "Beat termina seco no último frame (facilita loop)."
+    }
+  ],
+  "cta": "Comentar qual dos dois números pesa mais.",
+  "claims": [
+    {
+      "text": "O pré-download pode exigir até 212 GB, dependendo do aparelho.",
+      "newsIds": [
+        "e6de51540182"
+      ],
+      "quote": "The pre-load file will require up to 212 GB depending on your device"
+    },
+    {
+      "text": "O jogo mira 30 quadros por segundo e leva os consoles ao limite.",
+      "newsIds": [
+        "4237da7c6d29"
+      ],
+      "quote": "targeting 30 frames per second while pushing both platforms to their absolute limits"
+    },
+    {
+      "text": "PS5 Pro tem PSSR e sombras com ray tracing exclusivas do Pro.",
+      "newsIds": [
+        "4237da7c6d29"
+      ],
+      "quote": "improved clarity through PlayStation Spectral Super Resolution (PSSR) and ray-traced shadows only available on PlayStation 5 Pro"
+    },
+    {
+      "text": "Lançamento em 19 de novembro de 2026.",
+      "newsIds": [
+        "pagina-oficial-vi"
+      ],
+      "quote": "Coming November 19, 2026"
+    },
+    {
+      "text": "Pré-download disponível para quem fez pré-venda digital.",
+      "newsIds": [
+        "4237da7c6d29"
+      ],
+      "quote": "Pre-loading is now available for everyone who has pre-ordered Grand Theft Auto VI digitally"
+    },
+    {
+      "text": "Plataformas de lançamento: PS5 e Xbox Series X|S.",
+      "newsIds": [
+        "e6de51540182"
+      ],
+      "quote": "The arrival of Grand Theft Auto VI on PlayStation 5 and XBOX Series X|S consoles"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "rockstar_newswire",
+      "name": "Rockstar Newswire — Pre-Load Begins on November 10 (03/11/2026)",
+      "url": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10"
+    },
+    {
+      "kind": "rockstar_newswire",
+      "name": "Rockstar Newswire — Pre-Load Grand Theft Auto VI Now (10/11/2026)",
+      "url": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now"
+    },
+    {
+      "kind": "rockstar_site",
+      "name": "rockstargames.com/VI",
+      "url": "https://www.rockstargames.com/VI"
+    }
+  ],
+  "version": 1,
+  "approval": "PENDENTE",
+  "notes": "Os tempos (t) são preenchidos pela produção a partir da duração real de cada fala. Sem imagens do jogo: 100% motion gráfico próprio."
+}

@@ -1,0 +1,13 @@
+node_modules/
+clip-engine/.venv/
+clip-engine/models/
+data/*.sqlite*
+output/
+media/
+*.log
+.env
+secrets/
+studio/public/*/
+!studio/public/fonts/
+__pycache__/
+entregas/*.mp4

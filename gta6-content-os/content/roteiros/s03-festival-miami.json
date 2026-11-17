@@ -1,0 +1,37 @@
+{
+  "id": "s03-festival-miami",
+  "pautaId": "p03-festival-miami",
+  "format": "short",
+  "style": "noticia_urgente",
+  "title": "GTA 6 vai ter festival de lançamento — e o line-up é pesado",
+  "audience": "Público de GTA que também consome música/rap/eletrônica.",
+  "goal": "Notícia rápida, verificada, com o gancho do line-up e a ligação com a trilha do jogo.",
+  "promise": "O que é o festival, quando, onde e quem toca — tudo pela fonte oficial.",
+  "hook": "A Rockstar não vai só lançar o GTA 6. Ela vai fazer um festival.",
+  "fullText": "",
+  "beats": [
+    { "t": [0, 0], "narration": "A Rockstar não vai só lançar o GTA 6. Ela vai fazer um festival.", "onScreen": "GTA VI: THE FESTIVAL", "visual": "Título em Anton com luz de palco varrendo.", "edit": "Sem intro.", "animation": "varredura de luz", "audio": "Grave de show abafado." },
+    { "t": [0, 0], "narration": "Dia vinte e um de novembro, dois dias depois do lançamento, no Mana Wynwood, em Miami. Em parceria com a PlayStation.", "onScreen": "21/11 · MIAMI", "visual": "Cartão data/local + selo CONFIRMADO.", "edit": "Corte seco.", "animation": "data carimba", "audio": "—" },
+    { "t": [0, 0], "narration": "No line-up: Travis Scott, Cardi B, Metro Boomin, Don Toliver, Kodak Black, Tainy… e o Justice, em DJ set.", "onScreen": "TRAVIS SCOTT · CARDI B · METRO BOOMIN · TAINY · JUSTICE", "visual": "Nomes sobem como pôster de festival (texto, sem fotos de artistas).", "edit": "Ritmo acelera.", "animation": "stagger de nomes 0,12s", "audio": "Beat sobe." },
+    { "t": [0, 0], "narration": "E o Justice não tá lá por acaso: é a dupla que compôs a trilha original do jogo.", "onScreen": "JUSTICE = TRILHA ORIGINAL", "visual": "Seta ligando 'Justice' ao ícone de partitura.", "edit": "Corte seco.", "animation": "seta desenha", "audio": "—" },
+    { "t": [0, 0], "narration": "Ingresso? A pré-venda era por sorteio e já fechou. Se você ia, me conta.", "onScreen": "pré-venda por sorteio · encerrada", "visual": "Selo CONFIRMADO + nota 'conforme comunicado de 09/11'.", "edit": "Segura 1s.", "animation": "—", "audio": "Beat corta seco." }
+  ],
+  "cta": "Comentar se iria.",
+  "claims": [
+    { "text": "Festival em 21/11 no Mana Wynwood, Miami, celebrando o lançamento.", "newsIds": ["427ecada40cc"], "quote": "a special live event on November 21 at Mana Wynwood in Miami to celebrate the launch of GTAVI" },
+    { "text": "Parceria com a PlayStation.", "newsIds": ["427ecada40cc"], "quote": "Presented in partnership with PlayStation" },
+    { "text": "Line-up citado.", "newsIds": ["427ecada40cc"], "quote": "Cactus Jack presents Travis Scott, Don Toliver, Kodak Black, and Sofaygo; Cardi B" },
+    { "text": "Metro Boomin, Justice DJ set.", "newsIds": ["427ecada40cc"], "quote": "Justice (DJ set); Metro Boomin" },
+    { "text": "Tainy no line-up.", "newsIds": ["427ecada40cc"], "quote": "Tainy" },
+    { "text": "Justice compôs a trilha original.", "newsIds": ["10141a71dfb6"], "quote": "The Grand Theft Auto VI: Original Score is composed by Grammy Award winners Justice" },
+    { "text": "Pré-venda por sorteio fechou às 16h ET de 10/11.", "newsIds": ["427ecada40cc"], "quote": "the lottery closes at 4 p.m. ET on Tuesday, November 10" },
+    { "text": "Lançamento em 19/11 (21/11 = dois dias depois).", "newsIds": ["pagina-oficial-vi"], "quote": "Coming November 19, 2026" }
+  ],
+  "sources": [
+    { "kind": "rockstar_newswire", "name": "Rockstar Newswire — Grand Theft Auto VI: The Festival (09/11/2026)", "url": "https://www.rockstargames.com/newswire/article/o39o87a435a25a/grand-theft-auto-vi-the-festival" },
+    { "kind": "rockstar_newswire", "name": "Rockstar Newswire — Original Score by Justice (29/10/2026)", "url": "https://www.rockstargames.com/newswire/article/39ak8a12395591/grand-theft-auto-vi-original-score-by-justice" }
+  ],
+  "version": 1,
+  "approval": "PENDENTE",
+  "notes": "Não usar fotos dos artistas (direitos de imagem). Não afirmar se ainda há ingressos à venda geral: o comunicado só fala da pré-venda."
+}

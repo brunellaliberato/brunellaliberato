@@ -1,0 +1,47 @@
+[
+  {
+    "id": "p01-numeros-oficiais",
+    "title": "GTA 6 em 3 números oficiais: 212 GB, 30 FPS e o PS5 Pro",
+    "angle": "Números concretos dos comunicados de pré-download. Útil (espaço em disco) + debate (30 FPS).",
+    "newsIds": ["e6de51540182", "4237da7c6d29", "pagina-oficial-vi"],
+    "format": "ambos",
+    "style": "lista",
+    "editorial": { "originalidade": 6, "viabilidade": 10, "potencialConversa": 9, "riscoDireitos": 0 }
+  },
+  {
+    "id": "p02-xbox-one-cloud",
+    "title": "Tem Xbox One? A Rockstar explicou como jogar GTA 6",
+    "angle": "Pergunta real de quem não tem console novo; resposta oficial (Xbox Cloud Gaming) + ressalvas honestas.",
+    "newsIds": ["4237da7c6d29"],
+    "format": "short",
+    "style": "explicativo",
+    "editorial": { "originalidade": 7, "viabilidade": 10, "potencialConversa": 7, "riscoDireitos": 0 }
+  },
+  {
+    "id": "p03-festival-miami",
+    "title": "GTA 6 vai ter festival de lançamento em Miami",
+    "angle": "Evento real fora do jogo, 2 dias depois do lançamento, com line-up pesado e o Justice (que fez a trilha).",
+    "newsIds": ["427ecada40cc", "10141a71dfb6"],
+    "format": "short",
+    "style": "noticia_urgente",
+    "editorial": { "originalidade": 5, "viabilidade": 9, "potencialConversa": 6, "riscoDireitos": 1 }
+  },
+  {
+    "id": "p04-dia-19-checklist",
+    "title": "Dia 19: checklist pra jogar GTA 6 no minuto 1 (e o pôster grátis)",
+    "angle": "Guia prático: pré-download, espaço, versão em caixa, pôster/mapa de Leonida grátis no dia 19. Inclui o que a Rockstar NÃO informou.",
+    "newsIds": ["e6de51540182", "4237da7c6d29"],
+    "format": "ambos",
+    "style": "explicativo",
+    "editorial": { "originalidade": 6, "viabilidade": 10, "potencialConversa": 6, "riscoDireitos": 0 }
+  },
+  {
+    "id": "p05-trilha-justice",
+    "title": "Quem fez a trilha do GTA 6 — e por que ela muda enquanto você joga",
+    "angle": "Trilha adaptativa do Justice (30 faixas, 11/12). Ângulo de bastidor, foge da notícia fria.",
+    "newsIds": ["10141a71dfb6"],
+    "format": "short",
+    "style": "curiosidade",
+    "editorial": { "originalidade": 7, "viabilidade": 8, "potencialConversa": 5, "riscoDireitos": 2 }
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "id": "s02-xbox-one",
+  "pautaId": "p02-xbox-one-cloud",
+  "format": "short",
+  "style": "explicativo",
+  "title": "Tem Xbox One? Dá pra jogar GTA 6 (com uma condição)",
+  "audience": "Quem tem console da geração passada ou joga longe da TV.",
+  "goal": "Responder uma dúvida prática com a fonte oficial e as ressalvas que a própria Rockstar fez.",
+  "promise": "Você vai saber exatamente como a Rockstar disse que dá pra jogar no Xbox One — e o porém.",
+  "hook": "Tem Xbox One e achou que tinha ficado de fora do GTA 6? Pera.",
+  "fullText": "",
+  "beats": [
+    { "t": [0, 0], "narration": "Tem Xbox One e achou que tinha ficado de fora do GTA 6? Pera.", "onScreen": "XBOX ONE?", "visual": "Pergunta grande, ponto de interrogação pisca.", "edit": "Sem intro.", "animation": "texto entra com leve overshoot", "audio": "Voz seca." },
+    { "t": [0, 0], "narration": "O jogo saiu pra PS5 e Xbox Series. Mas a Rockstar confirmou que ele também vai estar no Xbox Cloud Gaming, inclusive no Xbox One.", "onScreen": "XBOX CLOUD GAMING", "visual": "Ícone de nuvem desenhado em traço; selo CONFIRMADO.", "edit": "Corte seco.", "animation": "traço da nuvem se desenha (stroke-dashoffset)", "audio": "Beat entra." },
+    { "t": [0, 0], "narration": "O detalhe: na nuvem ele roda com as configurações gráficas do Series S.", "onScreen": "= gráficos do Series S", "visual": "Cartão comparativo simples.", "edit": "Corte seco.", "animation": "seta liga 'nuvem' a 'Series S'", "audio": "—" },
+    { "t": [0, 0], "narration": "E a própria Rockstar avisa: velocidade de conexão e outros fatores técnicos podem afetar o desempenho. Internet ruim, jogo ruim.", "onScreen": "sua internet manda", "visual": "Barra de sinal oscilando.", "edit": "Corte seco.", "animation": "barras sobem/descem", "audio": "Glitch curto (-24 dB)." },
+    { "t": [0, 0], "narration": "Bônus: o jogo também vai suportar Remote Play no PlayStation e no Xbox. Dá pra jogar longe da TV.", "onScreen": "REMOTE PLAY ✓", "visual": "Selo CONFIRMADO.", "edit": "Corte seco.", "animation": "check carimba", "audio": "—" },
+    { "t": [0, 0], "narration": "Você vai de nuvem ou vai esperar pra jogar no console? Comenta aí.", "onScreen": "NUVEM ou CONSOLE?", "visual": "Enquete.", "edit": "Segura 1s.", "animation": "pulsa", "audio": "Beat corta seco." }
+  ],
+  "cta": "Comentar: nuvem ou console.",
+  "claims": [
+    { "text": "Disponível via Xbox Cloud Gaming em Series X|S e Xbox One, com configurações gráficas do Series S.", "newsIds": ["4237da7c6d29"], "quote": "The game will also be available via XBOX Cloud Gaming on XBOX Series X|S and XBOX One consoles, utilizing XBOX Series S graphics settings" },
+    { "text": "Conexão e fatores técnicos podem afetar o desempenho na nuvem.", "newsIds": ["4237da7c6d29"], "quote": "connection speeds and other technical factors may influence game performance" },
+    { "text": "Suporte a Remote Play em PlayStation e Xbox.", "newsIds": ["4237da7c6d29"], "quote": "GTAVI will also fully support Remote Play on PlayStation and XBOX" },
+    { "text": "Plataformas: PS5 e Xbox Series X|S.", "newsIds": ["e6de51540182"], "quote": "The arrival of Grand Theft Auto VI on PlayStation 5 and XBOX Series X|S consoles" }
+  ],
+  "sources": [
+    { "kind": "rockstar_newswire", "name": "Rockstar Newswire — Pre-Load Grand Theft Auto VI Now (10/11/2026)", "url": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now" }
+  ],
+  "version": 1,
+  "approval": "PENDENTE",
+  "notes": "Atenção de linguagem: 'saiu' só vale a partir de 19/11. Se publicar antes, trocar para 'sai'. O Gate 1 sinaliza verbos de tempo."
+}

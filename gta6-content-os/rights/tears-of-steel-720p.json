@@ -1,0 +1,11 @@
+{
+  "assetId": "tears-of-steel-720p",
+  "file": "tears_of_steel_720p.mov",
+  "owner": "Blender Foundation (Project Mango)",
+  "rights": "LICENCA_ABERTA",
+  "license": "Filme: CC BY 3.0 (declarado pela Blender Foundation em mango.blender.org — re-verificar antes de qualquer uso público). Trilha original: CC BY-ND 3.0 (copyright.txt).",
+  "attribution": "(CC) Blender Foundation | mango.blender.org — Música: (C) Joram Letwory - www.tearsofsteel.org",
+  "proofUrl": "https://download.blender.org/demo/movies/ToS/copyright.txt",
+  "publishable": false,
+  "notes": "Usado SOMENTE como teste técnico do Auto Clip Studio. Cortes contêm a trilha CC BY-ND (sem derivados) misturada ao diálogo: NÃO publicar."
+}

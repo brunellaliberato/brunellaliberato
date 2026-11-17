@@ -1,0 +1,330 @@
+{
+  "id": "l01-tudo-confirmado",
+  "pautaId": "p04-dia-19-checklist",
+  "format": "longo",
+  "style": "analise",
+  "title": "GTA 6 chega dia 19: TUDO que a Rockstar confirmou (e o que ela ainda não disse)",
+  "audience": "Quem vai comprar/jogar no lançamento e quer um resumo confiável, sem rumor misturado.",
+  "goal": "Ser o vídeo de referência do canal para o lançamento: tudo verificado, com selo e link.",
+  "promise": "Em ~10 minutos você sai sabendo tudo o que é oficial — e sabendo separar do que ainda é mistério.",
+  "hook": "Faltam dois dias. E tem muita coisa circulando sobre GTA 6 que a Rockstar nunca disse. Então hoje a regra é simples: só entra o que tem fonte oficial. Tudo que aparecer com esse selo verde, você pode clicar na descrição e conferir.",
+  "fullText": "",
+  "beats": [
+    {
+      "t": [
+        0,
+        40
+      ],
+      "narration": "Faltam dois dias. E tem muita coisa circulando sobre GTA 6 que a Rockstar nunca disse. Então hoje a regra é simples: só entra o que tem fonte oficial. Tudo que aparecer com esse selo verde, você pode clicar na descrição e conferir. E no final eu separo o que a Rockstar ainda não falou — porque isso também é informação.",
+      "onScreen": "SÓ O QUE É OFICIAL",
+      "visual": "Narrador (câmera ou avatar próprio) + selo CONFIRMADO explicado na tela.",
+      "edit": "Corte direto, sem vinheta longa (vinheta ≤ 1,5s).",
+      "animation": "selo carimba e fica no canto como legenda do sistema",
+      "audio": "Trilha própria/licenciada baixa."
+    },
+    {
+      "t": [
+        40,
+        130
+      ],
+      "narration": "Capítulo um: data e download. A página oficial segue dizendo 19 de novembro de 2026. O pré-download começou dia 10. No PS5, à meia-noite do horário local. No Xbox Series, à meia-noite no horário de Greenwich, que em Brasília é nove da noite do dia 9. A versão em caixa, com código, começou a chegar às lojas a partir do dia 12. Quem comprou assim pode ativar o código e baixar assim que receber. E o tamanho: até 212 gigas, dependendo do aparelho. Se você ainda não liberou espaço, esse é o recado mais útil do vídeo.",
+      "onScreen": "19/11 · PRÉ-DOWNLOAD 10/11 · ATÉ 212 GB",
+      "visual": "Linha do tempo horizontal com 10/11, 12/11, 19/11; cartão 212 GB.",
+      "edit": "Capítulo 'Data e download' (marcador).",
+      "animation": "linha do tempo desenha da esquerda para a direita",
+      "audio": "—"
+    },
+    {
+      "t": [
+        130,
+        250
+      ],
+      "narration": "Capítulo dois: desempenho. A Rockstar foi direta: o jogo mira trinta quadros por segundo, e eles dizem que estão levando os dois consoles ao limite pra manter a densidade e a qualidade visual de Leonida. No PS5 Pro, tem PSSR, que melhora a nitidez da imagem, e sombras com ray tracing que só existem no Pro. No PS5 em geral, a Rockstar cita resposta tátil no DualSense em todo o jogo, ajustável nas opções de acessibilidade, áudio 3D com o Tempest e carregamentos mais rápidos. Opinião minha, e tá marcada como opinião: trinta quadros num mundo desse tamanho é uma escolha consciente, não um acidente. Você pode discordar — e eu quero ler nos comentários.",
+      "onScreen": "30 FPS · PS5 PRO: PSSR + SOMBRAS RT",
+      "visual": "Cartões técnicos; selo OPINIÃO amarelo no trecho opinativo.",
+      "edit": "Capítulo 'Desempenho'.",
+      "animation": "troca de selo verde → amarelo quando vira opinião",
+      "audio": "—"
+    },
+    {
+      "t": [
+        250,
+        330
+      ],
+      "narration": "Capítulo três: quem não tem console novo. O jogo também vai estar no Xbox Cloud Gaming, no Xbox Series e no Xbox One, usando as configurações gráficas do Series S. A própria Rockstar avisa que a conexão e outros fatores técnicos podem afetar o desempenho. E tem Remote Play completo no PlayStation e no Xbox.",
+      "onScreen": "XBOX CLOUD · XBOX ONE · REMOTE PLAY",
+      "visual": "Diagrama console → nuvem → TV.",
+      "edit": "Capítulo 'Nuvem e Remote Play'.",
+      "animation": "fluxo animado do sinal",
+      "audio": "—"
+    },
+    {
+      "t": [
+        330,
+        420
+      ],
+      "narration": "Capítulo quatro: a história, nas palavras da Rockstar. Jason e Lucia sempre souberam que o jogo tá contra eles. Quando um golpe fácil dá errado, eles vão parar no lado mais sombrio do lugar mais ensolarado dos Estados Unidos, no meio de uma conspiração criminosa que atravessa o estado de Leonida. É só isso que é oficial sobre a trama. Qualquer coisa além disso, até o dia 19, é teoria — e aqui teoria aparece com selo roxo.",
+      "onScreen": "JASON & LUCIA · LEONIDA",
+      "visual": "Texto da sinopse traduzido, com o original em inglês menor embaixo. Sem imagem de IA.",
+      "edit": "Capítulo 'História'.",
+      "animation": "tradução aparece linha a linha",
+      "audio": "—"
+    },
+    {
+      "t": [
+        420,
+        500
+      ],
+      "narration": "Capítulo cinco: música. A trilha original é do Justice, a dupla francesa vencedora do Grammy, e é adaptativa: muda de acordo com o jogo que você tá jogando. O álbum tem trinta faixas e chega aos streamings dia onze de dezembro, com Flower in a Hurricane, a música do trailer de lançamento. E dia vinte e um de novembro tem o festival de lançamento em Miami, em parceria com a PlayStation, com Travis Scott, Cardi B, Metro Boomin e o próprio Justice em DJ set.",
+      "onScreen": "JUSTICE · 30 FAIXAS · 11/12 · FESTIVAL 21/11",
+      "visual": "Cartões; sem fotos de artistas.",
+      "edit": "Capítulo 'Música'.",
+      "animation": "—",
+      "audio": "Sem usar faixas da trilha oficial (direitos)."
+    },
+    {
+      "t": [
+        500,
+        560
+      ],
+      "narration": "Capítulo seis: o brinde do dia 19. A Rockstar vai liberar no site oficial um pôster da capa pra imprimir e o mapa de Leonida, de graça, em download digital. Depois do lançamento, a versão física dupla-face vai ter na Rockstar Store por noventa e nove centavos de dólar, ou de brinde em qualquer compra.",
+      "onScreen": "PÔSTER + MAPA GRÁTIS · 19/11",
+      "visual": "Ícone de pôster dobrável (arte própria).",
+      "edit": "Capítulo 'Brinde do dia 19'.",
+      "animation": "pôster desdobra",
+      "audio": "—"
+    },
+    {
+      "t": [
+        560,
+        640
+      ],
+      "narration": "E agora a parte que quase ninguém faz: o que a Rockstar ainda não disse. Nos comunicados que a gente checou até hoje, dezessete de novembro, não tem horário de liberação do jogo no dia 19. A página oficial lista PS5 e Xbox Series — PC não aparece. Isso não quer dizer que nunca vai ter; quer dizer que não foi anunciado. Se alguém te disser data de PC ou horário exato, pergunta a fonte. Quando sair oficial, sai aqui com selo verde.",
+      "onScreen": "AINDA NÃO ANUNCIADO",
+      "visual": "Lista com selo cinza 'NÃO ANUNCIADO'.",
+      "edit": "Capítulo 'O que ainda não sabemos'.",
+      "animation": "itens entram com selo cinza",
+      "audio": "—"
+    },
+    {
+      "t": [
+        640,
+        680
+      ],
+      "narration": "É isso. Dia 19 eu tô jogando e trazendo gameplay de verdade, não teoria. Se esse resumo te ajudou, se inscreve que a cobertura do lançamento vai ser toda checada. E me fala: você vai de edição normal ou Ultimate?",
+      "onScreen": "SEIS ESTRELAS · NOTÍCIA CHECADA",
+      "visual": "Encerramento com tela final do YouTube (20s permitidos pela plataforma; usamos 10s).",
+      "edit": "End screen.",
+      "animation": "logo",
+      "audio": "Trilha sobe e fecha."
+    }
+  ],
+  "cta": "Inscrição para a cobertura de lançamento + comentário sobre edição.",
+  "claims": [
+    {
+      "text": "Data 19/11/2026 na página oficial.",
+      "newsIds": [
+        "pagina-oficial-vi"
+      ],
+      "quote": "Coming November 19, 2026"
+    },
+    {
+      "text": "Pré-download PS5 meia-noite local de 10/11.",
+      "newsIds": [
+        "e6de51540182"
+      ],
+      "quote": "Digital pre-loading on PlayStation 5 will begin on Tuesday, November 10 at midnight local time"
+    },
+    {
+      "text": "Xbox: 10/11 às 0h GMT (21h de 09/11 em Brasília, UTC-3).",
+      "newsIds": [
+        "e6de51540182"
+      ],
+      "quote": "pre-loading begins globally on Tuesday, November 10 at 12 a.m. GMT"
+    },
+    {
+      "text": "Versão em caixa a partir de 12/11.",
+      "newsIds": [
+        "e6de51540182"
+      ],
+      "quote": "Code-in-box versions for both consoles should be available from retailers beginning November 12"
+    },
+    {
+      "text": "Código em caixa pode ser ativado e baixado ao receber.",
+      "newsIds": [
+        "4237da7c6d29"
+      ],
+      "quote": "Players who pre-ordered the code-in-box version can also activate their code and begin pre-loading as soon as it’s received"
+    },
+    {
+      "text": "Até 212 GB.",
+      "newsIds": [
+        "e6de51540182"
+      ],
+      "quote": "The pre-load file will require up to 212 GB depending on your device"
+    },
+    {
+      "text": "Mira 30 fps.",
+      "newsIds": [
+        "4237da7c6d29"
+      ],
+      "quote": "targeting 30 frames per second while pushing both platforms to their absolute limits"
+    },
+    {
+      "text": "Densidade e fidelidade visual.",
+      "newsIds": [
+        "4237da7c6d29"
+      ],
+      "quote": "while maintaining the density and visual fidelity of all its environments and inhabitants"
+    },
+    {
+      "text": "PS5 Pro: PSSR e sombras RT exclusivas.",
+      "newsIds": [
+        "4237da7c6d29"
+      ],
+      "quote": "improved clarity through PlayStation Spectral Super Resolution (PSSR) and ray-traced shadows only available on PlayStation 5 Pro"
+    },
+    {
+      "text": "DualSense háptico ajustável, Tempest 3D, loads.",
+      "newsIds": [
+        "4237da7c6d29"
+      ],
+      "quote": "high-fidelity haptic feedback fully integrated across the game on DualSense controllers and adjustable via accessibility settings, improved spatial audio rendering so all in-game sounds take full advantage of Tempest 3D Audio, and improved load times"
+    },
+    {
+      "text": "Xbox Cloud em Series e One com gráficos de Series S.",
+      "newsIds": [
+        "4237da7c6d29"
+      ],
+      "quote": "The game will also be available via XBOX Cloud Gaming on XBOX Series X|S and XBOX One consoles, utilizing XBOX Series S graphics settings"
+    },
+    {
+      "text": "Conexão pode afetar desempenho.",
+      "newsIds": [
+        "4237da7c6d29"
+      ],
+      "quote": "connection speeds and other technical factors may influence game performance"
+    },
+    {
+      "text": "Remote Play.",
+      "newsIds": [
+        "4237da7c6d29"
+      ],
+      "quote": "GTAVI will also fully support Remote Play on PlayStation and XBOX"
+    },
+    {
+      "text": "Sinopse oficial.",
+      "newsIds": [
+        "pagina-oficial-vi"
+      ],
+      "quote": "Jason and Lucia have always known the deck is stacked against them. But when an easy score goes wrong, they find themselves on the darkest side of the sunniest place in America, in the middle of a criminal conspiracy stretching across the state of Leonida"
+    },
+    {
+      "text": "Justice, vencedores do Grammy, compuseram a trilha.",
+      "newsIds": [
+        "10141a71dfb6"
+      ],
+      "quote": "The Grand Theft Auto VI: Original Score is composed by Grammy Award winners Justice, the renowned French duo"
+    },
+    {
+      "text": "Trilha adaptativa.",
+      "newsIds": [
+        "10141a71dfb6"
+      ],
+      "quote": "this adaptive score, featuring expansive compositions all dynamically tuned to the different ways players engage"
+    },
+    {
+      "text": "11/12, 30 faixas, Flower in a Hurricane do trailer de lançamento.",
+      "newsIds": [
+        "10141a71dfb6"
+      ],
+      "quote": "Coming December 11 to all major music streaming services as well as on CD and vinyl, the official Grand Theft Auto VI: Original Score album features 30 tracks, including “Flower in a Hurricane”"
+    },
+    {
+      "text": "Festival 21/11 Miami.",
+      "newsIds": [
+        "427ecada40cc"
+      ],
+      "quote": "a special live event on November 21 at Mana Wynwood in Miami"
+    },
+    {
+      "text": "Parceria PlayStation.",
+      "newsIds": [
+        "427ecada40cc"
+      ],
+      "quote": "Presented in partnership with PlayStation"
+    },
+    {
+      "text": "Line-up.",
+      "newsIds": [
+        "427ecada40cc"
+      ],
+      "quote": "Justice (DJ set); Metro Boomin"
+    },
+    {
+      "text": "Line-up (Travis, Cardi).",
+      "newsIds": [
+        "427ecada40cc"
+      ],
+      "quote": "Cactus Jack presents Travis Scott, Don Toliver, Kodak Black, and Sofaygo; Cardi B"
+    },
+    {
+      "text": "Pôster e mapa grátis em 19/11.",
+      "newsIds": [
+        "e6de51540182"
+      ],
+      "quote": "On November 19 we will be adding an official printable Grand Theft Auto VI cover art poster and map of Leonida as a free digital download to the official site"
+    },
+    {
+      "text": "Pôster físico $0.99 ou brinde.",
+      "newsIds": [
+        "e6de51540182"
+      ],
+      "quote": "for $0.99 on its own or as a free gift with any purchase from the Rockstar Store"
+    },
+    {
+      "text": "Plataformas listadas: PS5 e Xbox Series.",
+      "newsIds": [
+        "pagina-oficial-vi"
+      ],
+      "quote": "Plataformas: PlayStation 5, Xbox Series X|S"
+    },
+    {
+      "text": "Ultimate Edition existe.",
+      "newsIds": [
+        "pagina-oficial-vi"
+      ],
+      "quote": "Grand Theft Auto VI: Ultimate Edition"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "rockstar_site",
+      "name": "rockstargames.com/VI",
+      "url": "https://www.rockstargames.com/VI"
+    },
+    {
+      "kind": "rockstar_newswire",
+      "name": "Pre-Load Begins on November 10 (03/11)",
+      "url": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10"
+    },
+    {
+      "kind": "rockstar_newswire",
+      "name": "Pre-Load Grand Theft Auto VI Now (10/11)",
+      "url": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now"
+    },
+    {
+      "kind": "rockstar_newswire",
+      "name": "The Festival (09/11)",
+      "url": "https://www.rockstargames.com/newswire/article/o39o87a435a25a/grand-theft-auto-vi-the-festival"
+    },
+    {
+      "kind": "rockstar_newswire",
+      "name": "Original Score by Justice (29/10)",
+      "url": "https://www.rockstargames.com/newswire/article/39ak8a12395591/grand-theft-auto-vi-original-score-by-justice"
+    }
+  ],
+  "version": 1,
+  "approval": "PENDENTE",
+  "notes": "Conversão de fuso: 0h GMT = 21h do dia anterior em Brasília (UTC-3, sem horário de verão desde 2019) — cálculo nosso, não da Rockstar. 'O que não foi dito' refere-se aos comunicados checados até 17/11; re-verificar no dia da gravação. Preço não foi verificado nesta pauta e por isso não aparece."
+}

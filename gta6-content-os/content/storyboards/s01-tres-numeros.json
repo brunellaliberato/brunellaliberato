@@ -1,0 +1,13 @@
+{
+  "scriptId": "s01-tres-numeros",
+  "voice": "piper:pt_BR-faber-medium (VOZ GUIA — substituir por narração humana antes de publicar)",
+  "beats": [
+    { "layout": { "kind": "bigNumber", "value": 212, "suffix": "GB", "label": "PRÉ-DOWNLOAD DO GTA 6", "meter": { "max": 250, "danger": 180 } }, "seal": "CONFIRMADO", "sourceLabel": "ROCKSTAR NEWSWIRE · 03/11/2026" },
+    { "layout": { "kind": "quote", "quote": "The pre-load file will require up to 212 GB depending on your device", "highlight": "212 GB", "translation": "“O arquivo de pré-download vai exigir até 212 GB, dependendo do seu aparelho.”" }, "sourceLabel": "ROCKSTAR NEWSWIRE · 03/11/2026" },
+    { "layout": { "kind": "tags", "counter": "2/3", "title": "30 FPS", "tags": ["meta oficial: 30 quadros/s", "PS5 e Xbox Series no limite"] }, "seal": "CONFIRMADO", "sourceLabel": "ROCKSTAR NEWSWIRE · 10/11/2026" },
+    { "layout": { "kind": "tags", "counter": "3/3", "title": "PS5 PRO", "tags": ["PSSR: imagem mais nítida", "sombras com ray tracing", "só no Pro"] }, "seal": "CONFIRMADO", "sourceLabel": "ROCKSTAR NEWSWIRE · 10/11/2026" },
+    { "layout": { "kind": "date", "date": "2026-11-19", "label": "LANÇAMENTO · PS5 E XBOX SERIES X|S" }, "seal": "CONFIRMADO", "sourceLabel": "ROCKSTARGAMES.COM/VI · VERIFICADO 17/11/2026" },
+    { "layout": { "kind": "poll", "left": "212 GB", "right": "30 FPS", "question": "O que pesa mais pra você?" } }
+  ],
+  "emphasis": ["212", "30", "19", "PS5", "Pro", "PSSR"]
+}
