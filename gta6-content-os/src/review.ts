@@ -28,7 +28,7 @@ export function buildReview(repo: Repo): string {
   const html = `<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Seis Estrelas — Revisão</title>
 <style>
-:root{--bg:#0E0F12;--r:#17191E;--l:#2A2D35;--t:#F4F1EA;--m:#9A9AA3;--y:#FFD23F;--g:#2BD576;--red:#FF4D4D}
+:root{--bg:#1E0F2E;--r:#2B1640;--l:#4A3570;--t:#FFFFFF;--m:#D9C2DF;--y:#FFD36B;--g:#2BD576;--red:#FF4D4D}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--t);font:15px/1.5 Inter,system-ui,sans-serif}
 main{max-width:1180px;margin:0 auto;padding:32px 16px 80px}h1{font:800 30px/1.1 Inter;margin:0 0 4px}h1 span{color:var(--y)}
 h2{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--m);margin:40px 0 12px;border-bottom:1px solid var(--l);padding-bottom:8px}
