@@ -1,0 +1,22 @@
+{
+  "assetId": "rockstar-gtavi-kit-midia",
+  "source": "https://www.rockstargames.com/VI/media",
+  "files": "media/oficial/ (GTAVI_Screenshots, GTAVI_Artwork_Wallpapers, GTAVI_Videos, GTAVI_Ultimate_Edition_Benefits) — baixados dos ZIPs oficiais em 2026-11-17",
+  "owner": "Rockstar Games / Take-Two Interactive",
+  "rights": "MATERIAL_OFICIAL_DIVULGACAO",
+  "pageStatement": "Download and share official videos, screenshots, and more. (rockstargames.com/VI/media)",
+  "policy": {
+    "url": "https://support.rockstargames.com/articles/200153756/Policy-on-posting-copyrighted-Rockstar-Games-material",
+    "summary": "Take-Two não se opõe ao uso por fãs para fins NÃO comerciais e sem spoilers; 'não comercial' = não ganhar dinheiro com o material. Uso comercial: pedir licença em copyright@take2games.com. Take-Two pode remover a qualquer momento.",
+    "verified": "Texto obtido via resultado de busca em 2026-11-17; a página de suporte retornou 503 no acesso direto — reconferir."
+  },
+  "authorization": { "by": "Brunella", "at": "2026-11-17", "scope": "uso do kit de mídia oficial em conteúdos do canal, com crédito na tela" },
+  "conditions": {
+    "creditOnScreen": "IMAGEM: ROCKSTAR GAMES",
+    "nonCommercialOnly": true,
+    "noSpoilers": true,
+    "noLogoVariantsAsChannelBranding": true
+  },
+  "publishable": true,
+  "notes": "Se o canal for monetizado, o Gate 4 bloqueia vídeos com este material até existir licença comercial registrada em commercialLicense."
+}

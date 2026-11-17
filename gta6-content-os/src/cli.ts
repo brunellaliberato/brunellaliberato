@@ -13,12 +13,33 @@ import { runRadar } from './modules/a-intelligence/radar.js';
 import { opportunity, priorityQueue, type EditorialInputs } from './modules/c-strategy/opportunity.js';
 import { buildCalendar, calendarMarkdown } from './modules/c-strategy/calendar.js';
 import { gateAV, gateCreative, gateFacts, gatePublish } from './gates/gates.js';
-import { produceShort, type Storyboard } from './modules/f-production/short.js';
+import { produceShort, storyboardRights, type Storyboard } from './modules/f-production/short.js';
 import { shortMetadata } from './modules/g-seo/seo.js';
 import { publishVideo } from './modules/h-publishing/youtube.js';
 import { buildReview } from './review.js';
 
 const [cmd, ...args] = process.argv.slice(2);
+
+/** Gate 4 a partir do storyboard: direitos de cada ativo de terceiros + aprovação da versão atual. */
+function publishGate(id: string, version: number, previous: boolean, titleOk: boolean): GateResult {
+  const sbFile = join(paths.content, 'storyboards', `${id}.json`);
+  const sb = JSON.parse(readFileSync(sbFile, 'utf8')) as Storyboard;
+  const used = storyboardRights(sb);
+  const g = gatePublish({
+    assetsRights: ['PROPRIO', ...used.map((u) => u.manifest.rights)],
+    official: used
+      .filter((u) => u.manifest.rights === 'MATERIAL_OFICIAL_DIVULGACAO')
+      .map((u) => ({ authorized: !!u.manifest.authorization, creditShown: u.creditShown, nonCommercialOnly: !!u.manifest.conditions?.nonCommercialOnly, commercialLicense: u.manifest.commercialLicense })),
+    channelMonetized: process.env.GTA_OS_CHANNEL_MONETIZED === 'true',
+    spoilerRisk: 'nenhum',
+    hasSpoilerWarning: false,
+    humanApproved: repo.isApproved('render', `${id}-v${version}`),
+    previousGatesPassed: previous,
+    titleClaimsSupported: titleOk,
+  });
+  repo.put('gate', { id: `${id}:PUBLICACAO`, ...g });
+  return g;
+}
 const repo = new Repo();
 const today = new Date();
 const printGate = (g: GateResult) => {
@@ -118,14 +139,7 @@ const commands: Record<string, () => Promise<void>> = {
     const g1 = gateFacts(script, news, today);
     const g2 = gateCreative(script);
     const g3 = render ? gateAV(render.file, script.format) : null;
-    const g4 = gatePublish({
-      assetsRights: ['PROPRIO'],
-      spoilerRisk: 'nenhum',
-      hasSpoilerWarning: false,
-      humanApproved: repo.isApproved('render', `${id}-v${script.version}`),
-      previousGatesPassed: g1.passed && g2.passed && !!g3?.passed,
-      titleClaimsSupported: g1.passed,
-    });
+    const g4 = publishGate(id, script.version, g1.passed && g2.passed && !!g3?.passed, g1.passed);
     [g1, g2, ...(g3 ? [g3] : []), g4].forEach(printGate);
   },
 
@@ -140,7 +154,10 @@ const commands: Record<string, () => Promise<void>> = {
   async publish() {
     const id = args[0];
     const script = loadScripts().find((s) => s.id === id)!;
-    const r = await publishVideo(repo, script, { dryRun: !args.includes('--real') });
+    const g1 = gateFacts(script, newsMap(repo), today);
+    const ok = (g: string) => !!repo.get<GateResult>('gate', `${id}:${g}`)?.passed;
+    const g4 = publishGate(id, script.version, g1.passed && ok('CRIATIVIDADE') && ok('AUDIOVISUAL'), g1.passed);
+    const r = await publishVideo(repo, script, { dryRun: !args.includes('--real'), gate4: g4 });
     console.log(r);
   },
 

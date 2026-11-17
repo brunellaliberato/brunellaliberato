@@ -126,3 +126,15 @@ test('legendas não terminam em palavra funcional nem separam "GTA 6"', () => {
 test('léxico de pronúncia só afeta o TTS e respeita termos maiores primeiro', () => {
   assert.equal(applyLexicon('no PS5 Pro e no PS5', { PS5: 'PS cinco', 'PS5 Pro': 'PS cinco Pro' }), 'no PS cinco Pro e no PS cinco');
 });
+
+test('GATE 4: material oficial exige autorização registrada, crédito e uso não comercial', () => {
+  const base = { spoilerRisk: 'nenhum' as const, hasSpoilerWarning: false, previousGatesPassed: true, titleClaimsSupported: true, humanApproved: true };
+  const ok = { authorized: true, creditShown: true, nonCommercialOnly: true };
+  // sem registro de uso anexado: reprova mesmo sendo um status "conhecido"
+  assert.equal(gatePublish({ ...base, assetsRights: ['MATERIAL_OFICIAL_DIVULGACAO'] }).passed, false);
+  assert.equal(gatePublish({ ...base, assetsRights: ['MATERIAL_OFICIAL_DIVULGACAO'], official: [ok] }).passed, true);
+  assert.equal(gatePublish({ ...base, assetsRights: ['MATERIAL_OFICIAL_DIVULGACAO'], official: [{ ...ok, authorized: false }] }).passed, false);
+  assert.equal(gatePublish({ ...base, assetsRights: ['MATERIAL_OFICIAL_DIVULGACAO'], official: [{ ...ok, creditShown: false }] }).passed, false);
+  assert.equal(gatePublish({ ...base, assetsRights: ['MATERIAL_OFICIAL_DIVULGACAO'], official: [ok], channelMonetized: true }).passed, false);
+  assert.equal(gatePublish({ ...base, assetsRights: ['MATERIAL_OFICIAL_DIVULGACAO'], official: [{ ...ok, commercialLicense: 'contrato-123' }], channelMonetized: true }).passed, true);
+});

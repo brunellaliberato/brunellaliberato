@@ -25,7 +25,7 @@ export interface PublishOutcome {
   remoteId?: string;
 }
 
-export async function publishVideo(repo: Repo, script: Script, opts: { dryRun: boolean; publishAt?: string }): Promise<PublishOutcome> {
+export async function publishVideo(repo: Repo, script: Script, opts: { dryRun: boolean; publishAt?: string; gate4?: GateResult }): Promise<PublishOutcome> {
   const renderId = `${script.id}-v${script.version}`;
   const render = repo.get<{ file: string }>('render', renderId);
   const reasons: string[] = [];
@@ -35,6 +35,8 @@ export async function publishVideo(repo: Repo, script: Script, opts: { dryRun: b
     const gr = repo.get<GateResult>('gate', `${script.id}:${g}`);
     if (!gr?.passed) reasons.push(`gate ${g} ${gr ? 'reprovado' : 'não executado'}`);
   }
+  if (opts.gate4 && !opts.gate4.passed)
+    for (const c of opts.gate4.checks.filter((c) => !c.ok && !c.name.startsWith('aprovação humana') && !c.name.startsWith('gates 1-3'))) reasons.push(`gate PUBLICACAO: ${c.name} — ${c.detail}`);
   const hash = createHash('sha256').update(readFileSync(render.file)).digest('hex');
   const dup = repo.db.prepare('SELECT remote_id, status FROM publish_ledger WHERE content_hash=?').get(hash) as { remote_id: string; status: string } | undefined;
   if (dup) return { status: 'DUPLICADO', reasons: [`já enviado (${dup.status}) como ${dup.remote_id}`] };

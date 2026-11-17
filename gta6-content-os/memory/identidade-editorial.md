@@ -39,9 +39,16 @@ Estética **inspirada no GTA VI**; elementos 100% desenhados pelo canal (`studio
 - **Movimento:** números factuais mostram o valor REAL desde o 1º quadro (pulso de escala, nunca contagem: qualquer quadro pode virar capa); selos "carimbam"; palmeiras balançam devagar. Nada de zoom/shake em toda frase.
 - Toda tela com dado mostra a **fonte em mono** no rodapé.
 
-### Limite com a marca da Rockstar (não negociável)
-Não usamos: logo "VI", letreiro "grand theft auto"/fonte estilo Pricedown, logo R★, key art oficial (Jason & Lucia, colagem de painéis), adesivos oficiais "Vice City Leonida". Motivos: direitos autorais/marca registrada, política de imitação do YouTube e risco de o canal parecer oficial.
-Capturas de tela/vídeos oficiais do kit de mídia da Rockstar só com decisão explícita por peça (direito `MATERIAL_OFICIAL_DIVULGACAO`, crédito na tela) — hoje o Gate 4 bloqueia esse tipo de ativo.
+### Material oficial (kit de mídia) — AUTORIZADO pela Brunella em 17/11/2026
+Fonte: https://www.rockstargames.com/VI/media (ZIPs oficiais em `media/oficial/`, fora do git). Manifesto: `rights/rockstar-kit-midia.json`.
+
+Regras de uso (o Gate 4 impõe as automáticas):
+- **Crédito na tela** em todo beat com material oficial: "IMAGEM: ROCKSTAR GAMES" (automático).
+- **Uso não comercial** (política da Rockstar para fãs): com `GTA_OS_CHANNEL_MONETIZED=true`, vídeos com material oficial são bloqueados até haver licença comercial (copyright@take2games.com) registrada no manifesto.
+- **Sem spoiler**; não usar material vazado/pré-lançamento não oficial.
+- Screenshots ficam **sob** a identidade do canal: tinta do pôr do sol, texto adesivo, selos e fonte. Nunca a arte oficial "pura" como se fosse peça da Rockstar.
+- O canal continua sem usar o logo "VI", o letreiro "grand theft auto" ou o logo R★ como **marca própria** (avatar, banner, vinheta). Variantes "With_Logos" do kit não entram nos templates.
+- Escolher imagem pelo que o beat diz (ex.: cidade densa para "Leonida cheia") e checar o corte 9:16: rosto/ação não podem ficar fora do quadro.
 
 ## Regras de imagem
 - Não usar imagem gerada por IA como se fosse captura do jogo.

@@ -1,7 +1,7 @@
 import React from 'react';
-import { AbsoluteFill, Audio, Easing, interpolate, Sequence, spring, staticFile, useCurrentFrame, useVideoConfig } from 'remotion';
+import { AbsoluteFill, Audio, Easing, Img, interpolate, Sequence, spring, staticFile, useCurrentFrame, useVideoConfig } from 'remotion';
 import { color, fonts, safe, sealStyle, sticker, type Seal } from './brand';
-import type { CaptionChunk, Layout, ShortProps, TimelineBeat } from './types';
+import type { BeatBackground, CaptionChunk, Layout, ShortProps, TimelineBeat } from './types';
 
 /* =====================================================================================
  * CENÁRIO "PÔR DO SOL DE LEONIDA" — 100% desenhado pelo canal (SVG procedural)
@@ -98,6 +98,22 @@ const Background: React.FC = () => {
         <rect width="1080" height="1920" fill={color.ink} opacity={0.12} />
         <rect width="1080" height="1920" filter="url(#grain)" opacity={0.06} />
       </svg>
+    </AbsoluteFill>
+  );
+};
+
+/** Imagem oficial de fundo: zoom lento (Ken Burns) + tinta do pôr do sol por cima para manter a identidade e a legibilidade. */
+const BgImage: React.FC<{ bg: BeatBackground; frames: number; fade: boolean }> = ({ bg, frames, fade }) => {
+  const f = useCurrentFrame();
+  const z = interpolate(f, [0, frames], [1.0, 1.08]);
+  // o 1º beat não tem fade: o quadro 0 pode virar capa e precisa da imagem completa
+  const fadeIn = fade ? interpolate(f, [0, 6], [0, 1], { extrapolateRight: 'clamp' }) : 1;
+  return (
+    <AbsoluteFill style={{ opacity: fadeIn }}>
+      <Img src={staticFile(bg.src)} style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: bg.position ?? '50% 50%', transform: `scale(${z})` }} />
+      {/* tinta rosa/roxa do tema + escurecimento onde ficam texto e legenda */}
+      <AbsoluteFill style={{ background: `linear-gradient(180deg, ${color.skyTop}bb 0%, transparent 20%, transparent 50%, ${color.magenta}33 66%, ${color.ink}e6 100%)` }} />
+      <AbsoluteFill style={{ background: color.skyPink, mixBlendMode: 'soft-light', opacity: 0.3 }} />
     </AbsoluteFill>
   );
 };
@@ -340,6 +356,7 @@ const BeatView: React.FC<{ beat: TimelineBeat; renderDateISO: string }> = ({ bea
   const l = beat.layout;
   return (
     <AbsoluteFill>
+      {beat.bg && <BgImage bg={beat.bg} frames={beat.durationInFrames} fade={beat.from > 0} />}
       <div style={{ position: 'absolute', left: safe.left, right: safe.right, top: 330, bottom: safe.bottom + 200, display: 'flex', flexDirection: 'column', justifyContent: 'center', gap: 40, opacity: out }}>
         {l.kind === 'bigNumber' && <BigNumber l={l} />}
         {l.kind === 'quote' && <Quote l={l} />}
@@ -352,6 +369,11 @@ const BeatView: React.FC<{ beat: TimelineBeat; renderDateISO: string }> = ({ bea
       {beat.sourceLabel && (
         <div style={{ position: 'absolute', left: safe.left, bottom: safe.bottom - 110, fontFamily: fonts.mono, fontWeight: 700, fontSize: 26, color: color.white, background: `${color.ink}cc`, padding: '6px 12px', borderRadius: 8, letterSpacing: 1 }}>
           FONTE: {beat.sourceLabel}
+        </div>
+      )}
+      {beat.bg && (
+        <div style={{ position: 'absolute', left: safe.left, bottom: safe.bottom - 150, fontFamily: fonts.mono, fontWeight: 700, fontSize: 22, color: color.white, background: `${color.ink}cc`, padding: '5px 10px', borderRadius: 6, letterSpacing: 1 }}>
+          {beat.bg.credit}
         </div>
       )}
     </AbsoluteFill>

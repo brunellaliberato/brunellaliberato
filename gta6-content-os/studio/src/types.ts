@@ -15,7 +15,17 @@ export interface CaptionChunk {
   emphasis?: boolean;
 }
 
+export interface BeatBackground {
+  /** caminho em studio/public */
+  src: string;
+  /** object-position CSS (ex.: '40% 50%') para enquadrar no 9:16 */
+  position?: string;
+  /** crédito obrigatório na tela */
+  credit: string;
+}
+
 export interface TimelineBeat {
+  bg?: BeatBackground;
   from: number;
   durationInFrames: number;
   layout: Layout;

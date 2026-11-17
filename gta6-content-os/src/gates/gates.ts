@@ -195,8 +195,19 @@ export function gateAV(file: string, kind: 'short' | 'longo'): GateResult {
 
 /* ------------------------------ GATE 4 — PUBLICAÇÃO ------------------------------ */
 
+export interface OfficialMaterialUse {
+  authorized: boolean;
+  creditShown: boolean;
+  nonCommercialOnly: boolean;
+  commercialLicense?: string;
+}
+
 export interface PublishContext {
   assetsRights: RightsStatus[];
+  /** uso de material oficial (kit de mídia) — condições do manifesto */
+  official?: OfficialMaterialUse[];
+  /** canal monetizado? (GTA_OS_CHANNEL_MONETIZED=true) */
+  channelMonetized?: boolean;
   spoilerRisk: NewsItem['spoilerRisk'];
   hasSpoilerWarning: boolean;
   humanApproved: boolean;
@@ -204,11 +215,27 @@ export interface PublishContext {
   titleClaimsSupported: boolean;
 }
 
-const OK_RIGHTS: RightsStatus[] = ['PROPRIO', 'LICENCA_ABERTA', 'AUTORIZADO_POR_ESCRITO'];
+const OK_RIGHTS: RightsStatus[] = ['PROPRIO', 'LICENCA_ABERTA', 'AUTORIZADO_POR_ESCRITO', 'MATERIAL_OFICIAL_DIVULGACAO'];
 
 export function gatePublish(ctx: PublishContext): GateResult {
-  const bad = ctx.assetsRights.filter((r) => !OK_RIGHTS.includes(r));
+  const official = ctx.official ?? [];
+  // material oficial só passa com o registro de uso (autorização + condições) anexado
+  const bad = ctx.assetsRights.filter((r) => !OK_RIGHTS.includes(r) || (r === 'MATERIAL_OFICIAL_DIVULGACAO' && official.length === 0));
+  const officialChecks: Check[] = official.length
+    ? [
+        { name: 'material oficial autorizado pela responsável', ok: official.every((o) => o.authorized), detail: official.every((o) => o.authorized) ? 'autorização registrada no manifesto' : 'falta autorização no manifesto' },
+        { name: 'crédito da Rockstar na tela', ok: official.every((o) => o.creditShown), detail: official.every((o) => o.creditShown) ? 'ok' : 'crédito ausente' },
+        {
+          name: 'uso não comercial (política Rockstar)',
+          ok: !ctx.channelMonetized || official.every((o) => !o.nonCommercialOnly || !!o.commercialLicense),
+          detail: ctx.channelMonetized
+            ? 'canal MONETIZADO: material oficial exige licença comercial (copyright@take2games.com)'
+            : 'canal não monetizado — dentro da política para fãs',
+        },
+      ]
+    : [];
   const checks: Check[] = [
+    ...officialChecks,
     { name: 'gates 1-3 aprovados', ok: ctx.previousGatesPassed, detail: ctx.previousGatesPassed ? 'ok' : 'há gate anterior reprovado' },
     { name: 'direitos de todos os ativos', ok: bad.length === 0, detail: bad.length ? `ativos com direito ${[...new Set(bad)].join(', ')}` : 'ok' },
     {

@@ -10,15 +10,46 @@ import { execFileSync, spawnSync } from 'node:child_process';
 import { copyFileSync, existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { paths } from '../../core/config.js';
-import type { Script } from '../../core/types.js';
+import type { RightsStatus, Script } from '../../core/types.js';
 import type { CaptionChunk, Layout, ShortProps, TimelineBeat } from '../../../studio/src/types.js';
 import type { Seal } from '../../../studio/src/brand.js';
+
+export interface StoryboardBg {
+  /** caminho relativo à raiz do projeto (ex.: media/oficial/...jpg) */
+  file: string;
+  /** manifesto de direitos em rights/ */
+  rights: string;
+  position?: string;
+}
 
 export interface Storyboard {
   scriptId: string;
   voice: string;
-  beats: { layout: Layout; seal?: Seal; sourceLabel?: string }[];
+  beats: { layout: Layout; seal?: Seal; sourceLabel?: string; bg?: StoryboardBg }[];
   emphasis: string[];
+}
+
+export interface RightsManifest {
+  assetId: string;
+  rights: RightsStatus;
+  publishable: boolean;
+  authorization?: { by: string; at: string; scope: string };
+  conditions?: { creditOnScreen?: string; nonCommercialOnly?: boolean; noSpoilers?: boolean };
+  commercialLicense?: string;
+}
+
+export function loadRights(file: string): RightsManifest {
+  return JSON.parse(readFileSync(join(paths.root, 'rights', file), 'utf8')) as RightsManifest;
+}
+
+/** Direitos de todos os ativos de terceiros usados no storyboard (o resto é desenhado pelo canal). */
+export function storyboardRights(sb: Storyboard): { manifest: RightsManifest; creditShown: boolean }[] {
+  return sb.beats
+    .filter((b) => b.bg)
+    .map((b) => {
+      const m = loadRights(b.bg!.rights);
+      return { manifest: m, creditShown: !!m.conditions?.creditOnScreen };
+    });
 }
 
 const FPS = 30;
@@ -128,12 +159,25 @@ export async function produceShort(script: Script, sb: Storyboard, opts: { voice
   }
   const durs = wavs.map(duration);
 
-  // 2) timeline
+  // 2) fundos: imagem reduzida para 1920 de altura (render rápido), com crédito do manifesto
+  const bgs = sb.beats.map((b, i) => {
+    if (!b.bg) return undefined;
+    const m = loadRights(b.bg.rights);
+    if (!['PROPRIO', 'LICENCA_ABERTA', 'AUTORIZADO_POR_ESCRITO', 'MATERIAL_OFICIAL_DIVULGACAO'].includes(m.rights) || (m.rights === 'MATERIAL_OFICIAL_DIVULGACAO' && !m.authorization))
+      throw new Error(`beat ${i + 1}: ativo ${b.bg.file} sem autorização (${m.rights})`);
+    const name = `bg-${i}-${sha(b.bg.file)}.jpg`;
+    const dst = join(pubDir, name);
+    if (!existsSync(dst)) execFileSync('ffmpeg', ['-y', '-v', 'error', '-i', join(paths.root, b.bg.file), '-vf', 'scale=-2:1920', '-q:v', '3', dst]);
+    return { src: `${script.id}/${name}`, position: b.bg.position, credit: m.conditions?.creditOnScreen ?? `IMAGEM: ${m.assetId}` };
+  });
+
+  // 3) timeline
   let cursor = 0;
   const beats: TimelineBeat[] = script.beats.map((b, i) => {
     const speech = Math.ceil(durs[i] * FPS);
     const len = speech + (i === script.beats.length - 1 ? TAIL_FRAMES : GAP_FRAMES);
     const tb: TimelineBeat = {
+      bg: bgs[i],
       from: cursor,
       durationInFrames: len,
       layout: sb.beats[i].layout,
