@@ -1,3 +1,12 @@
+# Estado em 18/11/2026 (leia primeiro numa sessão nova)
+
+**Canal:** O Canal do GTA 6 (@ocanaldogta6), criado. Config: `docs/canal-config.md`. Agenda: `docs/agenda-publicacao.md`.
+**Publicados pela Brunella:** vídeo longo l02 (7 personagens). Entregues para postar: s05-jason, s07-nova-zelandia v3.
+**Voz:** Thalita, ritmo "voz B" (+20%, +10Hz) — padrão em `src/modules/f-production/short.ts`. Produção licenciada exige `AZURE_SPEECH_KEY`/`AZURE_SPEECH_REGION` no ambiente (ainda não configurados); sem isso é voz de prévia (Gate 4 bloqueia).
+**Chaves no ambiente da nuvem:** `GEMINI_API_KEY` salva pela Brunella em 18/11 (vale só em sessões novas) → usar o watch com engine gemini para assistir YouTube (o servidor é bloqueado pelo YouTube no yt-dlp; não contornar).
+**Cortes de live (pedido de 18/11):** formato streamer em cima / jogo embaixo, com gancho, zoom nos picos, legenda com pop, emojis e SFX próprios → `scripts/corte-live.ts` + `studio/src/LiveCut.tsx` + `clip-engine/livecut_prep.py` + `clip-engine/sfx.py`. Testado só com filme CC (Tears of Steel). Falta: lives AUTORIZADAS (regra da Brunella: crédito não substitui autorização), coordenadas da facecam por streamer, sinal de chat, e a skill que a Brunella vai mandar (auditar antes de instalar). Referência: youtube.com/watch?v=cksCVmaX1qM.
+**Pedido em aberto:** automatizar 10 Shorts/dia (tarefa agendada diária) — depende de gameplay próprio ou lives autorizadas + voz Azure.
+
 # Pendências reais (17/11/2026)
 
 ## Bloqueiam a primeira publicação — dependem de você
