@@ -22,7 +22,7 @@ export function shortMetadata(s: Script): ShortMeta {
   const sources = s.sources.map((x) => `• ${x.name}: ${x.url}`).join('\n');
   const description = [s.promise, '', 'Fontes:', sources, '', DISCLAIMER, '', '#GTA6 #GTAVI #Shorts'].join('\n');
   const tags = ['GTA 6', 'GTA VI', 'Grand Theft Auto VI', 'notícias GTA 6', 'Rockstar', 'lançamento GTA 6'];
-  const coverConcept = `Fundo asfalto, número/frase principal da tela 1 ("${s.beats[0].onScreen}") em Anton amarelo, selo CONFIRMADO. Sem arte oficial, sem imagem gerada por IA.`;
+  const coverConcept = `Fundo asfalto, número/frase principal da tela 1 ("${s.beats[0].onScreen}") em adesivo branco, selo verde e crédito "IMAGEM: ROCKSTAR GAMES". Nunca imagem gerada por IA.`;
   const md = `# Metadados — ${s.id}\n\n**Título:** ${title}\n\n**Gancho (0–2s):** ${s.hook}\n\n**Capa:** ${coverConcept}\n\n**Spoiler:** não\n\n**Descrição:**\n\n\`\`\`\n${description}\n\`\`\`\n\n**Tags temáticas:** ${tags.join(', ')}\n\n**Categoria:** Jogos (20)\n`;
   return { title, hook: s.hook, coverConcept, description, tags, spoiler: false, markdown: md };
 }

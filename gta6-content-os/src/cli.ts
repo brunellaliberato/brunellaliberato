@@ -134,8 +134,8 @@ const commands: Record<string, () => Promise<void>> = {
     mkdirSync(paths.entregas, { recursive: true });
     const deliver = join(paths.entregas, `${id}-v${script.version}.mp4`);
     copyFileSync(r.file, deliver);
-    const meta = shortMetadata(script);
-    writeFileSync(join(paths.content, 'seo', `${id}.md`), meta.markdown);
+    // vídeo longo tem pacote de publicação próprio (content/seo/<id>.md, capítulos da montagem real); não sobrescrever com o modelo de Short
+    if (script.format !== 'longo') writeFileSync(join(paths.content, 'seo', `${id}.md`), shortMetadata(script).markdown);
     console.log(`\nMP4: ${deliver} (${r.durationSec.toFixed(1)}s, voz reaproveitada em ${r.reusedVoiceBeats}/${script.beats.length} beats)`);
   },
 
