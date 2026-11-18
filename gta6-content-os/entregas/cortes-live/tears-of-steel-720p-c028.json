@@ -1,0 +1,172 @@
+{
+ "src": "livecut/live-tears-of-steel-720p-c028.mp4",
+ "srcW": 1280,
+ "srcH": 534,
+ "cam": {
+  "x": 380,
+  "y": 0,
+  "w": 520,
+  "h": 534
+ },
+ "game": {
+  "x": 0,
+  "y": 0,
+  "w": 1280,
+  "h": 534
+ },
+ "fps": 30,
+ "durationInFrames": 1345,
+ "hook": "EVEN CELIA!",
+ "streamer": "@blenderfoundation",
+ "credit": "TESTE · TEARS OF STEEL (CC BY) · NÃO PUBLICAR",
+ "channel": "O CANAL DO GTA 6",
+ "captions": [
+  {
+   "text": "EVEN CELIA!",
+   "from": 9,
+   "to": 51,
+   "emphasis": true
+  },
+  {
+   "text": "WHY DON'T YOU",
+   "from": 69,
+   "to": 97,
+   "emphasis": false
+  },
+  {
+   "text": "JUST ADMIT THAT",
+   "from": 97,
+   "to": 117,
+   "emphasis": false
+  },
+  {
+   "text": "YOU'RE FREAKED",
+   "from": 117,
+   "to": 131,
+   "emphasis": false
+  },
+  {
+   "text": "OUT BY MY",
+   "from": 131,
+   "to": 148,
+   "emphasis": false
+  },
+  {
+   "text": "ROBOT HAND?",
+   "from": 148,
+   "to": 173,
+   "emphasis": false
+  },
+  {
+   "text": "THIS IS CELIA.",
+   "from": 373,
+   "to": 402,
+   "emphasis": false
+  },
+  {
+   "text": "I WAS YOUNG.",
+   "from": 414,
+   "to": 439,
+   "emphasis": false
+  },
+  {
+   "text": "AND A DICK.",
+   "from": 456,
+   "to": 490,
+   "emphasis": false
+  },
+  {
+   "text": "BUT THERE'S",
+   "from": 507,
+   "to": 516,
+   "emphasis": false
+  },
+  {
+   "text": "NO REASON",
+   "from": 516,
+   "to": 527,
+   "emphasis": false
+  },
+  {
+   "text": "TO DESTROY",
+   "from": 527,
+   "to": 542,
+   "emphasis": false
+  },
+  {
+   "text": "THE WORLD.",
+   "from": 542,
+   "to": 561,
+   "emphasis": false
+  },
+  {
+   "text": "WHY DOES SHE",
+   "from": 613,
+   "to": 634,
+   "emphasis": false
+  },
+  {
+   "text": "DO THIS?",
+   "from": 634,
+   "to": 648,
+   "emphasis": false
+  },
+  {
+   "text": "WE ALREADY TRIED",
+   "from": 670,
+   "to": 710,
+   "emphasis": false
+  },
+  {
+   "text": "THAT ONE.",
+   "from": 710,
+   "to": 727,
+   "emphasis": false
+  },
+  {
+   "text": "NO!",
+   "from": 1044,
+   "to": 1064,
+   "emphasis": true
+  },
+  {
+   "text": "YOU BROKE MY",
+   "from": 1172,
+   "to": 1207,
+   "emphasis": false
+  },
+  {
+   "text": "HEART.",
+   "from": 1207,
+   "to": 1220,
+   "emphasis": false
+  },
+  {
+   "text": "YOU FORGOT ME",
+   "from": 1283,
+   "to": 1313,
+   "emphasis": false
+  },
+  {
+   "text": "ON EARTH.",
+   "from": 1313,
+   "to": 1331,
+   "emphasis": false
+  }
+ ],
+ "punches": [],
+ "reactions": [],
+ "_candidate": {
+  "id": "c028",
+  "start": 344.26,
+  "end": 389.09,
+  "score": 8.69,
+  "reason": [
+   "6 marcadores de reação/pergunta na fala",
+   "ritmo visual alto (4.5 cortes/10s)",
+   "abertura forte nos primeiros 3 s"
+  ],
+  "transcript": "Even Celia! Why don't you just admit that you're freaked out by my robot hand? This is Celia. I was young. And a dick. But there's no reason to destroy the world. Why does she do this? We already tried that one. No! You broke my heart. You forgot me on Earth.",
+  "spoiler_alert": false
+ }
+}
