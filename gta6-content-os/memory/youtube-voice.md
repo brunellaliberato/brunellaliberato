@@ -27,3 +27,6 @@ Um brasileiro de 16 a 30 anos que já zerou GTA V, viu os trailers do VI umas de
 - Só corto quem autoriza (registro em rights/). Crédito não é autorização.
 - Spoiler de história sempre com aviso na capa e nos 2 primeiros segundos.
 - Nada de imagem gerada por IA se passando por cena do jogo.
+
+## Ritmo da voz (18/11)
+Brunella escolheu a "voz B": Thalita com rate +20% e pitch +10Hz (mais rápida e empolgada). Padrão em src/modules/f-production/short.ts (GTA_OS_VOICE_RATE / GTA_OS_VOICE_PITCH).

@@ -84,9 +84,9 @@ export interface Voice {
   synth(text: string, outWav: string): void;
 }
 
-/** Ritmo e energia da Thalita (18/11: Brunella pediu "mais rápida e mais empolgada"). */
-export const VOICE_RATE = process.env.GTA_OS_VOICE_RATE ?? '+14%';
-export const VOICE_PITCH = process.env.GTA_OS_VOICE_PITCH ?? '+6Hz';
+/** Ritmo e energia da Thalita (18/11: Brunella escolheu a voz B: +20%, +10Hz). */
+export const VOICE_RATE = process.env.GTA_OS_VOICE_RATE ?? '+20%';
+export const VOICE_PITCH = process.env.GTA_OS_VOICE_PITCH ?? '+10Hz';
 
 function tts(provider: 'azure' | 'edge', text: string, outWav: string) {
   const tmp = `${outWav}.txt`;
