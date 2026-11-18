@@ -67,55 +67,65 @@ const Title: React.FC<{ text: string; sub?: string }> = ({ text, sub }) => {
 
 /* Mapa de conexões: nós (adesivos) e ligações que se desenham em sequência. */
 type Node = { id: string; label: string; x: number; y: number };
+// nós espaçados para que nenhuma legenda de ligação caia embaixo de um nome
 const NODES: Node[] = [
   { id: 'lucia', label: 'LUCIA', x: 330, y: 300 },
-  { id: 'jason', label: 'JASON', x: 330, y: 600 },
-  { id: 'brian', label: 'BRIAN', x: 760, y: 760 },
-  { id: 'boobie', label: 'BOOBIE', x: 1180, y: 270 },
-  { id: 'drequan', label: "DRE'QUAN", x: 1600, y: 420 },
-  { id: 'dimez', label: 'REAL DIMEZ', x: 1430, y: 760 },
-  { id: 'raul', label: 'RAUL', x: 940, y: 470 },
+  { id: 'jason', label: 'JASON', x: 330, y: 640 },
+  { id: 'brian', label: 'BRIAN', x: 720, y: 820 },
+  { id: 'boobie', label: 'BOOBIE', x: 1260, y: 250 },
+  { id: 'drequan', label: "DRE'QUAN", x: 1640, y: 540 },
+  { id: 'dimez', label: 'REAL DIMEZ', x: 1400, y: 820 },
+  { id: 'raul', label: 'RAUL', x: 860, y: 420 },
 ];
-const EDGES: { a: string; b: string; label: string }[] = [
-  { a: 'lucia', b: 'jason', label: 'o casal' },
-  { a: 'jason', b: 'brian', label: 'mora de graça' },
-  { a: 'boobie', b: 'drequan', label: 'sócios · Only Raw' },
-  { a: 'drequan', b: 'dimez', label: 'contratou' },
+const EDGES: { a: string; b: string; label: string; dx: number; dy: number }[] = [
+  { a: 'lucia', b: 'jason', label: 'o casal', dx: 110, dy: 0 },
+  { a: 'jason', b: 'brian', label: 'mora de graça', dx: -40, dy: 70 },
+  { a: 'boobie', b: 'drequan', label: 'sócios na Only Raw', dx: 60, dy: -60 },
+  { a: 'drequan', b: 'dimez', label: 'contratou', dx: 90, dy: 50 },
 ];
 
 const MapView: React.FC<{ focus?: string; frames: number }> = ({ focus, frames }) => {
   const f = useCurrentFrame();
   const n = (id: string) => NODES.find((x) => x.id === id)!;
+  const prog = (i: number) => {
+    if (focus) return 1;
+    const t0 = (i / EDGES.length) * frames * 0.7;
+    return interpolate(f, [t0, t0 + 18], [0, 1], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' });
+  };
   return (
-    <AbsoluteFill style={{ background: `radial-gradient(ellipse at 50% 40%, ${color.panel}, ${color.ink})` }}>
+    <AbsoluteFill style={{ background: `radial-gradient(ellipse at 50% 45%, ${color.panel}, ${color.ink})` }}>
+      <div style={{ position: 'absolute', left: PAD, top: 90, fontFamily: fonts.neon, fontSize: 80, color: color.sun, WebkitTextStroke: `6px ${color.ink}`, paintOrder: 'stroke fill' }}>
+        como todos se ligam
+      </div>
       <svg width={1920} height={1080} style={{ position: 'absolute' }}>
         {EDGES.map((e, i) => {
           const A = n(e.a), B = n(e.b);
-          const t0 = (i / EDGES.length) * frames * 0.7;
-          const p = focus ? 1 : interpolate(f, [t0, t0 + 18], [0, 1], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' });
           const len = Math.hypot(B.x - A.x, B.y - A.y);
           return (
-            <g key={i} opacity={focus ? 0.35 : 1}>
-              <line x1={A.x} y1={A.y} x2={B.x} y2={B.y} stroke={color.sun} strokeWidth={10} strokeLinecap="round" strokeDasharray={len} strokeDashoffset={len * (1 - p)} />
-              <text x={(A.x + B.x) / 2} y={(A.y + B.y) / 2 - 22} textAnchor="middle" fontFamily="SE Inter" fontWeight={900} fontSize={34} fill={color.white} stroke={color.ink} strokeWidth={8} paintOrder="stroke" opacity={p}>
-                {e.label}
-              </text>
-            </g>
+            <line key={i} opacity={focus ? 0.3 : 1} x1={A.x} y1={A.y} x2={B.x} y2={B.y} stroke={color.sun} strokeWidth={12} strokeLinecap="round" strokeDasharray={len} strokeDashoffset={len * (1 - prog(i))} />
           );
         })}
-        {focus === 'raul' && (
-          <text x={n('raul').x} y={n('raul').y + 150} textAnchor="middle" fontFamily="SE Bowlby" fontSize={130} fill={color.hotPink} stroke={color.ink} strokeWidth={10} paintOrder="stroke">?</text>
-        )}
       </svg>
+      {EDGES.map((e, i) => {
+        const A = n(e.a), B = n(e.b);
+        return (
+          <div key={'l' + i} style={{ position: 'absolute', left: (A.x + B.x) / 2 + e.dx, top: (A.y + B.y) / 2 + e.dy, transform: 'translate(-50%,-50%) rotate(-2deg)', opacity: prog(i) * (focus ? 0.3 : 1), fontFamily: fonts.body, fontWeight: 900, fontSize: 40, color: color.ink, background: color.sun, border: `5px solid ${color.ink}`, borderRadius: 12, padding: '4px 16px', whiteSpace: 'nowrap' }}>
+            {e.label}
+          </div>
+        );
+      })}
       {NODES.map((nd, i) => {
         const s = spring({ frame: f - i * 3, fps: 30, config: { damping: 14, stiffness: 160 } });
         const dimmed = focus && focus !== nd.id;
         return (
-          <div key={nd.id} style={{ position: 'absolute', left: nd.x, top: nd.y, transform: `translate(-50%,-50%) scale(${s * (focus === nd.id ? 1.25 : 1)})`, opacity: dimmed ? 0.35 : 1, fontFamily: fonts.display, fontSize: 52, color: color.ink, background: nd.id === 'raul' ? color.hotPink : color.white, border: `7px solid ${color.ink}`, boxShadow: `7px 9px 0 ${color.ink}`, padding: '10px 26px', borderRadius: 18, whiteSpace: 'nowrap' }}>
+          <div key={nd.id} style={{ position: 'absolute', left: nd.x, top: nd.y, transform: `translate(-50%,-50%) scale(${s * (focus === nd.id ? 1.3 : 1)})`, opacity: dimmed ? 0.3 : 1, fontFamily: fonts.display, fontSize: 64, color: color.ink, background: nd.id === 'raul' ? color.hotPink : color.white, border: `8px solid ${color.ink}`, boxShadow: `8px 10px 0 ${color.ink}`, padding: '12px 30px', borderRadius: 20, whiteSpace: 'nowrap' }}>
             {nd.label}
           </div>
         );
       })}
+      {focus === 'raul' && (
+        <div style={{ position: 'absolute', left: n('raul').x + 190, top: n('raul').y - 40, transform: `translate(-50%,-50%) rotate(8deg) scale(${spring({ frame: f - 6, fps: 30, config: { damping: 10 } })})`, fontFamily: fonts.display, fontSize: 200, ...sticker(14, 14), color: color.sun }}>?</div>
+      )}
     </AbsoluteFill>
   );
 };

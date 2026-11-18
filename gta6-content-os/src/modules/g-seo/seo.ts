@@ -34,7 +34,7 @@ export function chaptersFromProps(props: { fps: number; beats: { from: number; l
   let mapAdded = false;
   for (const b of props.beats) {
     const t = b.from / props.fps;
-    if (b.layout.kind === 'chapter' && b.layout.name) marks.push({ t, title: b.layout.name.charAt(0) + b.layout.name.slice(1).toLowerCase() });
+    if (b.layout.kind === 'chapter' && b.layout.name) marks.push({ t, title: b.layout.name.toLowerCase().replace(/(^|[\s'])\p{L}/gu, (m) => m.toUpperCase()) });
     if (b.layout.kind === 'map' && !mapAdded) { marks.push({ t, title: 'Como todos se conectam' }); mapAdded = true; }
   }
   const ok = marks.filter((m, i) => i === marks.length - 1 || marks[i + 1].t - m.t >= 10);
