@@ -4,6 +4,7 @@ import { ShortVideo } from './ShortVideo';
 import { LongVideo } from './LongVideo';
 import { Thumb } from './Thumb';
 import { Avatar, Banner } from './ChannelArt';
+import { LiveCut } from './LiveCut';
 import type { ShortProps } from './types';
 
 const defaults: ShortProps = {
@@ -27,6 +28,16 @@ const Root: React.FC = () =>
   React.createElement(React.Fragment, null,
   React.createElement(Composition, { id: 'Avatar', component: Avatar as unknown as React.FC<Record<string, unknown>>, width: 800, height: 800, fps: 30, durationInFrames: 1, defaultProps: { name: '', handle: '', tagline: '', bg: '', mark: 'HL' } }),
   React.createElement(Composition, { id: 'Banner', component: Banner as unknown as React.FC<Record<string, unknown>>, width: 2560, height: 1440, fps: 30, durationInFrames: 1, defaultProps: { name: '', handle: '', tagline: '', bg: '', mark: '' } }),
+  React.createElement(Composition, {
+    id: 'LiveCut',
+    component: LiveCut as unknown as React.FC<Record<string, unknown>>,
+    width: 1080,
+    height: 1920,
+    fps: 30,
+    durationInFrames: 150,
+    defaultProps: { src: '', srcW: 1920, srcH: 1080, cam: null, game: { x: 0, y: 0, w: 1920, h: 1080 }, fps: 30, durationInFrames: 150, hook: '', streamer: '', credit: '', channel: '', captions: [], punches: [], reactions: [] },
+    calculateMetadata: ({ props }: { props: Record<string, unknown> }) => ({ durationInFrames: props.durationInFrames as number, fps: props.fps as number }),
+  }),
   React.createElement(Composition, {
     id: 'Thumb',
     component: Thumb as unknown as React.FC<Record<string, unknown>>,
