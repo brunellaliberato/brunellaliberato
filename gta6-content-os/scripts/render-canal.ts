@@ -5,9 +5,9 @@ import { mkdirSync } from 'node:fs';
 import { join } from 'node:path';
 const root = new URL('..', import.meta.url).pathname;
 const opts = [
-  { id: 'historias', name: 'HISTÓRIAS DE LEONIDA', handle: '@historiasdeleonida', mark: 'HL', tagline: 'cortes, personagens e segredos de GTA 6' },
-  { id: 'casos', name: 'CASOS DE LEONIDA', handle: '@casosdeleonida', mark: 'CL', tagline: 'os melhores causos de GTA 6' },
-  { id: 'nacola', name: 'GTA NA COLA', handle: '@gtanacola', mark: 'NC', tagline: 'cortes e histórias de GTA 6' },
+  { id: 'gta6brasil', name: 'GTA 6 BRASIL', handle: '@gta6brasil', mark: 'G6', tagline: 'tudo de GTA 6, checado e em português' },
+  { id: 'gtaconferido', name: 'GTA CONFERIDO', handle: '@gtaconferido', mark: 'GC', tagline: 'GTA 6 sem boato: notícias, gameplay e cortes' },
+  { id: 'gta6nacola', name: 'GTA 6 NA COLA', handle: '@gta6nacola', mark: 'NC', tagline: 'notícias, gameplay e cortes de GTA 6' },
 ];
 const be = '/opt/pw-browsers/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-headless-shell';
 const out = join(root, 'entregas', 'canal');

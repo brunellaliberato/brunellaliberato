@@ -1,25 +1,30 @@
 # Kit do canal (17–18/11/2026)
 
+## Escopo (Brunella, 18/11): canal de conteúdo GERAL de GTA 6
+Notícias checadas, personagens e lugares, gameplay, guias e cortes narrados.
+
 ## Nome e @ — verificados livres no YouTube em 18/11 (confirmação final só na hora de criar)
-| Opção | Nome do canal | @ | Arte |
+| Opção | Nome do canal | @ | Arte (entregas/canal/) |
 |---|---|---|---|
-| **Recomendada** | **Histórias de Leonida** | **@historiasdeleonida** | `entregas/canal/historias-avatar.png` · `historias-banner.png` |
-| 2 | Casos de Leonida | @casosdeleonida | `casos-*.png` |
-| 3 | GTA Na Cola | @gtanacola | `nacola-*.png` |
+| **Recomendada** | **GTA 6 Brasil** | **@gta6brasil** | `gta6brasil-avatar.png` · `gta6brasil-banner.png` |
+| 2 | GTA Conferido | @gtaconferido | `gtaconferido-*.png` — destaca o diferencial "sem boato" |
+| 3 | GTA 6 Na Cola | @gta6nacola | `gta6nacola-*.png` |
+| (escopo de histórias) | Histórias de Leonida | @historiasdeleonida | `historias-*.png` |
 
-Ocupados (já existem canais com o nome): @roleemleonida, @diariodeleonida, @canalleonida, @leonidabr, @vidaemleonida, @taprocurado, @procuradosgta, @cincoestrelasgta.
+Ocupados: @gta6br, @tudodegta6, @radargta6, @gta6emdia, @mundogta6, @gta6checado, @basegta6, @gta6total, @centralgta6, @gta6diario, @gta6aovivo, @gta6semfiltro, @centralleonida, @portalleonida, @roleemleonida, @diariodeleonida.
 
-Por que "Histórias de Leonida": descreve o que o canal entrega (personagens, lugares e as histórias de cada corte de gameplay), tem "Leonida" — palavra que só existe no universo de GTA 6 — e não usa a marca "GTA" no nome principal (evita parecer canal oficial). "GTA 6" entra nos títulos, descrições e tags, onde a busca acontece.
+Por que "GTA 6 Brasil": é exatamente o que um brasileiro digita na busca; cobre tudo (notícia, gameplay, guia, corte) e continua servindo depois do lançamento.
+Cuidado: com "GTA" no nome, o canal precisa deixar claro que é de fã — aviso fixo no banner/descrição, sem logo oficial como avatar. Se preferir distância total da marca, "GTA Conferido" puxa o diferencial de credibilidade.
 
 ## Descrição do canal (aba "Sobre") — colar
 ```
-Tudo de GTA 6 contado como história: os personagens, os lugares de Leonida e os melhores momentos do jogo.
+Tudo de GTA 6 em português: notícias, personagens, lugares de Leonida, gameplay, guias e os melhores cortes.
 
 Aqui é tudo checado. Fato oficial tem fonte; boato aparece como boato. Nada de vazamento.
 
+📌 Notícias oficiais de GTA 6
 📌 Personagens e lugares de Leonida
-📌 Cortes narrados de gameplay
-📌 Novidades oficiais de GTA 6
+📌 Gameplay, guias e cortes narrados
 
 Canal de fã, sem vínculo com a Rockstar Games ou a Take-Two Interactive. Imagens oficiais: Rockstar Games.
 ```
