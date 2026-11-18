@@ -292,7 +292,7 @@ export async function produceShort(script: Script, sb: Storyboard, opts: { voice
     // trilha procedural reprovada (17/11): sem música de fundo por padrão; música entra na publicação
     bedSrc: process.env.GTA_OS_BED === '1' ? `${script.id}/bed.wav` : null,
     beats,
-    channel: process.env.GTA_OS_CHANNEL_NAME ?? '', // nome do canal ainda não definido
+    channel: process.env.GTA_OS_CHANNEL_NAME ?? 'O CANAL DO GTA 6', // @ocanaldogta6 (criado em 18/11)
     renderDateISO: (opts.renderDate ?? new Date()).toISOString(),
   };
   writeFileSync(join(workDir, 'props.json'), JSON.stringify(props, null, 2));

@@ -8,14 +8,15 @@ export interface ChannelArtProps {
   tagline: string;
   bg: string;
   mark: string;
+  markSize?: number;
   [key: string]: unknown;
 }
 
 /** Foto de perfil 800x800: monograma em adesivo sobre o pôr do sol (legível em 98px, o tamanho real no celular). */
-export const Avatar: React.FC<ChannelArtProps> = ({ mark }) => (
+export const Avatar: React.FC<ChannelArtProps> = ({ mark, markSize }) => (
   <AbsoluteFill style={{ background: `linear-gradient(180deg, ${color.skyTop} 0%, ${color.skyMauve} 40%, ${color.skyPink} 70%, ${color.skyOrange} 100%)`, alignItems: 'center', justifyContent: 'center' }}>
     <div style={{ position: 'absolute', width: 520, height: 520, borderRadius: '50%', background: `linear-gradient(180deg, ${color.sun}, ${color.hotPink})`, top: 250, opacity: 0.9, zIndex: 0 }} />
-    <div style={{ position: 'relative', zIndex: 1, fontFamily: fonts.display, fontSize: 300, lineHeight: 1, letterSpacing: '-0.04em', ...sticker(22, 22) }}>{mark}</div>
+    <div style={{ position: 'relative', zIndex: 1, fontFamily: fonts.display, fontSize: markSize ?? 300, lineHeight: 1, letterSpacing: '-0.04em', ...sticker(22, 22) }}>{mark}</div>
   </AbsoluteFill>
 );
 

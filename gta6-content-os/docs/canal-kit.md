@@ -1,5 +1,9 @@
 # Kit do canal (17–18/11/2026)
 
+## ✅ ESCOLHIDO (18/11): **O Canal do GTA 6** — @ocanaldogta6
+Arte: `entregas/canal/ocanaldogta6-avatar.png` (foto) e `ocanaldogta6-banner.png` (banner). Descrição: a da seção "Descrição do canal" abaixo.
+
+
 ## ATUALIZAÇÃO 18/11: @gta6brasil não está disponível (reservado). Nomes criativos com @ livre (checado 18/11):
 | Nome | @ | Ideia |
 |---|---|---|
