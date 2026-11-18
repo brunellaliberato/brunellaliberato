@@ -1,0 +1,32 @@
+{
+  "id": "s07-nova-zelandia",
+  "pautaId": "lancamento-horario",
+  "format": "short",
+  "style": "noticia_urgente",
+  "title": "GTA 6 já liberou na Nova Zelândia. E no Brasil?",
+  "audience": "Quem vai jogar no lançamento e quer saber a hora exata.",
+  "goal": "Notícia do momento com utilidade: por que já tem gente jogando e quando libera aqui.",
+  "promise": "Por que a Nova Zelândia já está jogando GTA 6 e a que horas o jogo libera no Brasil, com fonte oficial.",
+  "hook": "Já tem gente jogando GTA 6. Na Nova Zelândia.",
+  "fullText": "",
+  "beats": [
+    { "t": [0, 0], "narration": "Já tem gente jogando GTA 6. Na Nova Zelândia.", "onScreen": "JÁ TEM GENTE JOGANDO", "visual": "Trailer de lançamento oficial (mudo).", "edit": "Sem intro.", "animation": "texto adesivo", "audio": "Só narração." },
+    { "t": [0, 0], "narration": "A Sony confirmou: no PlayStation 5, o jogo libera à meia-noite do dia dezenove, no horário de cada país.", "onScreen": "MEIA-NOITE DE 19/11", "visual": "Trailer de lançamento oficial.", "edit": "Corte contínuo.", "animation": "texto adesivo", "audio": "—" },
+    { "t": [0, 0], "narration": "E a Nova Zelândia é um dos primeiros lugares do mundo a chegar nessa meia-noite.", "onScreen": "NOVA ZELÂNDIA SAI NA FRENTE", "visual": "Trailer de lançamento oficial.", "edit": "Corte contínuo.", "animation": "texto adesivo", "audio": "—" },
+    { "t": [0, 0], "narration": "Aqui no Brasil, isso quer dizer meia-noite de hoje pra amanhã, no seu horário.", "onScreen": "BRASIL: HOJE À MEIA-NOITE", "visual": "Trailer de lançamento oficial.", "edit": "Corte contínuo.", "animation": "texto adesivo", "audio": "—" },
+    { "t": [0, 0], "narration": "Ainda não baixou? A Rockstar avisa que o arquivo pode ter até duzentos e doze gigas.", "onScreen": "ATÉ 212 GB", "visual": "Trailer de lançamento oficial.", "edit": "Corte contínuo.", "animation": "texto adesivo", "audio": "—" },
+    { "t": [0, 0], "narration": "E aí, vai virar a noite jogando?", "onScreen": "VAI VIRAR A NOITE?", "visual": "Trailer de lançamento oficial.", "edit": "Segura 1s.", "animation": "texto adesivo", "audio": "—" }
+  ],
+  "cta": "Pergunta no fim.",
+  "claims": [
+    { "text": "MEIA-NOITE DE 19/11, horário local, no PS5", "newsIds": ["ps-horario-lancamento"], "quote": "Grand Theft Auto VI releases at midnight local time on November 19, 2026, on PlayStation®5 consoles." },
+    { "text": "ATÉ 212 GB", "newsIds": ["newswire-preload"], "quote": "The pre-load file will require up to 212 GB depending on your device" }
+  ],
+  "sources": [
+    { "kind": "platform_official", "name": "PlayStation Support — Grand Theft Auto VI", "url": "https://www.playstation.com/en-us/support/games/gta-vi-support/" },
+    { "kind": "rockstar_newswire", "name": "Rockstar Newswire — Pre-Load Begins on November 10", "url": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10" }
+  ],
+  "version": 1,
+  "approval": "PENDENTE",
+  "notes": "Publicar em 18/11 (texto usa 'hoje à meia-noite'). Nova Zelândia (UTC+13) chega à meia-noite de 19/11 às 11h UTC de 18/11 — fuso horário, não notícia. Não cita truque de trocar região. Imagem: trailer de lançamento oficial (mudo). Live de terceiros NÃO usada (sem autorização)."
+}

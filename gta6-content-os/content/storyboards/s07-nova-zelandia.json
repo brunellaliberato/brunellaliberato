@@ -1,0 +1,63 @@
+{
+  "scriptId": "s07-nova-zelandia",
+  "voice": "thalita",
+  "emphasis": [
+    "Nova Zelândia",
+    "meia-noite",
+    "Brasil",
+    "212"
+  ],
+  "video": {
+    "file": "media/oficial/trailers/GTAVI_Launch_Trailer.mp4",
+    "rights": "rockstar-kit-midia.json",
+    "start": 36.0,
+    "position": "50% 50%",
+    "credit": "IMAGEM: ROCKSTAR GAMES · TRAILER DE LANÇAMENTO"
+  },
+  "beats": [
+    {
+      "layout": {
+        "kind": "story",
+        "text": "JÁ TEM GENTE JOGANDO"
+      },
+      "sourceLabel": "PLAYSTATION.COM · SUPORTE GTA VI"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "MEIA-NOITE DE 19/11"
+      },
+      "sourceLabel": "PLAYSTATION.COM · SUPORTE GTA VI",
+      "seal": "CONFIRMADO"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "NOVA ZELÂNDIA SAI NA FRENTE"
+      },
+      "sourceLabel": "PLAYSTATION.COM · SUPORTE GTA VI"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "BRASIL: HOJE À MEIA-NOITE"
+      },
+      "sourceLabel": "PLAYSTATION.COM · SUPORTE GTA VI"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "ATÉ 212 GB"
+      },
+      "sourceLabel": "ROCKSTAR NEWSWIRE · 03/11",
+      "seal": "CONFIRMADO"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "VAI VIRAR A NOITE?"
+      },
+      "sourceLabel": "PLAYSTATION.COM · SUPORTE GTA VI"
+    }
+  ]
+}
