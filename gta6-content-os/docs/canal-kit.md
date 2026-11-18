@@ -50,4 +50,4 @@ Canal de fã, sem vínculo com a Rockstar Games ou a Take-Two Interactive. Image
 3. Personalizar canal → Branding: subir a foto (`*-avatar.png`) e o banner (`*-banner.png`).
 4. Studio → Configurações: moeda BRL, país Brasil, **não é para crianças**, envio padrão: categoria Jogos, idioma Português (Brasil).
 5. Verificar telefone (libera vídeos longos e capa personalizada) e, em seguida, documento (recursos avançados).
-6. Me passar o @ final — eu troco o nome nos vídeos (`GTA_OS_CHANNEL_NAME`) e re-renderizo.
+6. Configuração completa (descrição, palavras-chave, envios padrão, playlists, moderação): `docs/canal-config.md`.
