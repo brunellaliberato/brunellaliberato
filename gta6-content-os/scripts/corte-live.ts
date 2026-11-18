@@ -21,6 +21,7 @@ const py = (script: string, a: string[]) => {
 };
 py('clipper.py', ['analyze', video, '--rights', rights, '--out', work, '--top', opt('top', '3')!, ...(opt('lang') ? ['--lang', opt('lang')!] : [])]);
 const pub = join(paths.studio, 'public');
+if (!existsSync(join(pub, 'sfx/whoosh.wav'))) py('sfx.py', [join(pub, 'sfx')]); // efeitos são gerados, não versionados
 const made: string[] = JSON.parse(py('livecut_prep.py', [work, pub, '--cam', opt('cam', 'none')!, '--game', opt('game')!, '--streamer', opt('streamer')!, '--credit', opt('credit')!, ...(opt('hooks') ? ['--hooks', opt('hooks')!] : [])]).trim().split('\n').pop()!);
 
 const { bundle } = await import('@remotion/bundler');
