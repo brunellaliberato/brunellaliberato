@@ -1,7 +1,30 @@
 {
   "_doc": "REGRA (18/11/2026): a voz Thalita é Multilingual e troca de idioma sozinha. Expressões que já causaram troca, aprendidas com a conferência de pronúncia (clip-engine/voice_qa.py). O Gate 2 reprova roteiro que contenha qualquer uma.",
   "gatilhos": [
-    { "padrao": "\\bnada de\\b", "motivo": "igual ao espanhol; 'nada de vazamento' saiu 'basamento'", "trocar_por": "sem … / aqui não tem …" },
-    { "padrao": "\\bOnly Raw\\b(?! Records)\\s+\\w+ou\\b", "motivo": "nome em inglês seguido de verbo embolou a frase ('only-rock-hunter-to')", "trocar_por": "a gravadora deles …" }
+    {
+      "padrao": "\\bnada de\\b",
+      "motivo": "igual ao espanhol; 'nada de vazamento' saiu 'basamento'",
+      "trocar_por": "sem … / aqui não tem …"
+    },
+    {
+      "padrao": "\\bOnly Raw\\b(?! Records)\\s+\\w+ou\\b",
+      "motivo": "nome em inglês seguido de verbo embolou a frase ('only-rock-hunter-to')",
+      "trocar_por": "a gravadora deles …"
+    },
+    {
+      "padrao": "\\bglamour\\b",
+      "motivo": "palavra em inglês no meio da frase; saiu 'blamur'",
+      "trocar_por": "luxo"
+    },
+    {
+      "padrao": "\\blema de lá\\b",
+      "motivo": "'o lema de lá' virou inglês ('o lema de Live')",
+      "trocar_por": "por lá, o lema é…"
+    },
+    {
+      "padrao": "\\bmotéis baratos, atrações fechadas\\b",
+      "motivo": "lista de plurais sem verbo virou espanhol ('atraco especados… vacíos')",
+      "trocar_por": "frase com verbo: 'tem motel barato, atração fechada…'"
+    }
   ]
 }

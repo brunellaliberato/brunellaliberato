@@ -27,7 +27,7 @@
         0,
         0
       ],
-      "narration": "Motéis baratos, atrações fechadas e shoppings vazios.",
+      "narration": "Tem motel barato, atração fechada e shopping vazio.",
       "onScreen": "MOTÉIS BARATOS",
       "visual": "Port_Gellhorn_01.jpg",
       "edit": "Corte seco.",
@@ -63,7 +63,7 @@
         0,
         0
       ],
-      "narration": "O lema de lá é viver no limite.",
+      "narration": "Por lá, o lema é viver no limite.",
       "onScreen": "VIVA NO LIMITE",
       "visual": "Port_Gellhorn_02.jpg",
       "edit": "Corte seco.",
@@ -147,6 +147,6 @@
       "url": "https://www.rockstargames.com/VI/only-in-leonida"
     }
   ],
-  "version": 1,
+  "version": 2,
   "approval": "PENDENTE"
 }

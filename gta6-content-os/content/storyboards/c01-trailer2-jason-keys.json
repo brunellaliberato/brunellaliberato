@@ -1,0 +1,62 @@
+{
+  "scriptId": "c01-trailer2-jason-keys",
+  "voice": "thalita",
+  "emphasis": [
+    "Jason",
+    "Keys",
+    "Brian",
+    "paraíso"
+  ],
+  "video": {
+    "file": "media/oficial/trailers/GTAVI_Trailer_2.mp4",
+    "rights": "rockstar-kit-midia.json",
+    "start": 6.0,
+    "position": "50% 50%",
+    "credit": "IMAGEM: ROCKSTAR GAMES · TRAILER 2 OFICIAL"
+  },
+  "beats": [
+    {
+      "layout": {
+        "kind": "story",
+        "text": "A VIDA DO JASON"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "NAS KEYS"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA",
+      "seal": "CONFIRMADO"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "MORA DE GRAÇA"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "MAIS UM DIA NO PARAÍSO"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "HORA DE MUDAR?"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "VOCÊ TROCARIA?"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    }
+  ]
+}

@@ -17,6 +17,12 @@ def norm(w: str) -> str:
     w = re.sub(r"[^a-z0-9]", "", w)
     return EQ.get(w, w)
 
+NAMES = set()
+try:
+    NAMES = {norm(n) for n in json.load(open(Path(__file__).resolve().parent.parent / "memory" / "nomes-proprios.json"))["nomes"]}
+except Exception:  # noqa: BLE001
+    pass
+
 def ref_words(text: str):
     out = []
     text = text.replace("-", " ")  # "tubarão-branco" = duas palavras
@@ -26,7 +32,7 @@ def ref_words(text: str):
             core = re.sub(r"^[^\wÀ-ú]+|[^\wÀ-ú]+$", "", t)
             if not core or len(norm(core)) < 4 or re.search(r"\d", core):
                 continue
-            if i > 0 and core[0].isupper():  # nome próprio
+            if (i > 0 and core[0].isupper()) or norm(core) in NAMES:  # nome próprio
                 continue
             out.append(norm(core))
     return out
@@ -44,7 +50,7 @@ def main():
             x = np.interp(np.arange(0, len(x), sr / 16000), np.arange(len(x)), x).astype(np.float32)
         segs, _ = m.transcribe(x, language="pt", without_timestamps=True, beam_size=5)
         hyp_text = " ".join(s.text for s in segs)
-        hyp = [norm(t) for t in re.sub(r"\d+", lambda mm: NUM.get(mm.group(0), mm.group(0)), hyp_text).split()]
+        hyp = [norm(t) for t in re.sub(r"\d+", lambda mm: NUM.get(mm.group(0), mm.group(0)), hyp_text.replace("-", " ")).split()]
         missing = []
         for r in ref_words(j["text"]):
             best = max((difflib.SequenceMatcher(None, r, h).ratio() for h in hyp), default=0)

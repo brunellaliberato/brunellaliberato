@@ -63,7 +63,7 @@
         0,
         0
       ],
-      "narration": "Mas fica esperto: você tá na porta de algumas das águas mais bonitas e perigosas dos Estados Unidos.",
+      "narration": "Mas atenção: você tá na porta de algumas das águas mais bonitas e perigosas dos Estados Unidos.",
       "onScreen": "ÁGUAS PERIGOSAS",
       "visual": "Leonida_Keys_07.jpg",
       "edit": "Corte seco.",
@@ -147,6 +147,6 @@
       "url": "https://www.rockstargames.com/VI/only-in-leonida"
     }
   ],
-  "version": 1,
+  "version": 2,
   "approval": "PENDENTE"
 }

@@ -39,8 +39,8 @@
         0,
         0
       ],
-      "narration": "Segundo a Rockstar, é o glamour, a correria e a ganância dos Estados Unidos numa cidade só.",
-      "onScreen": "GLAMOUR E GANÂNCIA",
+      "narration": "Segundo a Rockstar, é o luxo, a correria e a ganância dos Estados Unidos numa cidade só.",
+      "onScreen": "LUXO E GANÂNCIA",
       "visual": "Vice_City_10.jpg",
       "edit": "Corte seco.",
       "animation": "pulso",
@@ -112,7 +112,7 @@
       "quote": "WE'RE A LONG WAY FROM THE '80S, BUT VICE CITY IS STILL THE SUN AND FUN CAPITAL OF AMERICA"
     },
     {
-      "text": "GLAMOUR E GANÂNCIA",
+      "text": "LUXO E GANÂNCIA",
       "newsIds": [
         "pagina-lugares-leonida"
       ],
@@ -147,6 +147,6 @@
       "url": "https://www.rockstargames.com/VI/only-in-leonida"
     }
   ],
-  "version": 1,
+  "version": 2,
   "approval": "PENDENTE"
 }

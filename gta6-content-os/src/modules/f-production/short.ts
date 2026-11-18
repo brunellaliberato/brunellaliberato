@@ -22,7 +22,18 @@ export interface StoryboardBg {
   position?: string;
 }
 
+export interface StoryboardVideo {
+  file: string;
+  rights: string;
+  /** segundo do arquivo onde o corte começa */
+  start: number;
+  position?: string;
+  credit: string;
+}
+
 export interface Storyboard {
+  /** corte: um trecho de vídeo autorizado como fundo do Short inteiro (áudio original descartado) */
+  video?: StoryboardVideo;
   scriptId: string;
   voice: string;
   beats: { layout: Layout; seal?: Seal; sourceLabel?: string; bg?: StoryboardBg }[];
@@ -44,12 +55,13 @@ export function loadRights(file: string): RightsManifest {
 
 /** Direitos de todos os ativos de terceiros usados no storyboard (o resto é desenhado pelo canal). */
 export function storyboardRights(sb: Storyboard): { manifest: RightsManifest; creditShown: boolean }[] {
-  return sb.beats
+  const video = sb.video ? [{ manifest: loadRights(sb.video.rights), creditShown: !!sb.video.credit }] : [];
+  return video.concat(sb.beats
     .filter((b) => b.bg)
     .map((b) => {
       const m = loadRights(b.bg!.rights);
       return { manifest: m, creditShown: !!m.conditions?.creditOnScreen };
-    });
+    }));
 }
 
 const FPS = 30;
@@ -260,7 +272,20 @@ export async function produceShort(script: Script, sb: Storyboard, opts: { voice
   const bed = join(pubDir, 'bed.wav');
   proceduralBed(total / FPS + 0.5, bed);
 
+  // corte de vídeo autorizado: trecho mudo em 1080p (o áudio original é descartado — música licenciada)
+  let bgVideo: ShortProps['bgVideo'] = null;
+  if (sb.video) {
+    const m = loadRights(sb.video.rights);
+    if (!m.authorization && !['PROPRIO', 'LICENCA_ABERTA', 'AUTORIZADO_POR_ESCRITO'].includes(m.rights)) throw new Error(`vídeo ${sb.video.file} sem autorização`);
+    const name = `corte-${sha(sb.video.file + sb.video.start + total)}.mp4`;
+    const dst = join(pubDir, name);
+    if (!existsSync(dst))
+      execFileSync('ffmpeg', ['-y', '-v', 'error', '-ss', String(sb.video.start), '-t', ((total + 30) / FPS).toFixed(2), '-i', join(paths.root, sb.video.file), '-an', '-vf', 'scale=-2:1920,fps=30', '-c:v', 'libx264', '-crf', '18', '-preset', 'veryfast', dst]);
+    bgVideo = { src: `${script.id}/${name}`, position: sb.video.position, credit: sb.video.credit };
+  }
+
   const props: ShortProps = {
+    bgVideo,
     fps: FPS,
     durationInFrames: total,
     voiceSrc: `${script.id}/voice.wav`,

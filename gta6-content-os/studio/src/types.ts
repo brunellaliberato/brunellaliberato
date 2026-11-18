@@ -37,7 +37,15 @@ export interface TimelineBeat {
   captions: CaptionChunk[];
 }
 
+export interface BgVideo {
+  /** trecho já cortado em studio/public (mudo) */
+  src: string;
+  position?: string;
+  credit: string;
+}
+
 export interface ShortProps {
+  bgVideo?: BgVideo | null;
   fps: number;
   durationInFrames: number;
   voiceSrc: string | null;

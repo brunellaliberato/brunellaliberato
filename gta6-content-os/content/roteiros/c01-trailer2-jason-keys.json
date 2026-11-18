@@ -1,0 +1,132 @@
+{
+  "id": "c01-trailer2-jason-keys",
+  "pautaId": "cortes-trailers",
+  "format": "short",
+  "style": "reacao",
+  "title": "Trailer 2 de GTA 6: a vida do Jason nas Keys (corte narrado)",
+  "audience": "Quem viu o Trailer 2 e quer entender o que está acontecendo.",
+  "goal": "Primeiro corte narrado: trecho oficial + contexto do perfil oficial.",
+  "promise": "O que o Trailer 2 mostra sobre o Jason, explicado com a fonte oficial.",
+  "hook": "No Trailer 2 de GTA 6, a gente vê como é a vida do Jason antes da Lucia.",
+  "fullText": "",
+  "beats": [
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "No Trailer 2 de GTA 6, a gente vê como é a vida do Jason antes da Lucia.",
+      "onScreen": "A VIDA DO JASON",
+      "visual": "Trailer 2 oficial, 0:06–0:36 (mudo)",
+      "edit": "Corte contínuo do trailer.",
+      "animation": "texto adesivo",
+      "audio": "Só narração; áudio original descartado."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Segundo a Rockstar, ele foi parar nas Keys, trabalhando pra traficantes da região.",
+      "onScreen": "NAS KEYS",
+      "visual": "Trailer 2 oficial, 0:06–0:36 (mudo)",
+      "edit": "Corte contínuo do trailer.",
+      "animation": "texto adesivo",
+      "audio": "Só narração; áudio original descartado."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Ele mora de graça num imóvel do Brian, um contrabandista veterano. Em troca, ajuda nas cobranças.",
+      "onScreen": "MORA DE GRAÇA",
+      "visual": "Trailer 2 oficial, 0:06–0:36 (mudo)",
+      "edit": "Corte contínuo do trailer.",
+      "animation": "texto adesivo",
+      "audio": "Só narração; áudio original descartado."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "O perfil oficial resume a vida dele assim: mais um dia no paraíso.",
+      "onScreen": "MAIS UM DIA NO PARAÍSO",
+      "visual": "Trailer 2 oficial, 0:06–0:36 (mudo)",
+      "edit": "Corte contínuo do trailer.",
+      "animation": "texto adesivo",
+      "audio": "Só narração; áudio original descartado."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Mas ele mesmo sabe: talvez seja hora de tentar algo novo.",
+      "onScreen": "HORA DE MUDAR?",
+      "visual": "Trailer 2 oficial, 0:06–0:36 (mudo)",
+      "edit": "Corte contínuo do trailer.",
+      "animation": "texto adesivo",
+      "audio": "Só narração; áudio original descartado."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Você trocaria a vida nas Keys pela vida com a Lucia? Comenta aí.",
+      "onScreen": "VOCÊ TROCARIA?",
+      "visual": "Trailer 2 oficial, 0:06–0:36 (mudo)",
+      "edit": "Corte contínuo do trailer.",
+      "animation": "texto adesivo",
+      "audio": "Só narração; áudio original descartado."
+    }
+  ],
+  "cta": "Pergunta no fim.",
+  "claims": [
+    {
+      "text": "NAS KEYS",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "he found himself in the Keys doing what he knows best, working for local drug runners"
+    },
+    {
+      "text": "MORA DE GRAÇA",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Brian’s letting Jason live rent-free at one of his properties — so long as he helps with local shakedowns"
+    },
+    {
+      "text": "MAIS UM DIA NO PARAÍSO",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Another day in paradise, right?"
+    },
+    {
+      "text": "HORA DE MUDAR?",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "It might be time to try something new"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "rockstar_site",
+      "name": "Rockstar Games — Only in Leonida (perfil do Jason)",
+      "url": "https://www.rockstargames.com/VI/only-in-leonida"
+    },
+    {
+      "kind": "rockstar_site",
+      "name": "Rockstar Games — Trailer 2 (kit de mídia)",
+      "url": "https://www.rockstargames.com/VI/media/videos"
+    }
+  ],
+  "version": 1,
+  "approval": "PENDENTE",
+  "notes": "Imagem: Trailer 2 oficial (kit de mídia). Áudio original removido (música licenciada → evitar Content ID). Narração não identifica pessoas que o trailer não identifica."
+}

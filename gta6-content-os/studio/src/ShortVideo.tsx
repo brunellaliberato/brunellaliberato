@@ -1,5 +1,5 @@
 import React from 'react';
-import { AbsoluteFill, Audio, Easing, Img, interpolate, Sequence, spring, staticFile, useCurrentFrame, useVideoConfig } from 'remotion';
+import { AbsoluteFill, Audio, Easing, Img, interpolate, OffthreadVideo, Sequence, spring, staticFile, useCurrentFrame, useVideoConfig } from 'remotion';
 import { color, fonts, safe, sealStyle, sticker, type Seal } from './brand';
 import type { BeatBackground, CaptionChunk, Layout, ShortProps, TimelineBeat } from './types';
 
@@ -398,6 +398,13 @@ export const ShortVideo: React.FC<ShortProps> = (p) => {
   return (
     <AbsoluteFill style={{ fontFamily: fonts.body }}>
       <Background />
+      {p.bgVideo && (
+        <AbsoluteFill>
+          <OffthreadVideo src={staticFile(p.bgVideo.src)} muted style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: p.bgVideo.position ?? '50% 50%' }} />
+          <AbsoluteFill style={{ background: `linear-gradient(180deg, ${color.skyTop}aa 0%, transparent 25%, transparent 55%, ${color.ink}dd 100%)` }} />
+          <div style={{ position: 'absolute', left: safe.left, bottom: safe.bottom - 150, fontFamily: fonts.mono, fontWeight: 700, fontSize: 22, color: color.white, background: `${color.ink}cc`, padding: '5px 10px', borderRadius: 6 }}>{p.bgVideo.credit}</div>
+        </AbsoluteFill>
+      )}
       {p.beats.map((b, i) => (
         <Sequence key={i} from={b.from} durationInFrames={b.durationInFrames}>
           <BeatView beat={b} renderDateISO={p.renderDateISO} />
