@@ -1,0 +1,528 @@
+{
+  "scriptId": "l02-quem-e-quem",
+  "voice": "thalita",
+  "emphasis": [
+    "Lucia",
+    "Jason",
+    "Brian",
+    "Boobie",
+    "Dre'Quan",
+    "Real",
+    "Raul",
+    "Liberty",
+    "Only",
+    "graça"
+  ],
+  "beats": [
+    {
+      "layout": {
+        "kind": "story",
+        "text": "QUEM PAGA TUDO?"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Boobie Ike/Boobie_Ike_02.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "LEONIDA LEVITANDO"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Artwork_Wallpapers/Brian_Heder/Brian_Heder_landscape.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "60% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "EXTORQUIAM TRAFICANTES"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Real Dimez/Real_Dimez_04.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "CADA VEZ MAIS ARRISCADO"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Artwork_Wallpapers/Raul_Bautista/Raul_Bautista_landscape.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "60% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "title",
+        "text": "QUEM É QUEM EM LEONIDA",
+        "sub": "só o que é oficial"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Artwork_Wallpapers/Jason_and_Lucia_Rooftop/Jason_Lucia_Rooftop_landscape.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA",
+      "seal": "CONFIRMADO"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "QUEM MORA DE GRAÇA?"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Artwork_Wallpapers/Jason_Lucia_Motel/Jason_and_Lucia_Motel_landscape.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "chapter",
+        "num": "1",
+        "name": "LUCIA CAMINOS",
+        "sub": "fora da prisão, com um plano"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Lucia Caminos/Lucia_Caminos_13.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "LUTA DESDE CRIANÇA"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Lucia Caminos/Lucia_Caminos_01.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "PRESA"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Lucia Caminos/Lucia_Caminos_05.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "LIBERTY CITY"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Lucia Caminos/Lucia_Caminos_02.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA",
+      "seal": "CONFIRMADO"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "CUSTE O QUE CUSTAR"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Lucia Caminos/Lucia_Caminos_07.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "E O JASON?"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Lucia Caminos/Lucia_Caminos_12.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "chapter",
+        "num": "2",
+        "name": "JASON DUVAL",
+        "sub": "só queria uma vida fácil"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Jason Duval/Jason_Duval_17.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "ELE SÓ QUER PAZ"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Jason Duval/Jason_Duval_02.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "EX-EXÉRCITO"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Jason Duval/Jason_Duval_06.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "NAS KEYS"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Jason Duval/Jason_Duval_03.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "25% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "MELHOR OU PIOR?"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Jason and Lucia/Jason_and_Lucia_01.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "chapter",
+        "num": "3",
+        "name": "BRIAN HEDER",
+        "sub": "o tubarão das Keys"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Artwork_Wallpapers/Brian_Heder/Brian_Heder_landscape.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "55% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "TUBARÃO-BRANCO"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Brian Heder/Brian_Heder_02.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "ERA DE OURO DO CONTRABANDO"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Brian Heder/Brian_Heder_01.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "O TRABALHO SUJO? OS OUTROS"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Brian Heder/Brian_Heder_04.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "O JASON MORA DE GRAÇA"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Jason Duval/Jason_Duval_06.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA",
+      "seal": "CONFIRMADO"
+    },
+    {
+      "layout": {
+        "kind": "chapter",
+        "num": "4",
+        "name": "BOOBIE IKE",
+        "sub": "o dono da Jack of Hearts"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Artwork_Wallpapers/Boobie_Ike/Boobie_Ike_landscape.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "LENDA DE VICE CITY"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Boobie Ike/Boobie_Ike_03.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "UM IMPÉRIO"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Boobie Ike/Boobie_Ike_04.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "ATÉ FALAR DE NEGÓCIO"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Boobie Ike/Boobie_Ike_01.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "SÓ FALTA UM HIT"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/DreQuan Priest/DreQuan_Priest_04.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "chapter",
+        "num": "5",
+        "name": "DRE'QUAN PRIEST",
+        "sub": "Only Raw Records"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Artwork_Wallpapers/DreQuan_Priest/DreQuan_Priest_landscape.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "55% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "O SONHO: MÚSICA"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/DreQuan Priest/DreQuan_Priest_02.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "DANÇARINAS = OLHEIRAS"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/DreQuan Priest/DreQuan_Priest_01.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "DE OLHO EM VICE CITY"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/DreQuan Priest/DreQuan_Priest_03.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "chapter",
+        "num": "6",
+        "name": "REAL DIMEZ",
+        "sub": "virais desde a escola"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Artwork_Wallpapers/Real_Dimez/Real_Dimez_landscape.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "BAE-LUXE E ROXY"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Real Dimez/Real_Dimez_03.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "RAP + REDES"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Real Dimez/Real_Dimez_02.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "UM HIT, CINCO ANOS DEPOIS"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Real Dimez/Real_Dimez_01.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "chapter",
+        "num": "7",
+        "name": "RAUL BAUTISTA",
+        "sub": "a experiência conta"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Artwork_Wallpapers/Raul_Bautista/Raul_Bautista_landscape.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "60% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "LADRÃO DE BANCO"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Raul Bautista/Raul_Bautista_03.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "CAÇANDO TALENTO"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Raul Bautista/Raul_Bautista_01.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "DOBRAR OU SAIR"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Raul Bautista/Raul_Bautista_02.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "map"
+      }
+    },
+    {
+      "layout": {
+        "kind": "map",
+        "focus": "raul"
+      }
+    },
+    {
+      "layout": {
+        "kind": "title",
+        "text": "QUAL VOCÊ QUER CONHECER?",
+        "sub": "comenta aí"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Artwork_Wallpapers/Jason_and_Lucia_Beach/Jason_and_Lucia_Beach_landscape.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    }
+  ]
+}

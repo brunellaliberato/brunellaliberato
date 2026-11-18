@@ -7,7 +7,9 @@ export type Layout =
   | { kind: 'date'; date: string; label: string; countdownFrom?: string }
   | { kind: 'poll'; left: string; right: string; question?: string }
   | { kind: 'title'; text: string; sub?: string }
-  | { kind: 'story'; text: string };
+  | { kind: 'story'; text: string }
+  | { kind: 'chapter'; num: string; name: string; sub?: string }
+  | { kind: 'map'; focus?: string };
 
 export interface CaptionChunk {
   text: string;

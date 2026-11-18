@@ -1,6 +1,8 @@
 import React from 'react';
 import { Composition, registerRoot } from 'remotion';
 import { ShortVideo } from './ShortVideo';
+import { LongVideo } from './LongVideo';
+import { Thumb } from './Thumb';
 import type { ShortProps } from './types';
 
 const defaults: ShortProps = {
@@ -15,7 +17,32 @@ const defaults: ShortProps = {
   ],
 };
 
+const meta = ({ props }: { props: Record<string, unknown> }) => ({
+  durationInFrames: (props as unknown as ShortProps).durationInFrames,
+  fps: (props as unknown as ShortProps).fps,
+});
+
 const Root: React.FC = () =>
+  React.createElement(React.Fragment, null,
+  React.createElement(Composition, {
+    id: 'Thumb',
+    component: Thumb as unknown as React.FC<Record<string, unknown>>,
+    width: 1280,
+    height: 720,
+    fps: 30,
+    durationInFrames: 1,
+    defaultProps: { bg: '', title: 'TESTE' },
+  }),
+  React.createElement(Composition, {
+    id: 'Long',
+    component: LongVideo as unknown as React.FC<Record<string, unknown>>,
+    width: 1920,
+    height: 1080,
+    fps: 30,
+    durationInFrames: 150,
+    defaultProps: defaults,
+    calculateMetadata: meta,
+  }),
   React.createElement(Composition, {
     id: 'Short',
     component: ShortVideo as unknown as React.FC<Record<string, unknown>>,
@@ -28,6 +55,6 @@ const Root: React.FC = () =>
       durationInFrames: (props as unknown as ShortProps).durationInFrames,
       fps: (props as unknown as ShortProps).fps,
     }),
-  });
+  }));
 
 registerRoot(Root);

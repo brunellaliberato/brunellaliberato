@@ -13,3 +13,4 @@ __pycache__/
 entregas/*.mp4
 clip-engine/.venv*/
 tools/
+studio/public/thumbs/

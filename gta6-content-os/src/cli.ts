@@ -118,9 +118,9 @@ const commands: Record<string, () => Promise<void>> = {
     }
     const sb = JSON.parse(readFileSync(join(paths.content, 'storyboards', `${id}.json`), 'utf8')) as Storyboard;
     console.log(`Produzindo ${id} v${script.version}…`);
-    const r = await produceShort(script, sb, { renderDate: today });
+    const r = await produceShort(script, sb, { renderDate: today, composition: script.format === 'longo' ? 'Long' : 'Short' });
     const g2 = gateCreative(script, r.beatDurations);
-    const g3 = gateAV(r.file, 'short');
+    const g3 = gateAV(r.file, script.format);
     [g2, g3].forEach(printGate);
     repo.put('render', { id: `${id}-v${script.version}`, scriptId: id, file: r.file, durationSec: r.durationSec, voice: r.voice, gates: { CRIATIVIDADE: g2.passed, AUDIOVISUAL: g3.passed }, at: today.toISOString() });
     repo.put('gate', { id: `${id}:AUDIOVISUAL`, ...g3 });

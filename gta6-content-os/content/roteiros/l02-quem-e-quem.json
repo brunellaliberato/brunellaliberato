@@ -1,0 +1,818 @@
+{
+  "id": "l02-quem-e-quem",
+  "pautaId": "serie-personagens",
+  "format": "longo",
+  "style": "storytelling",
+  "title": "GTA 6: QUEM É QUEM EM LEONIDA (só o que é oficial)",
+  "audience": "Quem vai jogar GTA 6 e quer conhecer os personagens antes, sem vazamento.",
+  "goal": "Vídeo de referência da série de personagens; gera Shorts e retenção por capítulos.",
+  "promise": "Os 7 personagens que a Rockstar já apresentou e como eles se ligam, só com fonte oficial.",
+  "hook": "Um dono de boate que diz que quem paga tudo é o dinheiro das drogas.",
+  "fullText": "",
+  "beats": [
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Um dono de boate que diz que quem paga tudo é o dinheiro das drogas.",
+      "onScreen": "QUEM PAGA TUDO?",
+      "visual": "Boobie_Ike_02.jpg",
+      "edit": "Corte seco.",
+      "animation": "story",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Um contrabandista que levou tanta erva num avião que dava pra fazer Leonida levitar.",
+      "onScreen": "LEONIDA LEVITANDO",
+      "visual": "Brian_Heder_landscape.jpg",
+      "edit": "Corte seco.",
+      "animation": "story",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Uma dupla de rap que extorquia traficantes.",
+      "onScreen": "EXTORQUIAM TRAFICANTES",
+      "visual": "Real_Dimez_04.jpg",
+      "edit": "Corte seco.",
+      "animation": "story",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "E um ladrão de banco que aumenta a aposta a cada golpe.",
+      "onScreen": "CADA VEZ MAIS ARRISCADO",
+      "visual": "Raul_Bautista_landscape.jpg",
+      "edit": "Corte seco.",
+      "animation": "story",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Esse é o povo de GTA 6. E tudo que eu vou te contar aqui está nos perfis oficiais da Rockstar. Nada de vazamento, nada de chute.",
+      "onScreen": "QUEM É QUEM EM LEONIDA",
+      "visual": "Jason_Lucia_Rooftop_landscape.jpg",
+      "edit": "Corte seco.",
+      "animation": "title",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "E presta atenção: um desses personagens mora de graça na casa de outro. Daqui a pouco eu te conto quem.",
+      "onScreen": "QUEM MORA DE GRAÇA?",
+      "visual": "Jason_and_Lucia_Motel_landscape.jpg",
+      "edit": "Corte seco.",
+      "animation": "story",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Começando pela protagonista.",
+      "onScreen": "LUCIA CAMINOS",
+      "visual": "Lucia_Caminos_13.jpg",
+      "edit": "Corte seco.",
+      "animation": "chapter",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "O pai ensinou a Lucia a lutar assim que ela aprendeu a andar. E, segundo a Rockstar, a vida nunca parou de bater nela.",
+      "onScreen": "LUTA DESDE CRIANÇA",
+      "visual": "Lucia_Caminos_01.jpg",
+      "edit": "Corte seco.",
+      "animation": "story",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Brigando pela família, ela foi parar na Penitenciária de Leonida. E saiu de lá por pura sorte.",
+      "onScreen": "PRESA",
+      "visual": "Lucia_Caminos_05.jpg",
+      "edit": "Corte seco.",
+      "animation": "story",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "A mãe dela sonha com uma vida boa desde a época em que elas moravam em Liberty City. Sim, a cidade do GTA 4.",
+      "onScreen": "LIBERTY CITY",
+      "visual": "Lucia_Caminos_02.jpg",
+      "edit": "Corte seco.",
+      "animation": "story",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Só que a Lucia não quer só sonhar. Ela vai resolver com as próprias mãos. Custe o que custar.",
+      "onScreen": "CUSTE O QUE CUSTAR",
+      "visual": "Lucia_Caminos_07.jpg",
+      "edit": "Corte seco.",
+      "animation": "story",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "E a saída dela dessa vida pode ser o Jason.",
+      "onScreen": "E O JASON?",
+      "visual": "Lucia_Caminos_12.jpg",
+      "edit": "Corte seco.",
+      "animation": "story",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "E quem é esse cara?",
+      "onScreen": "JASON DUVAL",
+      "visual": "Jason_Duval_17.jpg",
+      "edit": "Corte seco.",
+      "animation": "chapter",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "O Jason quer uma vida fácil. Só que tudo fica cada vez mais difícil.",
+      "onScreen": "ELE SÓ QUER PAZ",
+      "visual": "Jason_Duval_02.jpg",
+      "edit": "Corte seco.",
+      "animation": "story",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Ele cresceu cercado de golpistas e bandidos. E tentou largar uma adolescência cheia de problema no Exército.",
+      "onScreen": "EX-EXÉRCITO",
+      "visual": "Jason_Duval_06.jpg",
+      "edit": "Corte seco.",
+      "animation": "story",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Não deu muito certo. Ele foi parar nas Keys, trabalhando pra traficantes da região. O próprio perfil oficial diz: talvez seja hora de tentar algo novo.",
+      "onScreen": "NAS KEYS",
+      "visual": "Jason_Duval_03.jpg",
+      "edit": "Corte seco.",
+      "animation": "story",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Aí ele conhece a Lucia. E isso pode ser a melhor ou a pior coisa que já aconteceu com ele.",
+      "onScreen": "MELHOR OU PIOR?",
+      "visual": "Jason_and_Lucia_01.jpg",
+      "edit": "Corte seco.",
+      "animation": "story",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Agora, o homem que manda nas Keys.",
+      "onScreen": "BRIAN HEDER",
+      "visual": "Brian_Heder_landscape.jpg",
+      "edit": "Corte seco.",
+      "animation": "chapter",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "O Brian parece um tiozão de praia. Mas, segundo a Rockstar, se move como um tubarão-branco.",
+      "onScreen": "TUBARÃO-BRANCO",
+      "visual": "Brian_Heder_02.jpg",
+      "edit": "Corte seco.",
+      "animation": "story",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "É um traficante clássico da era de ouro do contrabando nas Keys. Ainda move mercadoria pelo estaleiro dele, com a terceira esposa, a Lori.",
+      "onScreen": "ERA DE OURO DO CONTRABANDO",
+      "visual": "Brian_Heder_01.jpg",
+      "edit": "Corte seco.",
+      "animation": "story",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "E hoje ele deixa os outros fazerem o trabalho sujo.",
+      "onScreen": "O TRABALHO SUJO? OS OUTROS",
+      "visual": "Brian_Heder_04.jpg",
+      "edit": "Corte seco.",
+      "animation": "story",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Lembra do que eu falei no começo, de alguém morando de graça? É aqui. O Jason mora de graça num imóvel do Brian. Em troca, ajuda nas cobranças e aparece de vez em quando pra tomar a sangria da Lori.",
+      "onScreen": "O JASON MORA DE GRAÇA",
+      "visual": "Jason_Duval_06.jpg",
+      "edit": "Corte seco.",
+      "animation": "story",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Saindo das Keys e indo pra noite de Vice City.",
+      "onScreen": "BOOBIE IKE",
+      "visual": "Boobie_Ike_landscape.jpg",
+      "edit": "Corte seco.",
+      "animation": "chapter",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "O Boobie é uma lenda de Vice City. E age como uma.",
+      "onScreen": "LENDA DE VICE CITY",
+      "visual": "Boobie_Ike_03.jpg",
+      "edit": "Corte seco.",
+      "animation": "story",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Ele transformou a vida nas ruas num império legalizado: imobiliária, boate de strip e estúdio de gravação.",
+      "onScreen": "UM IMPÉRIO",
+      "visual": "Boobie_Ike_04.jpg",
+      "edit": "Corte seco.",
+      "animation": "story",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "E é só sorrisos. Até a hora de falar de negócio.",
+      "onScreen": "ATÉ FALAR DE NEGÓCIO",
+      "visual": "Boobie_Ike_01.jpg",
+      "edit": "Corte seco.",
+      "animation": "story",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Mas o que ele mais quer é a gravadora que montou com o jovem Dre'Quan, a Only Raw Records. Só falta um hit.",
+      "onScreen": "SÓ FALTA UM HIT",
+      "visual": "DreQuan_Priest_04.jpg",
+      "edit": "Corte seco.",
+      "animation": "story",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Falando nele.",
+      "onScreen": "DRE'QUAN PRIEST",
+      "visual": "DreQuan_Priest_landscape.jpg",
+      "edit": "Corte seco.",
+      "animation": "chapter",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "O Dre'Quan sempre foi mais malandro do que bandido. Mesmo vendendo droga na rua pra pagar as contas, o objetivo era a música.",
+      "onScreen": "O SONHO: MÚSICA",
+      "visual": "DreQuan_Priest_02.jpg",
+      "edit": "Corte seco.",
+      "animation": "story",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "A teoria dele: as dançarinas são as melhores caçadoras de talento. Se a música é hit, os DJs tocam.",
+      "onScreen": "DANÇARINAS = OLHEIRAS",
+      "visual": "DreQuan_Priest_01.jpg",
+      "edit": "Corte seco.",
+      "animation": "story",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "E agora que ele contratou a Real Dimez, os dias dele marcando show na boate do Boobie podem estar contados.",
+      "onScreen": "DE OLHO EM VICE CITY",
+      "visual": "DreQuan_Priest_03.jpg",
+      "edit": "Corte seco.",
+      "animation": "story",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "E quem é a Real Dimez?",
+      "onScreen": "REAL DIMEZ",
+      "visual": "Real_Dimez_landscape.jpg",
+      "edit": "Corte seco.",
+      "animation": "chapter",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "São a Bae-Luxe e a Roxy, amigas desde a escola.",
+      "onScreen": "BAE-LUXE E ROXY",
+      "visual": "Real_Dimez_03.jpg",
+      "edit": "Corte seco.",
+      "animation": "story",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Elas transformavam o tempo que passavam extorquindo traficantes em dinheiro vivo, com rap apimentado e redes sociais sem parar.",
+      "onScreen": "RAP + REDES",
+      "visual": "Real_Dimez_02.jpg",
+      "edit": "Corte seco.",
+      "animation": "story",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Um hit com o rapper DWNPLY levou as duas lá pro alto. Cinco anos e muita confusão depois, elas estão na Only Raw, esperando o raio cair duas vezes.",
+      "onScreen": "UM HIT, CINCO ANOS DEPOIS",
+      "visual": "Real_Dimez_01.jpg",
+      "edit": "Corte seco.",
+      "animation": "story",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "E por último, o mais perigoso.",
+      "onScreen": "RAUL BAUTISTA",
+      "visual": "Raul_Bautista_landscape.jpg",
+      "edit": "Corte seco.",
+      "animation": "chapter",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "O Raul é um ladrão de banco experiente. Confiança, charme e esperteza.",
+      "onScreen": "LADRÃO DE BANCO",
+      "visual": "Raul_Bautista_03.jpg",
+      "edit": "Corte seco.",
+      "animation": "story",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Ele vive caçando gente disposta a correr os riscos que dão as maiores recompensas.",
+      "onScreen": "CAÇANDO TALENTO",
+      "visual": "Raul_Bautista_01.jpg",
+      "edit": "Corte seco.",
+      "animation": "story",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Só que a imprudência dele aumenta a aposta a cada golpe. Uma hora, o grupo dele vai ter que dobrar a aposta. Ou sair da mesa.",
+      "onScreen": "DOBRAR OU SAIR",
+      "visual": "Raul_Bautista_02.jpg",
+      "edit": "Corte seco.",
+      "animation": "story",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Agora junta tudo. Lucia e Jason. O Jason mora de graça na casa do Brian. O Boobie e o Dre'Quan são sócios na Only Raw. E a Only Raw contratou a Real Dimez.",
+      "onScreen": "MAPA",
+      "visual": "mapa animado",
+      "edit": "Corte seco.",
+      "animation": "map",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "E o Raul? O perfil oficial não diz como ele cruza o caminho do casal. Isso, só jogando.",
+      "onScreen": "MAPA",
+      "visual": "mapa animado",
+      "edit": "Corte seco.",
+      "animation": "map",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Qual desses você quer conhecer primeiro quando o jogo sair? Comenta aí. E se inscreve, que a cobertura do lançamento aqui vai ser toda checada.",
+      "onScreen": "QUAL VOCÊ QUER CONHECER?",
+      "visual": "Jason_and_Lucia_Beach_landscape.jpg",
+      "edit": "Corte seco.",
+      "animation": "title",
+      "audio": "Só voz."
+    }
+  ],
+  "cta": "Comentar qual personagem quer conhecer primeiro + inscrição.",
+  "claims": [
+    {
+      "text": "Um dono de boate que diz que quem paga tudo é o dinheiro das drogas.",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "THE CLUB MONEY PAY FOR THE STUDIO, AND THE DRUG MONEY PAY FOR IT ALL"
+    },
+    {
+      "text": "Um contrabandista que levou tanta erva num avião que dava pra fazer Leonida levi",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "I HAULED SO MUCH GRASS IN THAT PLANE, I COULD MAKE THE STATE OF LEONIDA LEVITATE"
+    },
+    {
+      "text": "Uma dupla de rap que extorquia traficantes.",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "shaking down local dealers into cold, hard cash"
+    },
+    {
+      "text": "E um ladrão de banco que aumenta a aposta a cada golpe.",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Raul's recklessness raises the stakes with every score"
+    },
+    {
+      "text": "O pai ensinou a Lucia a lutar assim que ela aprendeu a andar. E, segundo a Rocks",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Lucia’s father taught her to fight as soon as she could walk"
+    },
+    {
+      "text": "O pai ensinou a Lucia a lutar assim que ela aprendeu a andar. E, segundo a Rocks",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Life has been coming at her swinging ever since"
+    },
+    {
+      "text": "Brigando pela família, ela foi parar na Penitenciária de Leonida. E saiu de lá p",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Fighting for her family landed her in the Leonida Penitentiary"
+    },
+    {
+      "text": "Brigando pela família, ela foi parar na Penitenciária de Leonida. E saiu de lá p",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Sheer luck got her out"
+    },
+    {
+      "text": "A mãe dela sonha com uma vida boa desde a época em que elas moravam em Liberty C",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "the good life her mom has dreamed of since their days in Liberty City"
+    },
+    {
+      "text": "Só que a Lucia não quer só sonhar. Ela vai resolver com as próprias mãos. Custe ",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Lucia is prepared to take matters into her own hands"
+    },
+    {
+      "text": "Só que a Lucia não quer só sonhar. Ela vai resolver com as próprias mãos. Custe ",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "no matter what it takes"
+    },
+    {
+      "text": "E a saída dela dessa vida pode ser o Jason.",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "A life with Jason could be her way out"
+    },
+    {
+      "text": "O Jason quer uma vida fácil. Só que tudo fica cada vez mais difícil.",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Jason wants an easy life, but things just keep getting harder"
+    },
+    {
+      "text": "Ele cresceu cercado de golpistas e bandidos. E tentou largar uma adolescência ch",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Jason grew up around grifters and crooks"
+    },
+    {
+      "text": "Ele cresceu cercado de golpistas e bandidos. E tentou largar uma adolescência ch",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "After a stint in the Army trying to shake off his troubled teens"
+    },
+    {
+      "text": "Não deu muito certo. Ele foi parar nas Keys, trabalhando pra traficantes da regi",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "he found himself in the Keys doing what he knows best, working for local drug runners"
+    },
+    {
+      "text": "Não deu muito certo. Ele foi parar nas Keys, trabalhando pra traficantes da regi",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "It might be time to try something new"
+    },
+    {
+      "text": "Aí ele conhece a Lucia. E isso pode ser a melhor ou a pior coisa que já acontece",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Meeting Lucia could be the best or worst thing to ever happen to him"
+    },
+    {
+      "text": "O Brian parece um tiozão de praia. Mas, segundo a Rockstar, se move como um tuba",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Looks like a Leonida beach bum — moves like a great white shark"
+    },
+    {
+      "text": "É um traficante clássico da era de ouro do contrabando nas Keys. Ainda move merc",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Brian's a classic drug runner from the golden age of smuggling in the Keys"
+    },
+    {
+      "text": "É um traficante clássico da era de ouro do contrabando nas Keys. Ainda move merc",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Still moving product through his boat yard with his third wife, Lori"
+    },
+    {
+      "text": "E hoje ele deixa os outros fazerem o trabalho sujo.",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Brian's been around long enough to let others do his dirty work"
+    },
+    {
+      "text": "Lembra do que eu falei no começo, de alguém morando de graça? É aqui. O Jason mo",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Brian’s letting Jason live rent-free at one of his properties — so long as he helps with local shakedowns, and stops by for Lori’s sangria once in a while"
+    },
+    {
+      "text": "Saindo das Keys e indo pra noite de Vice City.",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "the Jack of Hearts"
+    },
+    {
+      "text": "O Boobie é uma lenda de Vice City. E age como uma.",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Boobie is a local Vice City legend — and acts like it"
+    },
+    {
+      "text": "Ele transformou a vida nas ruas num império legalizado: imobiliária, boate de st",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "transform his time in the streets into a legitimate empire spanning real estate, a strip club, and a recording studio"
+    },
+    {
+      "text": "E é só sorrisos. Até a hora de falar de negócio.",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Boobie's all smiles until it's time to talk business"
+    },
+    {
+      "text": "Mas o que ele mais quer é a gravadora que montou com o jovem Dre'Quan, a Only Ra",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "it's his partnership with the young aspiring music mogul Dre'Quan for Only Raw Records that he's most invested in — now they just need a hit"
+    },
+    {
+      "text": "O Dre'Quan sempre foi mais malandro do que bandido. Mesmo vendendo droga na rua ",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Dre'Quan was always more of a hustler than a gangster"
+    },
+    {
+      "text": "O Dre'Quan sempre foi mais malandro do que bandido. Mesmo vendendo droga na rua ",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Even when he was dealing on the streets to make ends meet, breaking into music was the goal"
+    },
+    {
+      "text": "A teoria dele: as dançarinas são as melhores caçadoras de talento. Se a música é",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "DANCERS ARE LIKE MY A&RS. IF THE RECORD'S A HIT, DJS GONNA BE SPINNIN' IT"
+    },
+    {
+      "text": "E agora que ele contratou a Real Dimez, os dias dele marcando show na boate do B",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Now that he's signed the Real Dimez, Dre'Quan's days of booking acts into Boobie's strip club might be numbered"
+    },
+    {
+      "text": "São a Bae-Luxe e a Roxy, amigas desde a escola.",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Bae-Luxe and Roxy aka Real Dimez have been friends since high school"
+    },
+    {
+      "text": "Elas transformavam o tempo que passavam extorquindo traficantes em dinheiro vivo",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "shaking down local dealers into cold, hard cash via spicy rap tracks and a relentless social media presence"
+    },
+    {
+      "text": "Um hit com o rapper DWNPLY levou as duas lá pro alto. Cinco anos e muita confusã",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "An early hit single with local rapper DWNPLY took Real Dimez to new heights"
+    },
+    {
+      "text": "Um hit com o rapper DWNPLY levou as duas lá pro alto. Cinco anos e muita confusã",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "after five years and a whole lot of trouble, they’re signed to Only Raw Records, hoping lightning can strike twice"
+    },
+    {
+      "text": "E por último, o mais perigoso.",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Experience counts."
+    },
+    {
+      "text": "O Raul é um ladrão de banco experiente. Confiança, charme e esperteza.",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Confidence, charm, and cunning — Raul’s a seasoned bank robber"
+    },
+    {
+      "text": "Ele vive caçando gente disposta a correr os riscos que dão as maiores recompensa",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "always on the hunt for talent ready to take the risks that bring the biggest rewards"
+    },
+    {
+      "text": "Só que a imprudência dele aumenta a aposta a cada golpe. Uma hora, o grupo dele ",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "Raul's recklessness raises the stakes with every score"
+    },
+    {
+      "text": "Só que a imprudência dele aumenta a aposta a cada golpe. Uma hora, o grupo dele ",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "his crew will have to double down or pull their chips from the table"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "rockstar_site",
+      "name": "Rockstar Games — Only in Leonida (perfis oficiais)",
+      "url": "https://www.rockstargames.com/VI/only-in-leonida"
+    }
+  ],
+  "version": 1,
+  "approval": "PENDENTE",
+  "notes": "Liberty City = cidade do GTA IV (contexto de série). Ganchos de abertura resolvidos nos capítulos: 'mora de graça' → capítulo 3."
+}

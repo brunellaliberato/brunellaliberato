@@ -187,7 +187,7 @@ export interface RenderResult {
   voice: { id: string; license: Voice['license'] };
 }
 
-export async function produceShort(script: Script, sb: Storyboard, opts: { voice?: Voice; renderDate?: Date } = {}): Promise<RenderResult> {
+export async function produceShort(script: Script, sb: Storyboard, opts: { voice?: Voice; renderDate?: Date; composition?: 'Short' | 'Long' } = {}): Promise<RenderResult> {
   if (sb.beats.length !== script.beats.length) throw new Error(`storyboard tem ${sb.beats.length} beats, roteiro tem ${script.beats.length}`);
   const voice = opts.voice ?? thalitaVoice();
   const lex = JSON.parse(readFileSync(join(paths.memory, 'lexico-pronuncia.json'), 'utf8'));
@@ -269,7 +269,7 @@ export async function produceShort(script: Script, sb: Storyboard, opts: { voice
   const { renderMedia, selectComposition } = await import('@remotion/renderer');
   const serveUrl = await bundle({ entryPoint: join(paths.studio, 'src/index.ts'), publicDir: join(paths.studio, 'public') });
   const browserExecutable = process.env.REMOTION_BROWSER ?? '/opt/pw-browsers/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-headless-shell';
-  const composition = await selectComposition({ serveUrl, id: 'Short', inputProps: props, browserExecutable: existsSync(browserExecutable) ? browserExecutable : null });
+  const composition = await selectComposition({ serveUrl, id: opts.composition ?? 'Short', inputProps: props, browserExecutable: existsSync(browserExecutable) ? browserExecutable : null });
   const raw = join(workDir, 'raw.mp4');
   await renderMedia({
     composition,
