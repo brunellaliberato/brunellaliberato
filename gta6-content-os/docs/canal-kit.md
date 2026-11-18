@@ -1,5 +1,16 @@
 # Kit do canal (17–18/11/2026)
 
+## ATUALIZAÇÃO 18/11: @gta6brasil não está disponível (reservado). Nomes criativos com @ livre (checado 18/11):
+| Nome | @ | Ideia |
+|---|---|---|
+| **Olho em Leonida** (recomendado) | @olhoemleonida | "de olho" em tudo: notícia, gameplay, cortes |
+| Homem de Leonida | @homemdeleonida | versão BR do meme "Florida Man" (Leonida = Flórida do GTA 6) |
+| Mano de Leonida | @manodeleonida | o amigo que te mostra Leonida |
+| Rolezinho em Vice | @rolezinhoemvice | gameplay e rolê por Vice City |
+| Cinco Estrelas | @cincoestrelas | nível máximo de procurado |
+| GTA 6 Sem Mentira | @gta6semmentira | credibilidade + "GTA 6" no nome para busca |
+| Brisa de Leonida | @brisadeleonida | leve, clima de pôr do sol |
+
 ## Escopo (Brunella, 18/11): canal de conteúdo GERAL de GTA 6
 Notícias checadas, personagens e lugares, gameplay, guias e cortes narrados.
 
