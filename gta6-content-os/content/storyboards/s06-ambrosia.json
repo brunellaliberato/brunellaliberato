@@ -1,0 +1,96 @@
+{
+  "scriptId": "s06-ambrosia",
+  "voice": "thalita",
+  "emphasis": [
+    "doce",
+    "motoqueiros",
+    "açúcar"
+  ],
+  "beats": [
+    {
+      "layout": {
+        "kind": "story",
+        "text": "O CORAÇÃO DE LEONIDA"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/Places/Ambrosia/Ambrosia_04.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA",
+      "seal": "CONFIRMADO"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "MANTENDO LEONIDA DOCE"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/Places/Ambrosia/Ambrosia_02.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "SAÚDE E RIQUEZA"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/Places/Ambrosia/Ambrosia_05.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "VALORES ANTIGOS"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/Places/Ambrosia/Ambrosia_06.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "REFINARIA DE AÇÚCAR"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/Places/Ambrosia/Ambrosia_04.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "75% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "OS MOTOQUEIROS"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/Places/Ambrosia/Ambrosia_01.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "ENCARARIA?"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/Places/Ambrosia/Ambrosia_03.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    }
+  ]
+}

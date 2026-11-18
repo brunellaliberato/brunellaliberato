@@ -1,0 +1,84 @@
+{
+  "scriptId": "s06-kalaga",
+  "voice": "thalita",
+  "emphasis": [
+    "selvagem",
+    "governo",
+    "místicos"
+  ],
+  "beats": [
+    {
+      "layout": {
+        "kind": "story",
+        "text": "TERRA SELVAGEM"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/Places/Mount Kalaga National Park/Mount_Kalaga_National_Park_04.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA",
+      "seal": "CONFIRMADO"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "ESPAÇO PRA RESPIRAR"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/Places/Mount Kalaga National Park/Mount_Kalaga_National_Park_05.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "CAÇA, PESCA E TRILHA"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/Places/Mount Kalaga National Park/Mount_Kalaga_National_Park_06.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "55% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "MÍSTICOS E PARANOICOS"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/Places/Mount Kalaga National Park/Mount_Kalaga_National_Park_03.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "LONGE DO GOVERNO"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/Places/Mount Kalaga National Park/Mount_Kalaga_National_Park_02.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "VOCÊ SE ESCONDERIA?"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/Places/Mount Kalaga National Park/Mount_Kalaga_National_Park_01.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    }
+  ]
+}

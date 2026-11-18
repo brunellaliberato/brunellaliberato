@@ -1,0 +1,96 @@
+{
+  "scriptId": "s06-keys",
+  "voice": "thalita",
+  "emphasis": [
+    "Keys",
+    "perigosas",
+    "Jason"
+  ],
+  "beats": [
+    {
+      "layout": {
+        "kind": "story",
+        "text": "PORTA DO PARAÍSO"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/Places/Leonida Keys/Leonida_Keys_01.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA",
+      "seal": "CONFIRMADO"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "BARES LOTADOS"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/Places/Leonida Keys/Leonida_Keys_03.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "VIDA FÁCIL"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/Places/Leonida Keys/Leonida_Keys_05.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "RELAXA…"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/Places/Leonida Keys/Leonida_Keys_06.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "45% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "ÁGUAS PERIGOSAS"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/Places/Leonida Keys/Leonida_Keys_07.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "O JASON TÁ AQUI"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/People/Jason Duval/Jason_Duval_03.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "8% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "VOCÊ MORARIA?"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/Places/Leonida Keys/Leonida_Keys_02.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    }
+  ]
+}

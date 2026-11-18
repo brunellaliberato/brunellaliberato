@@ -1,0 +1,84 @@
+{
+  "scriptId": "s06-grassrivers",
+  "voice": "thalita",
+  "emphasis": [
+    "jacarés",
+    "predadores",
+    "mangue"
+  ],
+  "beats": [
+    {
+      "layout": {
+        "kind": "story",
+        "text": "BEM-VINDO AO PÂNTANO"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/Places/Grassrivers/Grassrivers_05.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA",
+      "seal": "CONFIRMADO"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "JOIA INDOMÁVEL"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/Places/Grassrivers/Grassrivers_04.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "O QUE TEM EMBAIXO?"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/Places/Grassrivers/Grassrivers_08.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "JACARÉS"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/Places/Grassrivers/Grassrivers_01.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "PREDADORES PIORES"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/Places/Grassrivers/Grassrivers_06.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "62% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "À NOITE?"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/Places/Grassrivers/Grassrivers_03.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "scriptId": "s06-portgellhorn",
+  "voice": "thalita",
+  "emphasis": [
+    "esquecida",
+    "carteira"
+  ],
+  "beats": [
+    {
+      "layout": {
+        "kind": "story",
+        "text": "A COSTA ESQUECIDA"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/Places/Port Gellhorn/Port_Gellhorn_06.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA",
+      "seal": "CONFIRMADO"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "MOTÉIS BARATOS"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/Places/Port Gellhorn/Port_Gellhorn_01.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "ECONOMIA NOVA"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/Places/Port Gellhorn/Port_Gellhorn_04.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "55% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "CERVEJA, REMÉDIO E ENERGÉTICO"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/Places/Port Gellhorn/Port_Gellhorn_05.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "45% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "VIVA NO LIMITE"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/Places/Port Gellhorn/Port_Gellhorn_02.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "45% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "SEGURA A CARTEIRA"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/Places/Port Gellhorn/Port_Gellhorn_03.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "62% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "UMA NOITE LÁ?"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/Places/Port Gellhorn/Port_Gellhorn_01.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "65% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    }
+  ]
+}

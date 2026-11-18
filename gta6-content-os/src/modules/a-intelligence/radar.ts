@@ -9,7 +9,7 @@ import { Repo } from '../../core/db.js';
 import { LAUNCH, paths } from '../../core/config.js';
 import type { NewsItem } from '../../core/types.js';
 import { classify, dedupe, eventKey, score, spoilerRisk } from './classify.js';
-import { rockstarNewswire, rockstarOfficialPage, rockstarOnlyInLeonida, rockstarYouTube, type RawItem } from './sources/rockstar.js';
+import { rockstarNewswire, rockstarOfficialPage, rockstarOnlyInLeonida, rockstarPlaces, rockstarYouTube, type RawItem } from './sources/rockstar.js';
 
 export interface RadarReport {
   ranAt: string;
@@ -52,6 +52,7 @@ export async function runRadar(repo: Repo, today = new Date()): Promise<RadarRep
     ['YouTube RockstarGames (RSS)', () => rockstarYouTube()],
     ['Rockstar Newswire', () => rockstarNewswire(articleSeeds)],
     ['Only in Leonida (personagens)', async () => [await rockstarOnlyInLeonida()]],
+    ['Only in Leonida (lugares)', async () => [await rockstarPlaces()]],
   ] as const) {
     try {
       const r = await fn();
@@ -67,7 +68,7 @@ export async function runRadar(repo: Repo, today = new Date()): Promise<RadarRep
   const items: NewsItem[] = [];
   for (const { primary, others } of dedupe(relevant)) {
     const s = score(primary, today);
-    const key = primary.source.kind === 'rockstar_site' ? (primary.url.includes('only-in-leonida') ? 'pagina-only-in-leonida' : 'pagina-oficial-vi') : eventKey(primary.title, primary.publishedAt);
+    const key = primary.source.kind === 'rockstar_site' ? (primary.url.endsWith('#lugares') ? 'pagina-lugares-leonida' : primary.url.includes('only-in-leonida') ? 'pagina-only-in-leonida' : 'pagina-oficial-vi') : eventKey(primary.title, primary.publishedAt);
     const existing = repo.get<NewsItem>('news', key);
     const item: NewsItem = {
       id: key,

@@ -1,0 +1,152 @@
+{
+  "id": "s06-portgellhorn",
+  "pautaId": "serie-lugares",
+  "format": "short",
+  "style": "storytelling",
+  "title": "Port Gellhorn: a costa esquecida de GTA 6",
+  "audience": "Fã de GTA que quer conhecer o mapa de Leonida antes de jogar.",
+  "goal": "Série 'Lugares de Leonida', só com textos oficiais.",
+  "promise": "Como é esse lugar, segundo a própria Rockstar.",
+  "hook": "Port Gellhorn, de GTA 6, é a costa esquecida de Leonida.",
+  "fullText": "",
+  "beats": [
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Port Gellhorn, de GTA 6, é a costa esquecida de Leonida.",
+      "onScreen": "A COSTA ESQUECIDA",
+      "visual": "Port_Gellhorn_06.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Motéis baratos, atrações fechadas e shoppings vazios.",
+      "onScreen": "MOTÉIS BARATOS",
+      "visual": "Port_Gellhorn_01.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Os turistas não voltam mais. Mas a cidade tem uma economia nova.",
+      "onScreen": "ECONOMIA NOVA",
+      "visual": "Port_Gellhorn_04.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Movida a cerveja barata, analgésico e energético de posto de gasolina.",
+      "onScreen": "CERVEJA, REMÉDIO E ENERGÉTICO",
+      "visual": "Port_Gellhorn_05.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "O lema de lá é viver no limite.",
+      "onScreen": "VIVA NO LIMITE",
+      "visual": "Port_Gellhorn_02.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Sobe numa moto de trilha e segura bem a carteira.",
+      "onScreen": "SEGURA A CARTEIRA",
+      "visual": "Port_Gellhorn_03.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Você passaria uma noite em Port Gellhorn? Comenta aí.",
+      "onScreen": "UMA NOITE LÁ?",
+      "visual": "Port_Gellhorn_01.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso",
+      "audio": "Só voz."
+    }
+  ],
+  "cta": "Pergunta no fim.",
+  "claims": [
+    {
+      "text": "A COSTA ESQUECIDA",
+      "newsIds": [
+        "pagina-lugares-leonida"
+      ],
+      "quote": "THIS IS LEONIDA’S FORGOTTEN COAST"
+    },
+    {
+      "text": "MOTÉIS BARATOS",
+      "newsIds": [
+        "pagina-lugares-leonida"
+      ],
+      "quote": "Cheap motels, shut-down attractions, and empty strip malls"
+    },
+    {
+      "text": "ECONOMIA NOVA",
+      "newsIds": [
+        "pagina-lugares-leonida"
+      ],
+      "quote": "won’t bring the tourists back, but there’s a new economy in this once-popular vacation spot"
+    },
+    {
+      "text": "CERVEJA, REMÉDIO E ENERGÉTICO",
+      "newsIds": [
+        "pagina-lugares-leonida"
+      ],
+      "quote": "It’s fueled by malt liquor, painkillers, and truck stop energy drinks"
+    },
+    {
+      "text": "VIVA NO LIMITE",
+      "newsIds": [
+        "pagina-lugares-leonida"
+      ],
+      "quote": "LIVE HARD"
+    },
+    {
+      "text": "SEGURA A CARTEIRA",
+      "newsIds": [
+        "pagina-lugares-leonida"
+      ],
+      "quote": "Jump on a dirt bike and hold onto your wallet"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "rockstar_site",
+      "name": "Rockstar Games — Only in Leonida (lugares)",
+      "url": "https://www.rockstargames.com/VI/only-in-leonida"
+    }
+  ],
+  "version": 1,
+  "approval": "PENDENTE"
+}

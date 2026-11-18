@@ -1,0 +1,152 @@
+{
+  "id": "s06-ambrosia",
+  "pautaId": "serie-lugares",
+  "format": "short",
+  "style": "storytelling",
+  "title": "Ambrosia: a cidade do açúcar e dos motoqueiros em GTA 6",
+  "audience": "Fã de GTA que quer conhecer o mapa de Leonida antes de jogar.",
+  "goal": "Série 'Lugares de Leonida', só com textos oficiais.",
+  "promise": "Como é esse lugar, segundo a própria Rockstar.",
+  "hook": "Ambrosia, de GTA 6, fica no coração de Leonida.",
+  "fullText": "",
+  "beats": [
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Ambrosia, de GTA 6, fica no coração de Leonida.",
+      "onScreen": "O CORAÇÃO DE LEONIDA",
+      "visual": "Ambrosia_04.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "O lema de lá: manter Leonida doce.",
+      "onScreen": "MANTENDO LEONIDA DOCE",
+      "visual": "Ambrosia_02.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "É ali que começa a briga pela saúde e pela riqueza do estado.",
+      "onScreen": "SAÚDE E RIQUEZA",
+      "visual": "Ambrosia_05.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "A indústria americana e os valores antigos ainda mandam. Custe o que custar.",
+      "onScreen": "VALORES ANTIGOS",
+      "visual": "Ambrosia_06.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Os empregos vêm da refinaria de açúcar Allied Crystal.",
+      "onScreen": "REFINARIA DE AÇÚCAR",
+      "visual": "Ambrosia_04.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "E a gangue de motoqueiros da região fornece praticamente todo o resto.",
+      "onScreen": "OS MOTOQUEIROS",
+      "visual": "Ambrosia_01.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Você encararia os motoqueiros de Ambrosia? Comenta aí.",
+      "onScreen": "ENCARARIA?",
+      "visual": "Ambrosia_03.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso",
+      "audio": "Só voz."
+    }
+  ],
+  "cta": "Pergunta no fim.",
+  "claims": [
+    {
+      "text": "O CORAÇÃO DE LEONIDA",
+      "newsIds": [
+        "pagina-lugares-leonida"
+      ],
+      "quote": "In the heart of Leonida"
+    },
+    {
+      "text": "MANTENDO LEONIDA DOCE",
+      "newsIds": [
+        "pagina-lugares-leonida"
+      ],
+      "quote": "KEEPING LEONIDA SWEET"
+    },
+    {
+      "text": "SAÚDE E RIQUEZA",
+      "newsIds": [
+        "pagina-lugares-leonida"
+      ],
+      "quote": "THE BATTLE FOR THE HEALTH AND WEALTH OF LEONIDA BEGINS HERE"
+    },
+    {
+      "text": "VALORES ANTIGOS",
+      "newsIds": [
+        "pagina-lugares-leonida"
+      ],
+      "quote": "American industry and old school values still reign supreme — whatever the cost"
+    },
+    {
+      "text": "REFINARIA DE AÇÚCAR",
+      "newsIds": [
+        "pagina-lugares-leonida"
+      ],
+      "quote": "The Allied Crystal sugar refinery provides the jobs"
+    },
+    {
+      "text": "OS MOTOQUEIROS",
+      "newsIds": [
+        "pagina-lugares-leonida"
+      ],
+      "quote": "while the local biker gang provides almost everything else"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "rockstar_site",
+      "name": "Rockstar Games — Only in Leonida (lugares)",
+      "url": "https://www.rockstargames.com/VI/only-in-leonida"
+    }
+  ],
+  "version": 1,
+  "approval": "PENDENTE"
+}

@@ -1,0 +1,133 @@
+{
+  "id": "s06-kalaga",
+  "pautaId": "serie-lugares",
+  "format": "short",
+  "style": "storytelling",
+  "title": "Mount Kalaga: a terra selvagem de GTA 6",
+  "audience": "Fã de GTA que quer conhecer o mapa de Leonida antes de jogar.",
+  "goal": "Série 'Lugares de Leonida', só com textos oficiais.",
+  "promise": "Como é esse lugar, segundo a própria Rockstar.",
+  "hook": "O Mount Kalaga, de GTA 6, é terra selvagem.",
+  "fullText": "",
+  "beats": [
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "O Mount Kalaga, de GTA 6, é terra selvagem.",
+      "onScreen": "TERRA SELVAGEM",
+      "visual": "Mount_Kalaga_National_Park_04.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Fica colado na fronteira norte de Leonida. Espaço pra respirar.",
+      "onScreen": "ESPAÇO PRA RESPIRAR",
+      "visual": "Mount_Kalaga_National_Park_05.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Tem caça, pesca e trilhas off-road de primeira.",
+      "onScreen": "CAÇA, PESCA E TRILHA",
+      "visual": "Mount_Kalaga_National_Park_06.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "E no meio do mato vivem místicos caipiras e radicais paranoicos.",
+      "onScreen": "MÍSTICOS E PARANOICOS",
+      "visual": "Mount_Kalaga_National_Park_03.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Bem longe dos olhos do governo.",
+      "onScreen": "LONGE DO GOVERNO",
+      "visual": "Mount_Kalaga_National_Park_02.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Você se esconderia no Mount Kalaga? Comenta aí.",
+      "onScreen": "VOCÊ SE ESCONDERIA?",
+      "visual": "Mount_Kalaga_National_Park_01.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso",
+      "audio": "Só voz."
+    }
+  ],
+  "cta": "Pergunta no fim.",
+  "claims": [
+    {
+      "text": "TERRA SELVAGEM",
+      "newsIds": [
+        "pagina-lugares-leonida"
+      ],
+      "quote": "WILD, WILD COUNTRY"
+    },
+    {
+      "text": "ESPAÇO PRA RESPIRAR",
+      "newsIds": [
+        "pagina-lugares-leonida"
+      ],
+      "quote": "ROOM TO BREATHE ON THE STATE'S NORTHERN FRINGES"
+    },
+    {
+      "text": "CAÇA, PESCA E TRILHA",
+      "newsIds": [
+        "pagina-lugares-leonida"
+      ],
+      "quote": "offers prime hunting, fishing, and off-road trails"
+    },
+    {
+      "text": "MÍSTICOS E PARANOICOS",
+      "newsIds": [
+        "pagina-lugares-leonida"
+      ],
+      "quote": "hillbilly mystics and paranoid radicals live far from the prying eyes of the government"
+    },
+    {
+      "text": "LONGE DO GOVERNO",
+      "newsIds": [
+        "pagina-lugares-leonida"
+      ],
+      "quote": "far from the prying eyes of the government"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "rockstar_site",
+      "name": "Rockstar Games — Only in Leonida (lugares)",
+      "url": "https://www.rockstargames.com/VI/only-in-leonida"
+    }
+  ],
+  "version": 1,
+  "approval": "PENDENTE"
+}

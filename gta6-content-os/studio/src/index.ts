@@ -3,6 +3,7 @@ import { Composition, registerRoot } from 'remotion';
 import { ShortVideo } from './ShortVideo';
 import { LongVideo } from './LongVideo';
 import { Thumb } from './Thumb';
+import { Avatar, Banner } from './ChannelArt';
 import type { ShortProps } from './types';
 
 const defaults: ShortProps = {
@@ -24,6 +25,8 @@ const meta = ({ props }: { props: Record<string, unknown> }) => ({
 
 const Root: React.FC = () =>
   React.createElement(React.Fragment, null,
+  React.createElement(Composition, { id: 'Avatar', component: Avatar as unknown as React.FC<Record<string, unknown>>, width: 800, height: 800, fps: 30, durationInFrames: 1, defaultProps: { name: '', handle: '', tagline: '', bg: '', mark: 'HL' } }),
+  React.createElement(Composition, { id: 'Banner', component: Banner as unknown as React.FC<Record<string, unknown>>, width: 2560, height: 1440, fps: 30, durationInFrames: 1, defaultProps: { name: '', handle: '', tagline: '', bg: '', mark: '' } }),
   React.createElement(Composition, {
     id: 'Thumb',
     component: Thumb as unknown as React.FC<Record<string, unknown>>,

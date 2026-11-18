@@ -1,0 +1,97 @@
+{
+  "scriptId": "s06-vicecity",
+  "voice": "thalita",
+  "emphasis": [
+    "Vice",
+    "Ocean",
+    "Cuba",
+    "cruzeiro"
+  ],
+  "beats": [
+    {
+      "layout": {
+        "kind": "story",
+        "text": "TUDO EM EXCESSO"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/Places/Vice City/Vice_City_01.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA",
+      "seal": "CONFIRMADO"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "CAPITAL DO SOL"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/Places/Vice City/Vice_City_05.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "GLAMOUR E GANÂNCIA"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/Places/Vice City/Vice_City_10.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "30% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "OCEAN BEACH"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/Places/Vice City/Vice_City_25.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "LITTLE CUBA"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/Places/Vice City/Vice_City_09.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "CAPITAL DOS CRUZEIROS"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/Places/Vice City/Vice_City_15.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "QUAL BAIRRO?"
+      },
+      "bg": {
+        "file": "media/oficial/GTAVI_Screenshots/Places/Vice City/Vice_City_08.jpg",
+        "rights": "rockstar-kit-midia.json",
+        "position": "50% 50%"
+      },
+      "sourceLabel": "ROCKSTARGAMES.COM/VI · ONLY IN LEONIDA"
+    }
+  ]
+}

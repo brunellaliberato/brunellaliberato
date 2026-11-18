@@ -1,0 +1,133 @@
+{
+  "id": "s06-grassrivers",
+  "pautaId": "serie-lugares",
+  "format": "short",
+  "style": "storytelling",
+  "title": "Grassrivers: o pântano de GTA 6",
+  "audience": "Fã de GTA que quer conhecer o mapa de Leonida antes de jogar.",
+  "goal": "Série 'Lugares de Leonida', só com textos oficiais.",
+  "promise": "Como é esse lugar, segundo a própria Rockstar.",
+  "hook": "Grassrivers, de GTA 6: bem-vindo aos pântanos.",
+  "fullText": "",
+  "beats": [
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Grassrivers, de GTA 6: bem-vindo aos pântanos.",
+      "onScreen": "BEM-VINDO AO PÂNTANO",
+      "visual": "Grassrivers_05.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "A Rockstar chama esse lugar de joia indomável da coroa de Leonida.",
+      "onScreen": "JOIA INDOMÁVEL",
+      "visual": "Grassrivers_04.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Você nunca sabe o que tem embaixo da superfície.",
+      "onScreen": "O QUE TEM EMBAIXO?",
+      "visual": "Grassrivers_08.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Os jacarés são a atração mais famosa.",
+      "onScreen": "JACARÉS",
+      "visual": "Grassrivers_01.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Mas tem predadores bem mais mortais. E descobertas bem mais estranhas no meio do mangue.",
+      "onScreen": "PREDADORES PIORES",
+      "visual": "Grassrivers_06.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Você entraria nesse pântano à noite? Comenta aí.",
+      "onScreen": "À NOITE?",
+      "visual": "Grassrivers_03.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso",
+      "audio": "Só voz."
+    }
+  ],
+  "cta": "Pergunta no fim.",
+  "claims": [
+    {
+      "text": "BEM-VINDO AO PÂNTANO",
+      "newsIds": [
+        "pagina-lugares-leonida"
+      ],
+      "quote": "WELCOME TO THE WETLANDS"
+    },
+    {
+      "text": "JOIA INDOMÁVEL",
+      "newsIds": [
+        "pagina-lugares-leonida"
+      ],
+      "quote": "THE UNTAMABLE JEWEL OF LEONIDA’S CROWN"
+    },
+    {
+      "text": "O QUE TEM EMBAIXO?",
+      "newsIds": [
+        "pagina-lugares-leonida"
+      ],
+      "quote": "You never know what lies beneath the surface of this primordial expanse"
+    },
+    {
+      "text": "JACARÉS",
+      "newsIds": [
+        "pagina-lugares-leonida"
+      ],
+      "quote": "The gators may be the most famous attraction"
+    },
+    {
+      "text": "PREDADORES PIORES",
+      "newsIds": [
+        "pagina-lugares-leonida"
+      ],
+      "quote": "there are far deadlier predators and weirder discoveries among the mangroves"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "rockstar_site",
+      "name": "Rockstar Games — Only in Leonida (lugares)",
+      "url": "https://www.rockstargames.com/VI/only-in-leonida"
+    }
+  ],
+  "version": 1,
+  "approval": "PENDENTE"
+}

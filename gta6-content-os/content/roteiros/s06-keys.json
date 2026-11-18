@@ -1,0 +1,152 @@
+{
+  "id": "s06-keys",
+  "pautaId": "serie-lugares",
+  "format": "short",
+  "style": "storytelling",
+  "title": "Leonida Keys: o paraíso perigoso de GTA 6",
+  "audience": "Fã de GTA que quer conhecer o mapa de Leonida antes de jogar.",
+  "goal": "Série 'Lugares de Leonida', só com textos oficiais.",
+  "promise": "Como é esse lugar, segundo a própria Rockstar.",
+  "hook": "As Leonida Keys, de GTA 6, são a porta de entrada pro paraíso.",
+  "fullText": "",
+  "beats": [
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "As Leonida Keys, de GTA 6, são a porta de entrada pro paraíso.",
+      "onScreen": "PORTA DO PARAÍSO",
+      "visual": "Leonida_Keys_01.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "O traje é casual e os bares estão lotados.",
+      "onScreen": "BARES LOTADOS",
+      "visual": "Leonida_Keys_03.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "A vida nesse arquipélago tropical não é chique, mas é fácil.",
+      "onScreen": "VIDA FÁCIL",
+      "visual": "Leonida_Keys_05.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Pega uma bebida, puxa uma cadeira de praia.",
+      "onScreen": "RELAXA…",
+      "visual": "Leonida_Keys_06.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Mas fica esperto: você tá na porta de algumas das águas mais bonitas e perigosas dos Estados Unidos.",
+      "onScreen": "ÁGUAS PERIGOSAS",
+      "visual": "Leonida_Keys_07.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "E é ali que o Jason trabalha pra traficantes da região.",
+      "onScreen": "O JASON TÁ AQUI",
+      "visual": "Jason_Duval_03.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Você moraria nas Keys? Comenta aí.",
+      "onScreen": "VOCÊ MORARIA?",
+      "visual": "Leonida_Keys_02.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso",
+      "audio": "Só voz."
+    }
+  ],
+  "cta": "Pergunta no fim.",
+  "claims": [
+    {
+      "text": "PORTA DO PARAÍSO",
+      "newsIds": [
+        "pagina-lugares-leonida"
+      ],
+      "quote": "GATEWAY TO PARADISE"
+    },
+    {
+      "text": "BARES LOTADOS",
+      "newsIds": [
+        "pagina-lugares-leonida"
+      ],
+      "quote": "THE DRESS CODE IS CASUAL, THE BARS ARE LOADED"
+    },
+    {
+      "text": "VIDA FÁCIL",
+      "newsIds": [
+        "pagina-lugares-leonida"
+      ],
+      "quote": "Life in this tropical archipelago isn’t flashy but it’s easy"
+    },
+    {
+      "text": "RELAXA…",
+      "newsIds": [
+        "pagina-lugares-leonida"
+      ],
+      "quote": "Get your buzz on and pull up a deck chair"
+    },
+    {
+      "text": "ÁGUAS PERIGOSAS",
+      "newsIds": [
+        "pagina-lugares-leonida"
+      ],
+      "quote": "you are right on the doorstep of some of the most beautiful and dangerous waters in all of America"
+    },
+    {
+      "text": "O JASON TÁ AQUI",
+      "newsIds": [
+        "pagina-only-in-leonida"
+      ],
+      "quote": "he found himself in the Keys doing what he knows best, working for local drug runners"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "rockstar_site",
+      "name": "Rockstar Games — Only in Leonida (lugares)",
+      "url": "https://www.rockstargames.com/VI/only-in-leonida"
+    }
+  ],
+  "version": 1,
+  "approval": "PENDENTE"
+}

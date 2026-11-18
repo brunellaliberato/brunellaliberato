@@ -171,3 +171,44 @@ export async function rockstarOnlyInLeonida(): Promise<RawItem> {
     await browser.close();
   }
 }
+
+/** Lugares de Leonida: textos das janelas "Explore …" da página Only in Leonida (abertas como um visitante). */
+export async function rockstarPlaces(): Promise<RawItem> {
+  const { chromium } = await import('playwright');
+  const browser = await chromium.launch();
+  try {
+    const page = await browser.newPage({ userAgent: UA, viewport: { width: 1440, height: 900 } });
+    const url = 'https://www.rockstargames.com/VI/only-in-leonida';
+    await page.goto(url, { waitUntil: 'networkidle', timeout: 90_000 });
+    await page.getByText('REJECT ALL', { exact: true }).click({ timeout: 8000 }).catch(() => {});
+    for (let k = 0; k < 25; k++) {
+      await page.mouse.wheel(0, 2500);
+      await page.waitForTimeout(250);
+    }
+    const parts: string[] = [];
+    for (const n of ['Vice City', 'Leonida Keys', 'Grassrivers', 'Port Gellhorn', 'Ambrosia', 'Mount Kalaga']) {
+      const btn = page.getByText(`Explore ${n}`, { exact: true }).first();
+      await btn.scrollIntoViewIfNeeded().catch(() => {});
+      await btn.click({ timeout: 10_000 }).catch(() => {});
+      await page.waitForTimeout(2000);
+      const txt: string | null = await page.evaluate(() => {
+        const ds = [...document.querySelectorAll('[role=dialog]')].map((d) => (d as HTMLElement).innerText).filter((t) => !/COOKIE NOTICE/.test(t));
+        return ds.length ? ds[ds.length - 1] : null;
+      });
+      if (txt) parts.push(`## ${n.toUpperCase()}\n${txt.replace(/^Back\s*/, '')}`);
+      await page.keyboard.press('Escape');
+      await page.waitForTimeout(600);
+    }
+    if (!parts.length) throw new Error('nenhum texto de lugar capturado');
+    return {
+      title: 'Only in Leonida: lugares oficiais de Leonida',
+      summary: 'Textos oficiais de Vice City, Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia e Mount Kalaga.',
+      evidence: parts.join('\n\n'),
+      url: `${url}#lugares`,
+      publishedAt: new Date().toISOString(),
+      source: { kind: 'rockstar_site', name: 'rockstargames.com/VI/only-in-leonida (lugares)', url },
+    };
+  } finally {
+    await browser.close();
+  }
+}

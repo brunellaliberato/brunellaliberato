@@ -1,0 +1,152 @@
+{
+  "id": "s06-vicecity",
+  "pautaId": "serie-lugares",
+  "format": "short",
+  "style": "storytelling",
+  "title": "Vice City de GTA 6: tudo em excesso",
+  "audience": "Fã de GTA que quer conhecer o mapa de Leonida antes de jogar.",
+  "goal": "Série 'Lugares de Leonida', só com textos oficiais.",
+  "promise": "Como é esse lugar, segundo a própria Rockstar.",
+  "hook": "Vice City, de GTA 6, tem um lema oficial: tudo em excesso.",
+  "fullText": "",
+  "beats": [
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Vice City, de GTA 6, tem um lema oficial: tudo em excesso.",
+      "onScreen": "TUDO EM EXCESSO",
+      "visual": "Vice_City_01.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "A gente tá longe dos anos 80, mas Vice City continua sendo a capital do sol e da diversão dos Estados Unidos.",
+      "onScreen": "CAPITAL DO SOL",
+      "visual": "Vice_City_05.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Segundo a Rockstar, é o glamour, a correria e a ganância dos Estados Unidos numa cidade só.",
+      "onScreen": "GLAMOUR E GANÂNCIA",
+      "visual": "Vice_City_10.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Tem os hotéis art déco em tons pastel e a areia branquinha de Ocean Beach.",
+      "onScreen": "OCEAN BEACH",
+      "visual": "Vice_City_25.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Tem as padarias lotadas de Little Cuba e as marcas piratas da feira Tisha-Wocka.",
+      "onScreen": "LITTLE CUBA",
+      "visual": "Vice_City_09.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "E tem o porto da cidade, a capital mundial dos navios de cruzeiro.",
+      "onScreen": "CAPITAL DOS CRUZEIROS",
+      "visual": "Vice_City_15.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso",
+      "audio": "Só voz."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Qual bairro de Vice City você visita primeiro? Comenta aí.",
+      "onScreen": "QUAL BAIRRO?",
+      "visual": "Vice_City_08.jpg",
+      "edit": "Corte seco.",
+      "animation": "pulso",
+      "audio": "Só voz."
+    }
+  ],
+  "cta": "Pergunta no fim.",
+  "claims": [
+    {
+      "text": "TUDO EM EXCESSO",
+      "newsIds": [
+        "pagina-lugares-leonida"
+      ],
+      "quote": "EVERYTHING IN EXCESS"
+    },
+    {
+      "text": "CAPITAL DO SOL",
+      "newsIds": [
+        "pagina-lugares-leonida"
+      ],
+      "quote": "WE'RE A LONG WAY FROM THE '80S, BUT VICE CITY IS STILL THE SUN AND FUN CAPITAL OF AMERICA"
+    },
+    {
+      "text": "GLAMOUR E GANÂNCIA",
+      "newsIds": [
+        "pagina-lugares-leonida"
+      ],
+      "quote": "The glamour, hustle, and greed of America captured in a single city"
+    },
+    {
+      "text": "OCEAN BEACH",
+      "newsIds": [
+        "pagina-lugares-leonida"
+      ],
+      "quote": "the pastel art deco hotels and bright white sands of Ocean Beach"
+    },
+    {
+      "text": "LITTLE CUBA",
+      "newsIds": [
+        "pagina-lugares-leonida"
+      ],
+      "quote": "the bustling panaderías of Little Cuba and the bootleg brands of the Tisha-Wocka flea market"
+    },
+    {
+      "text": "CAPITAL DOS CRUZEIROS",
+      "newsIds": [
+        "pagina-lugares-leonida"
+      ],
+      "quote": "out to the VC Port, the cruise ship capital of the world"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "rockstar_site",
+      "name": "Rockstar Games — Only in Leonida (lugares)",
+      "url": "https://www.rockstargames.com/VI/only-in-leonida"
+    }
+  ],
+  "version": 1,
+  "approval": "PENDENTE"
+}
