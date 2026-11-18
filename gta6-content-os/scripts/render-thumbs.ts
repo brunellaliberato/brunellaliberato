@@ -25,3 +25,5 @@ for (const s of specs) {
   await renderStill({ composition, serveUrl, output: out, inputProps, browserExecutable: existsSync(be) ? be : null });
   console.log(out);
 }
+import { rmSync as _rm } from 'node:fs';
+_rm(serveUrl, { recursive: true, force: true });

@@ -20,3 +20,5 @@ for (const o of opts) {
     console.log(file);
   }
 }
+import { rmSync as _rm } from 'node:fs';
+_rm(serveUrl, { recursive: true, force: true });

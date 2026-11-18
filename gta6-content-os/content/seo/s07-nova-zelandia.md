@@ -2,9 +2,9 @@
 
 **Título:** GTA 6 já liberou na Nova Zelândia. E no Brasil?
 
-**Gancho (0–2s):** Já tem gente jogando GTA 6. Na Nova Zelândia.
+**Gancho (0–2s):** Já estão jogando GTA 6. Na Nova Zelândia.
 
-**Capa:** Fundo asfalto, número/frase principal da tela 1 ("JÁ TEM GENTE JOGANDO") em adesivo branco, selo verde e crédito "IMAGEM: ROCKSTAR GAMES". Nunca imagem gerada por IA.
+**Capa:** Fundo asfalto, número/frase principal da tela 1 ("JÁ ESTÃO JOGANDO") em adesivo branco, selo verde e crédito "IMAGEM: ROCKSTAR GAMES". Nunca imagem gerada por IA.
 
 **Spoiler:** não
 

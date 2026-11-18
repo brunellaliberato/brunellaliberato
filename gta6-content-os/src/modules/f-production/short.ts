@@ -7,7 +7,7 @@
  */
 import { createHash } from 'node:crypto';
 import { execFileSync, spawnSync } from 'node:child_process';
-import { copyFileSync, existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { copyFileSync, existsSync, mkdirSync, readFileSync, rmSync, unlinkSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { paths } from '../../core/config.js';
 import type { RightsStatus, Script } from '../../core/types.js';
@@ -318,10 +318,13 @@ export async function produceShort(script: Script, sb: Storyboard, opts: { voice
     },
   });
   process.stdout.write('\n');
+  // cada bundle ocupa ~500 MB em /tmp; sem limpar, o disco enche depois de algumas dezenas de renders
+  if (serveUrl.startsWith('/')) rmSync(serveUrl, { recursive: true, force: true });
 
   // 5) loudness para mobile (-14 LUFS integrado, pico -1.5 dBTP), vídeo sem re-encode
   const finalFile = join(workDir, `${script.id}-v${script.version}.mp4`);
   execFileSync('ffmpeg', ['-y', '-v', 'error', '-i', raw, '-c:v', 'copy', '-af', 'loudnorm=I=-14:TP=-1.5:LRA=11', '-ar', '48000', '-c:a', 'aac', '-b:a', '192k', '-movflags', '+faststart', finalFile]);
+  unlinkSync(raw);
   copyFileSync(join(workDir, 'props.json'), join(workDir, `props-v${script.version}.json`));
   return { id: script.id, file: finalFile, durationSec: total / FPS, beatDurations: durs, props, reusedVoiceBeats: reused, voice: { id: voice.id, license: voice.license }, voiceQa };
 }

@@ -37,6 +37,9 @@ def ref_words(text: str):
             out.append(norm(core))
     return out
 
+ABBR = {"gb": "gigas", "tb": "teras", "mb": "megas", "fps": "quadros"}
+
+
 def main():
     jobs = json.load(open(sys.argv[1]))
     m = WhisperModel("small", device="cpu", compute_type="int8", download_root=str(Path(__file__).parent / "models" / "whisper"))
@@ -51,6 +54,8 @@ def main():
         segs, _ = m.transcribe(x, language="pt", without_timestamps=True, beam_size=5)
         hyp_text = " ".join(s.text for s in segs)
         hyp = [norm(t) for t in re.sub(r"\d+", lambda mm: NUM.get(mm.group(0), mm.group(0)), hyp_text.replace("-", " ")).split()]
+        # o ASR escreve unidades por sigla: "gigas" falado vira "GB"
+        hyp += [ABBR[h] for h in hyp if h in ABBR]
         missing = []
         for r in ref_words(j["text"]):
             best = max((difflib.SequenceMatcher(None, r, h).ratio() for h in hyp), default=0)
