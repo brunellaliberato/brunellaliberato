@@ -33,10 +33,12 @@ export function gateFacts(script: Script, news: Map<string, NewsItem>, today = n
     const found = items.some((n) => norm(n!.evidence).includes(norm(c.quote)));
     checks.push({ name: `claim#${i + 1} citação literal`, ok: found, detail: found ? c.text : `citação NÃO encontrada na evidência: "${c.quote}"` });
     const weak = items.filter((n) => n!.status !== 'CONFIRMADO');
+    const SEAL_FOR: Record<string, string> = { INFORMACAO_DE_TERCEIROS: 'TERCEIROS', RUMOR: 'RUMOR', TEORIA: 'TEORIA', OPINIAO: 'OPINIAO' };
+    const sealed = weak.length > 0 && !!c.seal && weak.every((n) => SEAL_FOR[n!.status] === c.seal) && script.beats.length > 0;
     checks.push({
       name: `claim#${i + 1} status`,
-      ok: weak.length === 0,
-      detail: weak.length ? `fonte com status ${weak.map((n) => n!.status).join('/')} — exige selo de RUMOR/TERCEIROS na tela` : 'CONFIRMADO',
+      ok: weak.length === 0 || sealed,
+      detail: sealed ? `fonte ${weak[0]!.status}, com selo ${c.seal} na tela` : weak.length ? `fonte com status ${weak.map((n) => n!.status).join('/')} — exige selo de RUMOR/TERCEIROS na tela` : 'CONFIRMADO',
     });
     const stale = items.filter((n) => (today.getTime() - Date.parse(n!.lastVerifiedAt)) / 3_600_000 > maxAgeHours);
     checks.push({

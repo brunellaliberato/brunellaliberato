@@ -4,6 +4,7 @@
   "emphasis": [
     "Nova Zelândia",
     "meia-noite",
+    "brasileiro",
     "Brasil",
     "212"
   ],
@@ -33,21 +34,22 @@
     {
       "layout": {
         "kind": "story",
-        "text": "NA NOVA ZELÂNDIA JÁ LIBEROU"
+        "text": "BRASILEIRO JÁ ESTÁ JOGANDO"
       },
-      "sourceLabel": "PLAYSTATION.COM · SUPORTE GTA VI"
+      "sourceLabel": "IMPRENSA · CRITICAL HITS, CANALTECH",
+      "seal": "TERCEIROS"
+    },
+    {
+      "layout": {
+        "kind": "story",
+        "text": "NÃO É OFICIAL"
+      },
+      "sourceLabel": "IMPRENSA · CRITICAL HITS, CANALTECH"
     },
     {
       "layout": {
         "kind": "story",
         "text": "BRASIL: HOJE À MEIA-NOITE"
-      },
-      "sourceLabel": "PLAYSTATION.COM · SUPORTE GTA VI"
-    },
-    {
-      "layout": {
-        "kind": "story",
-        "text": "ATÉ 212 GB"
       },
       "sourceLabel": "ROCKSTAR NEWSWIRE · 03/11",
       "seal": "CONFIRMADO"
@@ -55,7 +57,7 @@
     {
       "layout": {
         "kind": "story",
-        "text": "PRONTO PRA MEIA-NOITE?"
+        "text": "BRASIL OU NOVA ZELÂNDIA?"
       },
       "sourceLabel": "PLAYSTATION.COM · SUPORTE GTA VI"
     }

@@ -16,6 +16,7 @@ Por que a Nova Zelândia já está jogando GTA 6 e a que horas o jogo libera no 
 Fontes:
 • PlayStation Support — Grand Theft Auto VI: https://www.playstation.com/en-us/support/games/gta-vi-support/
 • Rockstar Newswire — Pre-Load Begins on November 10: https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10
+• Critical Hits — truque da Nova Zelândia no Xbox: https://criticalhits.com.br/games/gta-6-pode-ser-jogado-antes-no-xbox-com-truque-da-nova-zelandia/
 
 Canal de fã, sem vínculo com a Rockstar Games ou a Take-Two Interactive. Todas as informações têm fonte oficial linkada acima.
 

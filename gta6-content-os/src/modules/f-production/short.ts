@@ -84,10 +84,14 @@ export interface Voice {
   synth(text: string, outWav: string): void;
 }
 
+/** Ritmo e energia da Thalita (18/11: Brunella pediu "mais rápida e mais empolgada"). */
+export const VOICE_RATE = process.env.GTA_OS_VOICE_RATE ?? '+14%';
+export const VOICE_PITCH = process.env.GTA_OS_VOICE_PITCH ?? '+6Hz';
+
 function tts(provider: 'azure' | 'edge', text: string, outWav: string) {
   const tmp = `${outWav}.txt`;
   writeFileSync(tmp, text);
-  const r = spawnSync(paths.python, [join(paths.clipEngine, 'tts.py'), '--provider', provider, '--text-file', tmp, '--out', outWav], { encoding: 'utf8' });
+  const r = spawnSync(paths.python, [join(paths.clipEngine, 'tts.py'), '--provider', provider, '--text-file', tmp, '--out', outWav, `--rate=${VOICE_RATE}`, `--pitch=${VOICE_PITCH}`], { encoding: 'utf8' });
   if (r.status !== 0 || !existsSync(outWav)) throw new Error(`tts ${provider} falhou: ${r.stderr || r.stdout}`);
 }
 
@@ -95,8 +99,8 @@ function tts(provider: 'azure' | 'edge', text: string, outWav: string) {
 export function thalitaVoice(): Voice {
   const azure = !!(process.env.AZURE_SPEECH_KEY && process.env.AZURE_SPEECH_REGION);
   return azure
-    ? { id: 'thalita-azure', license: 'producao', synth: (t, o) => tts('azure', t, o) }
-    : { id: 'thalita-edge-previa', license: 'previa', synth: (t, o) => tts('edge', t, o) };
+    ? { id: `thalita-azure@${VOICE_RATE}${VOICE_PITCH}`, license: 'producao', synth: (t, o) => tts('azure', t, o) }
+    : { id: `thalita-edge-previa@${VOICE_RATE}${VOICE_PITCH}`, license: 'previa', synth: (t, o) => tts('edge', t, o) };
 }
 
 /** Voz guia local e gratuita. Narração humana entra pelo mesmo contrato (arquivo por beat). */
@@ -117,7 +121,7 @@ export const duration = (f: string) => Number(execFileSync('ffprobe', ['-v', 'er
 /** Legendas: blocos de até 3 palavras, tempo proporcional ao nº de caracteres dentro da fala. */
 export function captionChunks(text: string, startFrame: number, frames: number, emphasis: string[]): CaptionChunk[] {
   // termos que nunca se separam na legenda
-  const KEEP = ['GTA 6', 'GTA VI', 'PS5 Pro', 'Xbox Series', 'Xbox One', 'Series S', 'ray tracing', 'Cloud Gaming', 'Remote Play', '19 de novembro'];
+  const KEEP = ['GTA 6', 'GTA VI', 'PS5 Pro', 'Xbox Series', 'Xbox One', 'Series S', 'ray tracing', 'Cloud Gaming', 'Remote Play', '19 de novembro', 'PlayStation 5', 'Nova Zelândia'];
   let protectedText = text;
   for (const k of KEEP) protectedText = protectedText.replace(new RegExp(k, 'gi'), (m) => m.replace(/ /g, '\u00a0'));
   const words = protectedText.split(/[ \t\n]+/).filter(Boolean);
@@ -151,7 +155,7 @@ export function captionChunks(text: string, startFrame: number, frames: number, 
 /** Legendas com o tempo REAL de cada palavra (quando a voz informa), em blocos de até 3 palavras. */
 export function captionChunksTimed(words: { w: string; s: number; e: number }[], startFrame: number, fps: number, emphasis: string[]): CaptionChunk[] {
   const FN = /^(a|o|as|os|e|é|de|do|da|dos|das|no|na|nos|nas|em|um|uma|que|pra|pro|com|se|tá|seu|sua|ao|à|por|mais|só|me|te)$/i;
-  const KEEP = /^(GTA|PS5|Xbox|Liberty|Vice|Leonida)$/i;
+  const KEEP = /^(GTA|PS5|Xbox|Liberty|Vice|Leonida|PlayStation|Nova)$/i;
   const groups: (typeof words)[] = [];
   let cur: typeof words = [];
   words.forEach((w, i) => {
@@ -160,7 +164,7 @@ export function captionChunksTimed(words: { w: string; s: number; e: number }[],
     const gap = next ? next.s - w.e : 1;
     const len = cur.map((x) => x.w).join(' ').length;
     const full = cur.length >= 3 || len >= 16;
-    const glued = next && (KEEP.test(w.w) && /^(6|VI|City|Pro|Series|One|Keys)$/i.test(next.w));
+    const glued = next && (KEEP.test(w.w) && /^(6|5|5,|VI|City|Pro|Series|One|Keys|Zelândia|Zelândia.|Zelândia,|Zelândia?)$/i.test(next.w));
     if (!next || gap > 0.25 || (full && !glued && !(FN.test(w.w) && cur.length < 5))) {
       groups.push(cur);
       cur = [];

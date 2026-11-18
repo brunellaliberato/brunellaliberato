@@ -29,58 +29,58 @@
       ],
       "narration": "Lá, já é dia dezenove. E a Sony confirmou: no PlayStation 5, o jogo libera à meia-noite do dia dezenove, no horário de cada país.",
       "onScreen": "LÁ JÁ É 19/11",
-      "visual": "Trailer de lançamento oficial.",
-      "edit": "Corte contínuo.",
+      "visual": "Trailer de lançamento oficial (mudo).",
+      "edit": "Sem intro.",
       "animation": "texto adesivo",
-      "audio": "—"
+      "audio": "Só narração."
     },
     {
       "t": [
         0,
         0
       ],
-      "narration": "Como a Nova Zelândia é um dos primeiros lugares do mundo a virar o dia, o jogo já liberou por lá.",
-      "onScreen": "NA NOVA ZELÂNDIA JÁ LIBEROU",
-      "visual": "Trailer de lançamento oficial.",
-      "edit": "Corte contínuo.",
+      "narration": "E tem brasileiro jogando junto! Segundo a imprensa de games, no Xbox dá pra tentar mudando a região do console pra Nova Zelândia.",
+      "onScreen": "BRASILEIRO JÁ ESTÁ JOGANDO",
+      "visual": "Trailer de lançamento oficial (mudo).",
+      "edit": "Sem intro.",
       "animation": "texto adesivo",
-      "audio": "—"
+      "audio": "Só narração."
     },
     {
       "t": [
         0,
         0
       ],
-      "narration": "Aqui no Brasil, libera hoje à meia-noite, no seu horário.",
+      "narration": "Mas atenção: esse caminho não é oficial da Rockstar.",
+      "onScreen": "NÃO É OFICIAL",
+      "visual": "Trailer de lançamento oficial (mudo).",
+      "edit": "Sem intro.",
+      "animation": "texto adesivo",
+      "audio": "Só narração."
+    },
+    {
+      "t": [
+        0,
+        0
+      ],
+      "narration": "Pra quem espera aqui, libera hoje à meia-noite, no seu horário. E o arquivo pode ter até duzentos e doze gigas.",
       "onScreen": "BRASIL: HOJE À MEIA-NOITE",
-      "visual": "Trailer de lançamento oficial.",
-      "edit": "Corte contínuo.",
+      "visual": "Trailer de lançamento oficial (mudo).",
+      "edit": "Sem intro.",
       "animation": "texto adesivo",
-      "audio": "—"
+      "audio": "Só narração."
     },
     {
       "t": [
         0,
         0
       ],
-      "narration": "Ainda não baixou? A Rockstar avisa que o arquivo pode ter até duzentos e doze gigas.",
-      "onScreen": "ATÉ 212 GB",
-      "visual": "Trailer de lançamento oficial.",
-      "edit": "Corte contínuo.",
+      "narration": "E você: tá esperando sair no Brasil ou já tá jogando pela Nova Zelândia?",
+      "onScreen": "BRASIL OU NOVA ZELÂNDIA?",
+      "visual": "Trailer de lançamento oficial (mudo).",
+      "edit": "Sem intro.",
       "animation": "texto adesivo",
-      "audio": "—"
-    },
-    {
-      "t": [
-        0,
-        0
-      ],
-      "narration": "E aí, já tá pronto pra meia-noite?",
-      "onScreen": "PRONTO PRA MEIA-NOITE?",
-      "visual": "Trailer de lançamento oficial.",
-      "edit": "Segura 1s.",
-      "animation": "texto adesivo",
-      "audio": "—"
+      "audio": "Só narração."
     }
   ],
   "cta": "Pergunta no fim.",
@@ -98,6 +98,14 @@
         "newswire-preload"
       ],
       "quote": "The pre-load file will require up to 212 GB depending on your device"
+    },
+    {
+      "text": "BRASILEIRO JÁ ESTÁ JOGANDO (Xbox, região Nova Zelândia)",
+      "newsIds": [
+        "imprensa-truque-nz"
+      ],
+      "quote": "poderão tentar acessar o jogo mais cedo alterando a localização do console para a Nova Zelândia",
+      "seal": "TERCEIROS"
     }
   ],
   "sources": [
@@ -110,9 +118,14 @@
       "kind": "rockstar_newswire",
       "name": "Rockstar Newswire — Pre-Load Begins on November 10",
       "url": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10"
+    },
+    {
+      "kind": "press",
+      "name": "Critical Hits — truque da Nova Zelândia no Xbox",
+      "url": "https://criticalhits.com.br/games/gta-6-pode-ser-jogado-antes-no-xbox-com-truque-da-nova-zelandia/"
     }
   ],
-  "version": 2,
+  "version": 3,
   "approval": "PENDENTE",
-  "notes": "Publicar em 18/11 (texto usa 'hoje à meia-noite'). Nova Zelândia (UTC+13) chega à meia-noite de 19/11 às 11h UTC de 18/11 — fuso horário, não notícia. Não cita truque de trocar região. Imagem: trailer de lançamento oficial (mudo). Live de terceiros NÃO usada (sem autorização)."
+  "notes": "Publicar em 18/11 (texto usa 'hoje à meia-noite'). Nova Zelândia (UTC+13) chega à meia-noite de 19/11 às 11h UTC de 18/11 — fuso horário, não notícia. Não cita truque de trocar região. Imagem: trailer de lançamento oficial (mudo). Live de terceiros NÃO usada (sem autorização). v3: brasileiros jogando via Nova Zelândia (imprensa, selo TERCEIROS); só informa, sem passo a passo; avisa que não é caminho oficial."
 }

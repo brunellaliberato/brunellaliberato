@@ -34,13 +34,13 @@ def ca_context() -> ssl.SSLContext:
     return ssl.create_default_context(cafile=ca) if ca else ssl.create_default_context()
 
 
-def azure(text: str, out: str, rate: str) -> None:
+def azure(text: str, out: str, rate: str, pitch: str = "+0Hz") -> None:
     key, region = os.environ.get("AZURE_SPEECH_KEY"), os.environ.get("AZURE_SPEECH_REGION")
     if not key or not region:
         sys.exit("AZURE_SPEECH_KEY/AZURE_SPEECH_REGION não configurados")
     ssml = (
         f'<speak version="1.0" xml:lang="pt-BR" xmlns="http://www.w3.org/2001/10/synthesis">'
-        f'<voice name="{VOICE}"><lang xml:lang="{LANG}"><prosody rate="{rate}">{escape(text)}</prosody></lang></voice></speak>'
+        f'<voice name="{VOICE}"><lang xml:lang="{LANG}"><prosody rate="{rate}" pitch="{pitch}">{escape(text)}</prosody></lang></voice></speak>'
     )
     req = urllib.request.Request(
         f"https://{region}.tts.speech.microsoft.com/cognitiveservices/v1",
@@ -56,7 +56,7 @@ def azure(text: str, out: str, rate: str) -> None:
         f.write(r.read())
 
 
-async def edge(text: str, out: str, rate: str) -> None:
+async def edge(text: str, out: str, rate: str, pitch: str = "+0Hz") -> None:
     import edge_tts
     import edge_tts.communicate as comm
 
@@ -73,7 +73,7 @@ async def edge(text: str, out: str, rate: str) -> None:
         )
 
     comm.mkssml = mkssml_ptbr
-    c = edge_tts.Communicate(text, VOICE, rate=rate, boundary="WordBoundary")
+    c = edge_tts.Communicate(text, VOICE, rate=rate, pitch=pitch, boundary="WordBoundary")
     mp3 = out + ".mp3"
     words = []
     with open(mp3, "wb") as f:
@@ -94,6 +94,7 @@ def main() -> None:
     ap.add_argument("--text-file", required=True)
     ap.add_argument("--out", required=True)
     ap.add_argument("--rate", default="+6%")
+    ap.add_argument("--pitch", default="+0Hz")
     a = ap.parse_args()
     text = open(a.text_file, encoding="utf-8").read().strip()
     # falhas de rede intermitentes: até 4 tentativas com espera crescente
@@ -101,9 +102,9 @@ def main() -> None:
     for attempt in range(4):
         try:
             if a.provider == "azure":
-                azure(text, a.out, a.rate)
+                azure(text, a.out, a.rate, a.pitch)
             else:
-                asyncio.run(edge(text, a.out, a.rate))
+                asyncio.run(edge(text, a.out, a.rate, a.pitch))
             return
         except Exception as e:  # noqa: BLE001
             if attempt == 3:

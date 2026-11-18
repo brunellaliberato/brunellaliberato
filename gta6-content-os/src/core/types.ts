@@ -113,6 +113,8 @@ export interface Claim {
   newsIds: string[];
   /** citação literal da fonte que comprova */
   quote: string;
+  /** selo mostrado na tela quando a fonte não é oficial (ex.: imprensa = TERCEIROS) */
+  seal?: 'TERCEIROS' | 'RUMOR' | 'TEORIA' | 'OPINIAO';
 }
 
 export interface ScriptBeat {

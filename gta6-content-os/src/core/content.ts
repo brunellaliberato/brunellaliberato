@@ -14,7 +14,7 @@ const BeatZ = z.object({
   animation: z.string(),
   audio: z.string(),
 });
-const ClaimZ = z.object({ text: z.string(), newsIds: z.array(z.string()).min(1), quote: z.string().min(3) });
+const ClaimZ = z.object({ text: z.string(), newsIds: z.array(z.string()).min(1), quote: z.string().min(3), seal: z.enum(['TERCEIROS', 'RUMOR', 'TEORIA', 'OPINIAO']).optional() });
 export const ScriptZ = z.object({
   id: z.string(),
   pautaId: z.string(),
