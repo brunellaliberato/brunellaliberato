@@ -79,7 +79,7 @@ const NODES: Node[] = [
 ];
 const EDGES: { a: string; b: string; label: string; dx: number; dy: number }[] = [
   { a: 'lucia', b: 'jason', label: 'o casal', dx: 110, dy: 0 },
-  { a: 'jason', b: 'brian', label: 'mora de graça', dx: -40, dy: 70 },
+  { a: 'jason', b: 'brian', label: 'mora de graça', dx: -175, dy: 55 },
   { a: 'boobie', b: 'drequan', label: 'sócios na Only Raw', dx: 60, dy: -60 },
   { a: 'drequan', b: 'dimez', label: 'contratou', dx: 90, dy: 50 },
 ];
