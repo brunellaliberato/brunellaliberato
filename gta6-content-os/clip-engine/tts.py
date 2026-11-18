@@ -22,6 +22,10 @@ import urllib.request
 from xml.sax.saxutils import escape
 
 VOICE = "pt-BR-ThalitaMultilingualNeural"
+LANG = "pt-BR"
+# REGRA (18/11/2026): a Thalita é "Multilingual" e adivinha o idioma frase a frase. Sem declarar o idioma,
+# ela já falou "basamento" (sotaque espanhol) em "nada de vazamento". Todo pedido declara pt-BR e envolve
+# o texto em <lang xml:lang="pt-BR">, o que trava a pronúncia em português.
 
 
 def ca_context() -> ssl.SSLContext:
@@ -36,7 +40,7 @@ def azure(text: str, out: str, rate: str) -> None:
         sys.exit("AZURE_SPEECH_KEY/AZURE_SPEECH_REGION não configurados")
     ssml = (
         f'<speak version="1.0" xml:lang="pt-BR" xmlns="http://www.w3.org/2001/10/synthesis">'
-        f'<voice name="{VOICE}"><prosody rate="{rate}">{escape(text)}</prosody></voice></speak>'
+        f'<voice name="{VOICE}"><lang xml:lang="{LANG}"><prosody rate="{rate}">{escape(text)}</prosody></lang></voice></speak>'
     )
     req = urllib.request.Request(
         f"https://{region}.tts.speech.microsoft.com/cognitiveservices/v1",
@@ -57,6 +61,18 @@ async def edge(text: str, out: str, rate: str) -> None:
     import edge_tts.communicate as comm
 
     comm._SSL_CTX = ca_context()  # o pacote fixa o certifi; aqui usamos o CA do ambiente
+
+    def mkssml_ptbr(tc, escaped_text):  # o pacote declara en-US e não trava idioma: substituímos
+        if isinstance(escaped_text, bytes):
+            escaped_text = escaped_text.decode("utf-8")
+        return (
+            f"<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='{LANG}'>"
+            f"<voice name='{tc.voice}'>"
+            f"<prosody pitch='{tc.pitch}' rate='{tc.rate}' volume='{tc.volume}'>{escaped_text}</prosody>"
+            "</voice></speak>"
+        )
+
+    comm.mkssml = mkssml_ptbr
     c = edge_tts.Communicate(text, VOICE, rate=rate, boundary="WordBoundary")
     mp3 = out + ".mp3"
     words = []

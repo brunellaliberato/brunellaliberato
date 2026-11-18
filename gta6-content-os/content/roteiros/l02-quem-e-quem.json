@@ -63,7 +63,7 @@
         0,
         0
       ],
-      "narration": "Esse é o povo de GTA 6. E tudo que eu vou te contar aqui está nos perfis oficiais da Rockstar. Nada de vazamento, nada de chute.",
+      "narration": "Esse é o povo de GTA 6. E tudo que eu vou te contar aqui está nos perfis oficiais da Rockstar. Sem vazamento, sem chute.",
       "onScreen": "QUEM É QUEM EM LEONIDA",
       "visual": "Jason_Lucia_Rooftop_landscape.jpg",
       "edit": "Corte seco.",
@@ -483,7 +483,7 @@
         0,
         0
       ],
-      "narration": "Agora junta tudo. Lucia e Jason. O Jason mora de graça na casa do Brian. O Boobie e o Dre'Quan são sócios na Only Raw. E a Only Raw contratou a Real Dimez.",
+      "narration": "Agora junta tudo. Lucia e Jason. O Jason mora de graça na casa do Brian. O Boobie e o Dre'Quan são sócios numa gravadora, a Only Raw Records. E a gravadora deles contratou a Real Dimez.",
       "onScreen": "MAPA",
       "visual": "mapa animado",
       "edit": "Corte seco.",
@@ -812,7 +812,7 @@
       "url": "https://www.rockstargames.com/VI/only-in-leonida"
     }
   ],
-  "version": 1,
+  "version": 2,
   "approval": "PENDENTE",
   "notes": "Liberty City = cidade do GTA IV (contexto de série). Ganchos de abertura resolvidos nos capítulos: 'mora de graça' → capítulo 3."
 }

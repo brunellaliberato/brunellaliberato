@@ -138,3 +138,11 @@ test('GATE 4: material oficial exige autorização registrada, crédito e uso n�
   assert.equal(gatePublish({ ...base, assetsRights: ['MATERIAL_OFICIAL_DIVULGACAO'], official: [ok], channelMonetized: true }).passed, false);
   assert.equal(gatePublish({ ...base, assetsRights: ['MATERIAL_OFICIAL_DIVULGACAO'], official: [{ ...ok, commercialLicense: 'contrato-123' }], channelMonetized: true }).passed, true);
 });
+
+test('REGRA de idioma: Gate 2 barra gatilhos que fazem a voz trocar para espanhol/inglês', () => {
+  const bad = gateCreative(script([], 'x', 'Tudo oficial. Nada de vazamento, nada de chute.'));
+  assert.equal(bad.passed, false);
+  assert.ok(bad.checks.some((c) => !c.ok && c.name.includes('troca de idioma')));
+  const ok = gateCreative(script([], 'x', 'Tudo oficial. Sem vazamento, sem chute.'));
+  assert.ok(ok.checks.filter((c) => c.name.includes('troca de idioma')).every((c) => c.ok));
+});

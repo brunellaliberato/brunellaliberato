@@ -3,7 +3,7 @@
  * os gates automáticos são condição NECESSÁRIA, a aprovação humana é condição SUFICIENTE.
  */
 import { execFileSync, spawnSync } from 'node:child_process';
-import { existsSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import type { GateResult, NewsItem, RightsStatus, Script } from '../core/types.js';
 
 type Check = GateResult['checks'][number];
@@ -92,9 +92,22 @@ export const ROBOTIC = [
   /universo dos games/i,
 ];
 
+/** Expressões que fazem a voz multilíngue trocar de idioma (memory/gatilhos-pronuncia.json). */
+function pronunciationTriggers(): { padrao: string; motivo: string; trocar_por: string }[] {
+  try {
+    return JSON.parse(readFileSync(new URL('../../memory/gatilhos-pronuncia.json', import.meta.url), 'utf8')).gatilhos;
+  } catch {
+    return [];
+  }
+}
+
 export function gateCreative(script: Script, durations?: number[]): GateResult {
   const checks: Check[] = [];
   const all = script.beats.map((b) => b.narration).join(' ');
+  for (const g of pronunciationTriggers()) {
+    const m = all.match(new RegExp(g.padrao, 'i'));
+    checks.push({ name: `sem gatilho de troca de idioma (${g.padrao})`, ok: !m, detail: m ? `"${m[0]}" — ${g.motivo}; trocar por: ${g.trocar_por}` : 'ok' });
+  }
   for (const re of ROBOTIC) {
     const m = all.match(re);
     checks.push({ name: `sem clichê ${re.source}`, ok: !m, detail: m ? `encontrado: "${m[0]}"` : 'ok' });

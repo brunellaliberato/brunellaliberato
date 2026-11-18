@@ -121,6 +121,13 @@ const commands: Record<string, () => Promise<void>> = {
     const r = await produceShort(script, sb, { renderDate: today, composition: script.format === 'longo' ? 'Long' : 'Short' });
     const g2 = gateCreative(script, r.beatDurations);
     const g3 = gateAV(r.file, script.format);
+    const qaBad = Object.entries(r.voiceQa).filter(([, v]) => !v.ok);
+    g3.checks.push({
+      name: 'pronúncia em português (conferência por palavra)',
+      ok: Object.keys(r.voiceQa).length > 0 && qaBad.length === 0,
+      detail: Object.keys(r.voiceQa).length === 0 ? 'conferência não rodou' : qaBad.length ? qaBad.map(([i, v]) => `trecho ${Number(i) + 1}: faltou ${v.missing.join(', ')} (ouvido: "${v.heard.slice(0, 80)}")`).join(' | ') : 'todas as frases conferidas',
+    });
+    g3.passed = g3.checks.every((c) => c.ok);
     [g2, g3].forEach(printGate);
     repo.put('render', { id: `${id}-v${script.version}`, scriptId: id, file: r.file, durationSec: r.durationSec, voice: r.voice, gates: { CRIATIVIDADE: g2.passed, AUDIOVISUAL: g3.passed }, at: today.toISOString() });
     repo.put('gate', { id: `${id}:AUDIOVISUAL`, ...g3 });

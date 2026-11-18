@@ -185,6 +185,7 @@ export interface RenderResult {
   props: ShortProps;
   reusedVoiceBeats: number;
   voice: { id: string; license: Voice['license'] };
+  voiceQa: Record<string, { ok: boolean; missing: string[]; heard: string }>;
 }
 
 export async function produceShort(script: Script, sb: Storyboard, opts: { voice?: Voice; renderDate?: Date; composition?: 'Short' | 'Long' } = {}): Promise<RenderResult> {
@@ -208,6 +209,13 @@ export async function produceShort(script: Script, sb: Storyboard, opts: { voice
     wavs.push(wav);
   }
   const durs = wavs.map(duration);
+
+  // REGRA (18/11): conferência de pronúncia em toda frase — palavra do roteiro precisa ser reconhecida na fala
+  const qaJobs = join(workDir, 'voice-qa-jobs.json');
+  writeFileSync(qaJobs, JSON.stringify(script.beats.map((b, i) => ({ id: String(i), wav: wavs[i], text: b.narration }))));
+  const qa = spawnSync(paths.python, [join(paths.clipEngine, 'voice_qa.py'), qaJobs], { encoding: 'utf8', maxBuffer: 1 << 26 });
+  const voiceQa: Record<string, { ok: boolean; missing: string[]; heard: string }> = qa.status === 0 ? JSON.parse(qa.stdout) : {};
+  writeFileSync(join(workDir, 'voice-qa.json'), JSON.stringify(voiceQa, null, 2));
 
   // 2) fundos: imagem reduzida para 1920 de altura (render rápido), com crédito do manifesto
   const bgs = sb.beats.map((b, i) => {
@@ -290,5 +298,5 @@ export async function produceShort(script: Script, sb: Storyboard, opts: { voice
   const finalFile = join(workDir, `${script.id}-v${script.version}.mp4`);
   execFileSync('ffmpeg', ['-y', '-v', 'error', '-i', raw, '-c:v', 'copy', '-af', 'loudnorm=I=-14:TP=-1.5:LRA=11', '-ar', '48000', '-c:a', 'aac', '-b:a', '192k', '-movflags', '+faststart', finalFile]);
   copyFileSync(join(workDir, 'props.json'), join(workDir, `props-v${script.version}.json`));
-  return { id: script.id, file: finalFile, durationSec: total / FPS, beatDurations: durs, props, reusedVoiceBeats: reused, voice: { id: voice.id, license: voice.license } };
+  return { id: script.id, file: finalFile, durationSec: total / FPS, beatDurations: durs, props, reusedVoiceBeats: reused, voice: { id: voice.id, license: voice.license }, voiceQa };
 }

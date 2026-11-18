@@ -19,6 +19,12 @@ Uma pauta de `content/pautas/` + itens do radar referenciados. Leia `memory/iden
 - CTA como pergunta binária e específica (gera comentário): "212 GB ou 30 FPS?".
 - Short termina "seco" para favorecer loop.
 
+## Regra de idioma da voz (18/11/2026)
+A narradora (Thalita, Microsoft) é multilíngue e troca de idioma sozinha. Por isso:
+- **Nunca** usar expressões iguais ao espanhol, como "nada de" (saiu "basamento" em vez de "vazamento"). Use "sem…" / "aqui não tem…".
+- Nome em inglês seguido de verbo embola a frase ("a Only Raw contratou" virou inglês). Use "a gravadora deles contratou".
+- A lista viva fica em `memory/gatilhos-pronuncia.json`; o Gate 2 barra o roteiro. Toda frase gerada passa pela conferência por palavra (`clip-engine/voice_qa.py`) e o Gate 3 reprova o vídeo se alguma palavra não for reconhecida. Gatilho novo descoberto = adicionar na lista.
+
 ## Ângulos (pauta importante = 3 ângulos realmente diferentes)
 Ex. pré-download: (1) **lista de números** (utilidade/debate), (2) **pergunta do espectador** ("tem Xbox One?"), (3) **o que NÃO foi dito** (credibilidade). Não são 3 versões do mesmo texto.
 
